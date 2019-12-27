@@ -51,6 +51,9 @@ export default {};
   .hero-content {
     padding: 32px;
   }
+  .hero {
+    background-position: center left 30%;
+  }
 }
 
 .hero-content-text {
