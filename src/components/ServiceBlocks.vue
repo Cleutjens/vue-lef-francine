@@ -192,8 +192,6 @@ export default {
 
 h3 {
   margin-bottom: 20px;
-  font-size: calc(13px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
-  font-weight: 900;
   line-height: 110%;
 }
 
