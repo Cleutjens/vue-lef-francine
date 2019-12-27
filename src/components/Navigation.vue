@@ -14,6 +14,11 @@
         <a href="#" class="button-contact">contact</a>
       </div>
     </div>
+    <div class="middle-mobile">
+      <a href="#" class="item">Diensten</a>
+      <a href="#" class="item">Klantervaringen</a>
+      <a href="#" class="item">Over LEF</a>
+    </div>
   </header>
 </template>
 
@@ -45,17 +50,43 @@ header {
 @media (max-width: $screen-lg-min) {
   .nav {
     padding: 0 32px 0 32px;
+    display: flex;
+  }
+  .middle {
+    display: none;
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .middle-mobile {
+    display: none;
+  }
+}
+
+// Mobile menu nog stylen in overleg?
+
+@media (max-width: $screen-lg-min) {
+  .middle {
+    display: none;
+  }
+  .middle-mobile {
+    display: none;
+    text-align: center;
+    width: 100%;
+    a {
+      flex: 1;
+    }
   }
 }
 
 .left {
-  flex: 1;
+  flex: 2;
 }
 .middle {
-  flex: 3;
+  flex: 4;
 }
 .right {
-  flex: 1;
+  flex: 2;
 }
 
 .middle {
