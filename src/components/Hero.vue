@@ -17,6 +17,15 @@
 </template>
 
 <script>
+function resetHeight() {
+  // reset the body height to that of the inner browser
+  document.body.style.height = window.innerHeight + "px";
+}
+// reset the height whenever the window's resized
+window.addEventListener("resize", resetHeight);
+// called to initially set the height.
+resetHeight();
+
 export default {};
 </script>
 
@@ -40,6 +49,12 @@ export default {};
   background-position: center left;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    height: 100vh;
+  }
 }
 
 .hero-content {
