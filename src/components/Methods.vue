@@ -4,40 +4,34 @@
       <div class="row row-bg">
         <div class="col-lg-8 bg-grey">
           <h2>Een selectie uit de methodes</h2>
-          <div class="box">
-            <div class="row">
-              <div class="col-sm-6 method-block">
-                <h3 class="allcaps">Systemisch</h3>
-                <p>De organisatie als systeem met eigen patronen en dynamieken. Weerstand is te voorspellen en dus te managen. Anders dan verwacht, maar met minder inspanning en sneller resultaat.</p>
-              </div>
-              <div class="col-sm-6 method-block">
-                <h3 class="allcaps">Theory U</h3>
-                <p>Naar de kern van complexe vraagstukken, voorbij bestaande aannames, (voor)oordelen en blokkades. Met als resultaat: vernieuwende inzichten, mogelijkheden en concrete acties.</p>
-              </div>
+          <div class="row">
+            <div class="col-sm-6 method-block">
+              <h3 class="allcaps">Systemisch</h3>
+              <p>De organisatie als systeem met eigen patronen en dynamieken. Weerstand is te voorspellen en dus te managen. Anders dan verwacht, maar met minder inspanning en sneller resultaat.</p>
+            </div>
+            <div class="col-sm-6 method-block">
+              <h3 class="allcaps">Theory U</h3>
+              <p>Naar de kern van complexe vraagstukken, voorbij bestaande aannames, (voor)oordelen en blokkades. Met als resultaat: vernieuwende inzichten, mogelijkheden en concrete acties.</p>
             </div>
           </div>
-          <div class="box">
-            <div class="row">
-              <div class="col-sm-6 method-block">
-                <h3 class="allcaps">Reinventing Ourselves & Organizations</h3>
-                <p>Transformatie van mensen = transformatie van organisaties. Vanuit bewustwording, betekenis & verbinding met de veranderende context van de organisatie. Pionieren voor leiders.</p>
-              </div>
-              <div class="col-sm-6 method-block">
-                <h3 class="allcaps">Appreciative Inquiry</h3>
-                <p>Van problemen oplossen naar waarde creëren voor klanten, medewerkers en andere stakeholders. Uitgaan van sterke punten en wat wél werkt… vind het verborgen goud in de organisatie.</p>
-              </div>
+          <div class="row">
+            <div class="col-sm-6 method-block">
+              <h3 class="allcaps">Reinventing Ourselves & Organizations</h3>
+              <p>Transformatie van mensen = transformatie van organisaties. Vanuit bewustwording, betekenis & verbinding met de veranderende context van de organisatie. Pionieren voor leiders.</p>
+            </div>
+            <div class="col-sm-6 method-block">
+              <h3 class="allcaps">Appreciative Inquiry</h3>
+              <p>Van problemen oplossen naar waarde creëren voor klanten, medewerkers en andere stakeholders. Uitgaan van sterke punten en wat wél werkt… vind het verborgen goud in de organisatie.</p>
             </div>
           </div>
-          <div class="box">
-            <div class="row">
-              <div class="col-sm-6 method-block">
-                <h3 class="allcaps">MBTI®</h3>
-                <p>Verschillen in persoonlijkheid inzichtelijk met MBTI®. Vergroot het vermogen bij probleemoplossing, communicatie en conflictsituaties. Wereldwijd bekend instrument voor individueel- en teamgebruik.</p>
-              </div>
-              <div class="col-sm-6 method-block">
-                <h3 class="allcaps">Spiral Dynamics</h3>
-                <p>Cultuur meetbaar, vanuit het perspectief van waarden en drijfveren. Beken kleur. In één oogopslag helder waar de schoen wringt en de sleutel tot betere samenwerking en aansluiting met de context.</p>
-              </div>
+          <div class="row">
+            <div class="col-sm-6 method-block">
+              <h3 class="allcaps">MBTI®</h3>
+              <p>Verschillen in persoonlijkheid inzichtelijk met MBTI®. Vergroot het vermogen bij probleemoplossing, communicatie en conflictsituaties. Wereldwijd bekend instrument voor individueel- en teamgebruik.</p>
+            </div>
+            <div class="col-sm-6 method-block">
+              <h3 class="allcaps">Spiral Dynamics</h3>
+              <p>Cultuur meetbaar, vanuit het perspectief van waarden en drijfveren. Beken kleur. In één oogopslag helder waar de schoen wringt en de sleutel tot betere samenwerking en aansluiting met de context.</p>
             </div>
           </div>
         </div>

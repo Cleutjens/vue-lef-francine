@@ -1,19 +1,21 @@
 <template>
-  <div class="hero">
-    <div class="hero-content">
-      <div class="hero-content-text">
-        <h1>LEF opent deuren naar groots&shy;heid</h1>
-        <p
-          class="text-large color-white"
-        >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
-      </div>
-      <div class="hero-arrow">
-        <div class="mouse">
-          <div class="scroll"></div>
+  <Vue100vh>
+    <div class="hero">
+      <div class="hero-content">
+        <div class="hero-content-text">
+          <h1>LEF opent deuren naar groots&shy;heid</h1>
+          <p
+            class="text-large color-white"
+          >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
+        </div>
+        <div class="hero-arrow">
+          <div class="mouse">
+            <div class="scroll"></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </Vue100vh>
 </template>
 
 <script>
@@ -24,7 +26,7 @@
 @import "@/global-styles/breakpoints.scss";
 
 .hero {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   display: flex;

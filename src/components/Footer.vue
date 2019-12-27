@@ -9,6 +9,7 @@
               <div class="col-lg-6">
                 <h3>Francine de Bruyckere – Geerts</h3>
                 <a href="tel:+31622472046">06 2247 2046</a>
+                <br />
                 <a href="mailto:francine@lefincompany.nl">francine@lefincompany.nl</a>
               </div>
               <div class="col-lg-6">
