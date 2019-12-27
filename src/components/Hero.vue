@@ -56,6 +56,12 @@ export default {};
   }
 }
 
+@media (min-width: $screen-md-min) {
+  .hero-content {
+    margin-bottom: 60px;
+  }
+}
+
 @media (max-width: $screen-md-min) {
   .hero-content {
     margin-bottom: 160px;
