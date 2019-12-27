@@ -7,10 +7,10 @@
           class="text-large color-white"
         >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
       </div>
-    </div>
-    <div class="hero-arrow">
-      <div class="mouse">
-        <div class="scroll"></div>
+      <div class="hero-arrow">
+        <div class="mouse">
+          <div class="scroll"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -44,7 +44,6 @@
 
 @media only screen and (max-width: 768px) {
   .hero {
-    // height: 80vh;
     background-attachment: scroll;
   }
 }

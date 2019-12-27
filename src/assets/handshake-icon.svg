@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="64px" viewBox="0 0 60 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-155.000000, -5576.000000)">
+            <g id="Group-11" transform="translate(156.000000, 5577.000000)">
+                <g id="Group-3">
+                    <g id="Group-19" stroke="#222829" stroke-width="2">
+                        <line x1="47" y1="63" x2="47" y2="40" id="Stroke-1" stroke-linejoin="round"></line>
+                        <path d="M52,5 C52,7.762 49.762,10 47,10 C44.238,10 42,7.762 42,5 C42,2.238 44.238,0 47,0 C49.762,0 52,2.238 52,5 Z" id="Stroke-3" stroke-linejoin="round"></path>
+                        <path d="M29.1748,28.8906 L36.9998,16.9996 C36.9998,16.9996 38.9998,13.9996 42.9998,13.9996 L50.9998,13.9996 C54.8658,13.9996 57.9998,17.1336 57.9998,20.9996 L57.9998,36.9996 L53.9998,36.9996 L53.9998,62.9996" id="Stroke-5"></path>
+                        <line x1="47" y1="17" x2="47" y2="19" id="Stroke-7"></line>
+                        <line x1="47" y1="21" x2="47" y2="23" id="Stroke-9"></line>
+                        <line x1="11" y1="63" x2="11" y2="40" id="Stroke-11" stroke-linejoin="round"></line>
+                        <path d="M5.8945,5 C5.8945,7.762 8.1325,10 10.8945,10 C13.6565,10 15.8945,7.762 15.8945,5 C15.8945,2.238 13.6565,0 10.8945,0 C8.1325,0 5.8945,2.238 5.8945,5 Z" id="Stroke-13" stroke-linejoin="round"></path>
+                        <path d="M32,33 L21,17 C21,17 19,14 14.895,14 L6.895,14 C3.028,14 0,17.134 0,21 L0,37 L4,37 L4,63" id="Stroke-15"></path>
+                        <polyline id="Stroke-17" stroke-linejoin="round" points="18 63 18 25 29 36 40 25 40 63"></polyline>
+                    </g>
+                    <rect id="Rectangle-Copy-30" stroke="#FFC500" stroke-width="3" x="20.5" y="21.5" width="21" height="21"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

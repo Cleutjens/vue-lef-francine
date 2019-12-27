@@ -143,24 +143,24 @@ export default {
   }
 }
 
-@media (max-width: $screen-xs-min) {
-  .block-1 {
-    background: $blue;
-    color: $white;
-  }
-  .block-2 {
-    background: $white;
-    color: $black;
-  }
-  .block-5 {
-    background: $red;
-    color: $white;
-  }
-  .block-6 {
-    background: $white;
-    color: $black;
-  }
-}
+// @media (max-width: $screen-xs-min) {
+//   .block-1 {
+//     background: $blue;
+//     color: $white;
+//   }
+//   .block-2 {
+//     background: $white;
+//     color: $black;
+//   }
+//   .block-5 {
+//     background: $red;
+//     color: $white;
+//   }
+//   .block-6 {
+//     background: $white;
+//     color: $black;
+//   }
+// }
 
 .block {
   padding: 64px;
@@ -186,7 +186,7 @@ export default {
 @media (max-width: $screen-xs-min) {
   .block-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
