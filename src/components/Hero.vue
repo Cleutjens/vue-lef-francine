@@ -6,11 +6,11 @@
         <p
           class="text-large color-white"
         >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
-        <div class="hero-arrow">
-          <div class="mouse">
-            <div class="scroll"></div>
-          </div>
-        </div>
+      </div>
+    </div>
+    <div class="hero-arrow">
+      <div class="mouse">
+        <div class="scroll"></div>
       </div>
     </div>
   </div>
@@ -53,6 +53,12 @@ export default {};
   }
   .hero {
     background-position: center left 30%;
+  }
+}
+
+@media (max-width: $screen-md-min) {
+  .hero-content {
+    margin-bottom: 160px;
   }
 }
 
