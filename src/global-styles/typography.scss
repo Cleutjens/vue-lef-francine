@@ -1,0 +1,98 @@
+// @function strip-unit($value) {
+//     @return $value / ($value * 0 + 1);
+//   }
+  
+//   @mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+//     $u1: unit($min-vw);
+//     $u2: unit($max-vw);
+//     $u3: unit($min-font-size);
+//     $u4: unit($max-font-size);
+  
+//     @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+//       & {
+//         font-size: $min-font-size;
+//         @media screen and (min-width: $min-vw) {
+//           font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+//         }
+//         @media screen and (min-width: $max-vw) {
+//           font-size: $max-font-size;
+//         }
+//       }
+//     }
+//   }
+
+// $min_width: 320px;
+// $max_width: 1200px;
+// $min_font: 16px;
+// $max_font: 24px;
+
+// html {
+//   @include fluid-type($min_width, $max_width, $min_font, $max_font);
+// }
+
+@import "@/global-styles/breakpoints.scss";
+
+
+.allcaps {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: 140%;
+}
+
+p.text-large {
+  font-size: calc(13px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 145%;  
+}
+
+@media (max-width: $screen-md-min) {
+  p.text-large {
+    font-size: calc(13px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: 145%;
+  }
+}
+
+h1 {
+  font-size: calc(80px + (26 - 14) * (100vw - 300px) / (1600 - 300));
+  font-weight: 900;
+  line-height: 102%;
+}
+
+@media (max-width: $screen-md-min) {
+  h1 {
+    font-size: calc(60px + (26 - 14) * (100vw - 300px) / (1600 - 300));
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  h1 {
+    font-size: calc(40px + (26 - 14) * (100vw - 300px) / (1600 - 300));
+  }
+}
+
+@media (max-width: $screen-lg-min) {
+  h1 {
+    font-size: calc(50px + (26 - 14) * (100vw - 300px) / (1600 - 300));
+  }
+}
+
+h2 {
+  font-size: calc(35px + (26 - 14) * (100vw - 300px) / (1600 - 300));
+  font-weight: 900;
+  line-height: 102%;
+  color: $black;
+}
+
+@media (max-width: $screen-md-min) {
+    p {
+        font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    }
+}
+
+@media (max-width: 380px) {
+    p {
+        font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    }
+  }
