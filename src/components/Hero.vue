@@ -17,15 +17,6 @@
 </template>
 
 <script>
-function resetHeight() {
-  // reset the body height to that of the inner browser
-  document.body.style.height = window.innerHeight + "px";
-}
-// reset the height whenever the window's resized
-window.addEventListener("resize", resetHeight);
-// called to initially set the height.
-resetHeight();
-
 export default {};
 </script>
 
@@ -36,6 +27,7 @@ export default {};
 .hero {
   width: 100vw;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   display: flex;
 
   background-image: url(../assets/lef-hero-bg-2.jpg),
