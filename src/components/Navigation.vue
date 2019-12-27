@@ -5,7 +5,7 @@
         <img class="logo" src="../assets/lef-logo.svg" />
       </div>
       <div class="middle">
-        <a href="#" class="item">Diensten</a>
+        <a href="#" v-scroll-to="'#element'" class="item">Diensten</a>
         <a href="#" class="item">Klantervaringen</a>
         <a href="#" class="item">Over LEF</a>
       </div>

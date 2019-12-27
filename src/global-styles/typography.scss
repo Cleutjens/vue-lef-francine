@@ -96,3 +96,8 @@ h2 {
         font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     }
   }
+
+  h3 {
+    font-size: calc(13px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 900;
+  }

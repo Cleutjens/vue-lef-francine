@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" id="element">
     <div class="container">
       <h2>Diensten</h2>
       <p class="text-large">Elke klantvraag is uniek. Het antwoord dus ook.</p>

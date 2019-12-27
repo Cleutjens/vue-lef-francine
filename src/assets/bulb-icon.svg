@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="64px" viewBox="0 0 60 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 46</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-66.000000, -2572.000000)" stroke="#FFC300" stroke-width="2">
+            <g id="Group-46" transform="translate(67.000000, 2572.000000)">
+                <line x1="29" y1="59.9995" x2="29" y2="63.9995" id="Stroke-1"></line>
+                <line x1="22" y1="56.9995" x2="33" y2="56.9995" id="Stroke-3"></line>
+                <line x1="20" y1="52.9995" x2="38" y2="52.9995" id="Stroke-4"></line>
+                <g id="Group-45" transform="translate(0.000000, 0.999500)">
+                    <path d="M58,15 L58,23 L50,36 L41,36 C39.344,36 38,37.344 38,39 L38,56 L36,56 L36,63" id="Stroke-5"></path>
+                    <polyline id="Stroke-7" points="37 30 46 30 52 21"></polyline>
+                    <polyline id="Stroke-9" points="6 21 12 30 21 30"></polyline>
+                    <path d="M0,15 L0,23 L8,36 L17,36 C18.656,36 20,37.344 20,39 L20,56 L22,56 L22,63" id="Stroke-11"></path>
+                    <line x1="35" y1="26" x2="23" y2="26" id="Stroke-13"></line>
+                    <line x1="35" y1="30" x2="23" y2="30" id="Stroke-15"></line>
+                    <line x1="35" y1="34" x2="23" y2="34" id="Stroke-17"></line>
+                    <polyline id="Stroke-19" points="26 26 26 34 28 38 30 38 32 34 32 26"></polyline>
+                    <line x1="29" y1="25" x2="29" y2="11" id="Stroke-21"></line>
+                    <path d="M30,11.0005 C30,11.5525 29.553,12.0005 29,12.0005 C28.447,12.0005 28,11.5525 28,11.0005 C28,10.4485 28.447,10.0005 29,10.0005 C29.553,10.0005 30,10.4485 30,11.0005 Z" id="Stroke-23"></path>
+                    <path d="M31,11.0005 C31,12.1045 30.104,13.0005 29,13.0005 C27.896,13.0005 27,12.1045 27,11.0005 C27,9.8965 27.896,9.0005 29,9.0005 C30.104,9.0005 31,9.8965 31,11.0005 Z" id="Stroke-25"></path>
+                    <path d="M34,23.0005 C34,19.0005 40,18.0005 40,11.0005 C40,4.9255 35.075,0.0005 29,0.0005 C22.925,0.0005 18,4.9255 18,11.0005 C18,18.0005 24,19.0005 24,23.0005" id="Stroke-27"></path>
+                    <path d="M6,15.0005 C6,16.6575 4.656,18.0005 3,18.0005 C1.344,18.0005 0,16.6575 0,15.0005 C0,13.3435 1.344,12.0005 3,12.0005 C4.656,12.0005 6,13.3435 6,15.0005 Z" id="Stroke-29"></path>
+                    <path d="M58,15.0005 C58,16.6575 56.656,18.0005 55,18.0005 C53.344,18.0005 52,16.6575 52,15.0005 C52,13.3435 53.344,12.0005 55,12.0005 C56.656,12.0005 58,13.3435 58,15.0005 Z" id="Stroke-31"></path>
+                    <line x1="42" y1="43" x2="42" y2="45" id="Stroke-33"></line>
+                    <line x1="42" y1="47" x2="42" y2="49" id="Stroke-35"></line>
+                    <line x1="42" y1="51" x2="42" y2="53" id="Stroke-37"></line>
+                    <line x1="16" y1="43" x2="16" y2="45" id="Stroke-39"></line>
+                    <line x1="16" y1="47" x2="16" y2="49" id="Stroke-41"></line>
+                    <line x1="16" y1="51" x2="16" y2="53" id="Stroke-43"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

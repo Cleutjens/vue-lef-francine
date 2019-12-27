@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 33</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-483.000000, -2571.000000)" stroke="#FFC400" stroke-width="2">
+            <g id="Group-33" transform="translate(483.000000, 2572.000000)">
+                <line x1="12" y1="39" x2="12" y2="62" id="Stroke-1"></line>
+                <line x1="5" y1="62" x2="5" y2="45" id="Stroke-3"></line>
+                <path d="M13,4 C13,6.209 11.209,8 9,8 C6.791,8 5,6.209 5,4 C5,1.791 6.791,0 9,0 C11.209,0 13,1.791 13,4 Z" id="Stroke-5"></path>
+                <path d="M7,18 L11,28 L26,28 L26,24 L15,24 L15,17 C15,14.239 12.762,12 10,12 L6,12 C4.344,12 3,13.344 3,15 L3,45 L6,45 L15,36 L15,31" id="Stroke-7"></path>
+                <line x1="52" y1="39" x2="52" y2="62" id="Stroke-9"></line>
+                <line x1="59" y1="62" x2="59" y2="46" id="Stroke-11"></line>
+                <path d="M51,4 C51,6.209 52.791,8 55,8 C57.209,8 59,6.209 59,4 C59,1.791 57.209,0 55,0 C52.791,0 51,1.791 51,4 Z" id="Stroke-13"></path>
+                <path d="M57,18 L53,28 L38,28 L38,24 L49,24 L49,17 C49,14.239 51.238,12 54,12 L58,12 C59.656,12 61,13.344 61,15 L61,46 L59,46 L49,36 L49,31" id="Stroke-15"></path>
+                <line x1="20" y1="28" x2="20" y2="37" id="Stroke-17"></line>
+                <line x1="44" y1="62" x2="44" y2="43" id="Stroke-19"></line>
+                <line x1="31" y1="44" x2="33" y2="44" id="Stroke-21"></line>
+                <line x1="27" y1="44" x2="29" y2="44" id="Stroke-23"></line>
+                <line x1="35" y1="44" x2="37" y2="44" id="Stroke-25"></line>
+                <path d="M20,62 L20,40 L30,40 L30,39 C30,38 28,37 28,35 C28,32.791 29.791,31 32,31 C34.209,31 36,32.791 36,35 C36,37 34,38 34,39 L34,40 L44,40 L44,31" id="Stroke-27"></path>
+                <path d="M0,62 L30,62 L30,61 C30,60 28,59 28,57 C28,54.791 29.791,53 32,53 C34.209,53 36,54.791 36,57 C36,59 34,60 34,61 L34,62 L64,62" id="Stroke-29"></path>
+                <path d="M20,21 L20,15 L30,15 L30,14 C30,13 28,12 28,10 C28,7.791 29.791,6 32,6 C34.209,6 36,7.791 36,10 C36,12 34,13 34,14 L34,15 L44,15 L44,24" id="Stroke-31"></path>
+            </g>
+        </g>
+    </g>
+</svg>
