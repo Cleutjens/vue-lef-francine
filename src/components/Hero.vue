@@ -55,7 +55,8 @@ window.addEventListener("resize", () => {
 
 @media only screen and (min-width: 768px) {
   .hero {
-    height: 100vh;
+    // height: 100vh;
+    background-attachment: none;
   }
 }
 
