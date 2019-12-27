@@ -71,7 +71,7 @@
 
 @media (max-width: $screen-md-min) {
   .hero-content {
-    margin-bottom: 160px;
+    margin-bottom: 180px;
   }
 }
 
