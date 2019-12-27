@@ -89,6 +89,18 @@ header {
   flex: 2;
 }
 
+@media (max-width: $screen-md-min) {
+  .left {
+    flex: 1;
+  }
+  .middle {
+    flex: 1;
+  }
+  .right {
+    flex: 3;
+  }
+}
+
 .middle {
   text-align: center;
 }
