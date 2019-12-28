@@ -52,7 +52,7 @@ export default {
 
 .timeline {
   padding: 0px 64px;
-  margin-bottom: 400px;
+  margin-bottom: 140px;
 }
 
 @media (max-width: $screen-lg-min) {

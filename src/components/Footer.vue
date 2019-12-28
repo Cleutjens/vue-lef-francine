@@ -5,19 +5,19 @@
         <div class="col-md-8 col-xs-12 bg-grey">
           <div class="box">
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-12 no-padding">
                 <h2>Contact</h2>
               </div>
             </div>
           </div>
           <div class="box">
             <div class="row">
-              <div class="col-lg-6 col-md-12 contact-info">
+              <div class="col-lg-6 col-md-12 contact-info no-padding">
                 <h3>Francine de Bruyckere – Geerts</h3>
                 <a href="tel:+31622472046">06 2247 2046</a>
                 <a href="mailto:francine@lefincompany.nl">francine@lefincompany.nl</a>
               </div>
-              <div class="col-lg-6 col-md-12 policy-info">
+              <div class="col-lg-6 col-md-12 policy-info no-padding">
                 <h3 class="company-info">Bedrijfsinformatie</h3>
                 <a href="#">Algemene voorwaarden</a>
                 <a href="#">Privacy verklaring</a>
@@ -80,6 +80,10 @@ a {
     cursor: pointer;
     color: #ffc100;
   }
+}
+
+.no-padding {
+  padding: 0;
 }
 
 .method-block {

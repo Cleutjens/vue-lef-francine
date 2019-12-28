@@ -79,7 +79,7 @@
         </div>
         <div class="col-lg-4 col-md-12 bg-grey no-padding">
           <div class="row">
-            <div class="col-lg-12 col-md-4 col-sm-6 col-xs-12 bg-black no-padding bottom">
+            <div class="col-lg-12 col-md-4 col-sm-6 col-xs-12 bg-black no-padding">
               <img class="bottom" src="../assets/francine-1.jpg" alt />
             </div>
             <div class="col-lg-12 col-md-8 col-sm-6 col-xs-12 bg-white no-padding">
@@ -236,6 +236,7 @@ h4 {
     padding-right: 48px;
   }
   .bg-black {
+    order: -1;
     img {
       width: 300px;
       padding-left: 32px;

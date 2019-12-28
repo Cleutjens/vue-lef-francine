@@ -90,7 +90,7 @@ h4 {
 p {
   font-size: 16px;
   padding-right: 40px;
-  max-width: 720px;
+  max-width: 500px;
 }
 
 .method-block {
