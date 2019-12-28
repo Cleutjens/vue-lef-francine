@@ -3,7 +3,11 @@
     <div class="container-fluid">
       <div class="row row-bg">
         <div class="col-lg-8 bg-grey">
-          <h2>Een selectie uit de methodes</h2>
+          <div class="row">
+            <div class="col-sm-12">
+              <h2>Een selectie uit de methodes</h2>
+            </div>
+          </div>
           <div class="row">
             <div class="col-sm-6 method-block">
               <h3 class="allcaps">Systemisch</h3>
@@ -84,10 +88,9 @@ h4 {
 }
 
 p {
+  font-size: 16px;
   padding-right: 40px;
-}
-
-@media (max-width: $screen-lg-min) {
+  max-width: 720px;
 }
 
 .method-block {
@@ -97,6 +100,12 @@ p {
 .bg-grey {
   background: #f7f7f7;
   padding: 130px 64px 168px 64px;
+}
+
+@media (max-width: $screen-lg-min) {
+  .bg-grey {
+    padding: 130px 32px 150px 32px;
+  }
 }
 
 .bg-white {

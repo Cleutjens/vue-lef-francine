@@ -112,7 +112,7 @@ a {
   }
 }
 
-@media (max-width: 673px) {
+@media (max-width: 689px) {
   h3.company-info {
     padding-top: 32px;
   }
