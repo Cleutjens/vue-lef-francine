@@ -2,18 +2,23 @@
   <div class="footer">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-8 bg-grey">
-          <h2>Contact</h2>
+        <div class="col-md-8 col-xs-12 bg-grey">
           <div class="box">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-md-12">
+                <h2>Contact</h2>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 contact-info">
                 <h3>Francine de Bruyckere – Geerts</h3>
                 <a href="tel:+31622472046">06 2247 2046</a>
-                <br />
                 <a href="mailto:francine@lefincompany.nl">francine@lefincompany.nl</a>
               </div>
-              <div class="col-lg-6">
-                <h3>Bedrijfsinformatie</h3>
+              <div class="col-lg-6 col-md-12 policy-info">
+                <h3 class="company-info">Bedrijfsinformatie</h3>
                 <a href="#">Algemene voorwaarden</a>
                 <a href="#">Privacy verklaring</a>
                 <p>KvK 67864481, gevestigd te Zeist</p>
@@ -21,7 +26,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 bg-white">
+        <div class="col-md-4 col-xs-12 bg-white">
           <div class="row center-xs middle-xs">
             <img src="../assets/lef-logo-big.svg" alt />
           </div>
@@ -59,10 +64,22 @@ h4 {
 }
 
 p {
+  font-size: 16px;
   padding-right: 40px;
 }
 
-@media (max-width: $screen-lg-min) {
+a {
+  font-size: 16px;
+  margin-bottom: 2px;
+  color: $black;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    color: #ffc100;
+  }
 }
 
 .method-block {
@@ -74,8 +91,47 @@ p {
   padding: 130px 64px 168px 64px;
 }
 
+@media (max-width: $screen-lg-min) {
+  .bg-grey {
+    padding: 95px 32px 120px 32px;
+  }
+}
+
+@media (max-width: $screen-xl-min) {
+  h3.company-info {
+    padding-top: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  h3.company-info {
+    padding-top: 0;
+  }
+  .contact-info {
+    padding-right: 64px;
+  }
+}
+
+@media (max-width: 673px) {
+  h3.company-info {
+    padding-top: 32px;
+  }
+}
+
 .bg-white {
   background: #fff;
   padding: 188px 64px 138px 64px;
+}
+
+@media (max-width: $screen-xl-min) {
+  .bg-white {
+    padding: 240px 64px 138px 64px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .bg-white {
+    padding: 120px 0 120px 0;
+  }
 }
 </style>
