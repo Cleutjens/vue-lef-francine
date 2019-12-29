@@ -81,8 +81,9 @@ export default {
 }
 
 .container {
-  padding: 130px 64px 0 64px;
+  padding: 0px 64px 0 64px;
   margin-bottom: 65px;
+  margin-top: 120px;
 }
 
 @media (max-width: $screen-lg-min) {
@@ -180,6 +181,9 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .container {
+    margin-top: 80px;
+  }
 }
 
 @media (max-width: $screen-xs-min) {
@@ -198,6 +202,16 @@ h3 {
   h3 {
     font-size: calc(14px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
   }
+}
+
+@media (min-width: 1600px) {
+  p {
+    font-size: 18px;
+  }
+}
+
+p.text-large {
+  margin-top: 8px;
 }
 
 svg {

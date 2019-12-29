@@ -259,6 +259,13 @@ h4 {
   }
 }
 
+.box {
+  p {
+    font-size: 16px;
+    max-width: 400px;
+  }
+}
+
 @media (max-width: 631px) {
   .content-container {
     display: flex;

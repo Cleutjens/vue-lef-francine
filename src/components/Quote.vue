@@ -57,7 +57,7 @@ p.text-xl {
   width: 100%;
   overflow: hidden;
   height: 16rem;
-  padding-left: 100%;
+  // padding-left: 100%;
   box-sizing: content-box;
 
   .ticker {
@@ -67,6 +67,7 @@ p.text-xl {
     white-space: nowrap;
     padding-right: 100%;
     box-sizing: content-box;
+    overflow: hidden;
 
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;

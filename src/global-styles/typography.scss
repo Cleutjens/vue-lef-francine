@@ -38,8 +38,8 @@
 }
 
 p {
-    font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    line-height: 140%;
+  font-size: calc(8px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 140%;
 }
 
 p.text-large {
@@ -76,6 +76,9 @@ h1 {
   h1 {
     font-size: calc(50px + (26 - 14) * (100vw - 300px) / (1600 - 300));
   }
+  p {
+    font-size: 12px;
+  }
 }
 
 h2 {
@@ -87,7 +90,7 @@ h2 {
 
 @media (max-width: $screen-md-min) {
     p {
-        font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-size: 12px;
     }
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="testimonials" id="ervaringen">
-    <div class="container">
+    <!-- <div class="container">
       <div class="col-xs">
         <div class="testimonial-controls">
           <div
@@ -70,7 +70,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 
