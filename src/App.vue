@@ -18,6 +18,7 @@ html {
 
 html {
   -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
   overflow-x: hidden;
   overflow-y: scroll;
   -webkit-font-smoothing: antialiased;

@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div class="footer" id="contact">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-8 col-xs-12 bg-grey">

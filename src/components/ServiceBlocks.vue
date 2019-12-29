@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper" id="element">
+  <div class="wrapper" id="diensten">
     <div class="container">
       <h2>Diensten</h2>
       <p class="text-large">Elke klantvraag is uniek. Het antwoord dus ook.</p>
@@ -81,8 +81,7 @@ export default {
 }
 
 .container {
-  padding: 0px 64px 0 64px;
-  margin-top: 130px;
+  padding: 130px 64px 0 64px;
   margin-bottom: 65px;
 }
 

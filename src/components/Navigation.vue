@@ -5,13 +5,13 @@
         <img class="logo" src="../assets/lef-logo.svg" />
       </div>
       <div class="middle">
-        <a href="#" v-scroll-to="'#element'" class="item">Diensten</a>
-        <a href="#" class="item">Klantervaringen</a>
-        <a href="#" class="item">Over LEF</a>
+        <a href="#diensten" class="item">Diensten</a>
+        <a href="#ervaringen" class="item">Klantervaringen</a>
+        <a href="#overlef" class="item">Over LEF</a>
       </div>
       <div class="right">
         <a class="item" href="#">NL</a>
-        <a href="#" class="button-contact">contact</a>
+        <a href="#contact" class="button-contact">contact</a>
       </div>
     </div>
     <div class="middle-mobile">
