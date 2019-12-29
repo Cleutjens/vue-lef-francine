@@ -4,7 +4,7 @@
       <div class="row row-bg">
         <div class="col-lg-8 bg-grey">
           <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12 no-padding">
               <h2>Een selectie uit de methodes</h2>
             </div>
           </div>
@@ -90,7 +90,11 @@ h4 {
 p {
   font-size: 16px;
   padding-right: 40px;
-  max-width: 500px;
+  max-width: 600px;
+}
+
+.no-padding {
+  padding: 0;
 }
 
 .method-block {
@@ -102,15 +106,35 @@ p {
   padding: 130px 64px 168px 64px;
 }
 
+.bg-white {
+  background: #fff;
+  padding: 130px 64px 168px 64px;
+}
+
 @media (max-width: $screen-lg-min) {
   .bg-grey {
     padding: 130px 32px 150px 32px;
   }
+  .bg-white {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
-.bg-white {
-  background: #fff;
-  padding: 130px 64px 168px 64px;
+@media (max-width: 767px) {
+  .method-block {
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .bg-grey {
+    background-color: white;
+    padding-bottom: 80px;
+  }
+  .bg-white {
+    padding-top: 0;
+  }
 }
 
 img {

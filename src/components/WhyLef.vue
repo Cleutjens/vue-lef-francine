@@ -139,7 +139,7 @@ export default {
   }
 
   h4 {
-    max-width: 280px;
+    max-width: 480px;
   }
 }
 
@@ -245,7 +245,7 @@ h4 {
   }
   .bg-white {
     .box {
-      padding: 32px;
+      padding: 32px 32px 64px 32px;
     }
   }
 }
@@ -262,7 +262,7 @@ h4 {
 .box {
   p {
     font-size: 16px;
-    max-width: 400px;
+    max-width: 600px;
   }
 }
 
