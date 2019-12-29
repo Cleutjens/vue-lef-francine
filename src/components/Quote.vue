@@ -1,8 +1,10 @@
 <template>
-  <div class="ticker-wrap">
-    <div class="ticker">
-      <div class="ticker__item">
-        <p class="text-xl">“Out of the comfort zone is where the magic happens”</p>
+  <div class="wrapper-ticker">
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <div class="ticker__item">
+          <p class="text-xl">“Out of the comfort zone is where the magic happens”</p>
+        </div>
       </div>
     </div>
   </div>
@@ -53,11 +55,15 @@ p.text-xl {
   line-height: 45px;
 }
 
+.wrapper-ticker {
+  overflow: hidden;
+}
+
 .ticker-wrap {
   width: 100%;
   overflow: hidden;
   height: 16rem;
-  // padding-left: 100%;
+  padding-left: 100%;
   box-sizing: content-box;
 
   .ticker {
@@ -67,7 +73,6 @@ p.text-xl {
     white-space: nowrap;
     padding-right: 100%;
     box-sizing: content-box;
-    overflow: hidden;
 
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
