@@ -1,5 +1,5 @@
 <template>
-  <Vue100vh>
+  <!-- <Vue100vh>
     <div class="hero">
       <div class="hero-content">
         <div class="hero-content-text">
@@ -8,14 +8,38 @@
             class="text-large color-white"
           >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
         </div>
-        <div class="hero-arrow">
-          <div class="mouse">
-            <div class="scroll"></div>
+        <a href="#diensten">
+          <div class="hero-arrow">
+            <div class="mouse">
+              <div class="scroll"></div>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
-  </Vue100vh>
+  </Vue100vh>-->
+  <div class="hero">
+    <div class="hero-video-container">
+      <video id="video" loop autobuffer autoplay muted>
+        <source src="../assets/lef-bg-video2.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="hero-content">
+      <div class="hero-content-text">
+        <h1>LEF opent deuren naar groots&shy;heid</h1>
+        <p
+          class="text-large color-white"
+        >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
+      </div>
+    </div>
+    <a href="#diensten">
+      <div class="hero-arrow">
+        <div class="mouse">
+          <div class="scroll"></div>
+        </div>
+      </div>
+    </a>
+  </div>
 </template>
 
 <script>
@@ -25,33 +49,56 @@
 @import "@/global-styles/colors.scss";
 @import "@/global-styles/breakpoints.scss";
 
-.hero {
+.hero-video-container {
+  overflow: hidden;
   width: 100%;
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
-  display: flex;
-
-  background-image: url(../assets/lef-hero-bg-2.jpg),
-    linear-gradient(
-      8deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.4) 40%,
-      rgba(0, 0, 0, 0) 100%
-    );
-  background-size: cover;
-  background-position: center left;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: black;
+  // position: relative;
+  // z-index: 0;
 }
 
-@media only screen and (max-width: 768px) {
-  .hero {
-    background-attachment: scroll;
-  }
+video {
+  // position: absolute;
+  // left: 50%;
+  // top: 50%;
+  // transform: translate(-50%, -50%); /* % of current element */
+  height: 100%;
+  width: 177.77777778vh;
+  min-width: 100%;
+  min-height: 56.25vw;
 }
+
+// .hero {
+//   // width: 100%;
+//   // height: 100vh;
+//   // height: calc(var(--vh, 1vh) * 100);
+//   // display: flex;
+
+//   // background-image: url(../assets/lef-hero-bg-2.jpg),
+//   //   linear-gradient(
+//   //     8deg,
+//   //     rgba(0, 0, 0, 0.5) 0%,
+//   //     rgba(0, 0, 0, 0.4) 40%,
+//   //     rgba(0, 0, 0, 0) 100%
+//   //   );
+//   // background-size: cover;
+//   // background-position: center left;
+//   // background-repeat: no-repeat;
+//   // background-attachment: fixed;
+// }
+
+// @media only screen and (max-width: 768px) {
+//   .hero {
+//     background-attachment: scroll;
+//   }
+// }
 
 .hero-content {
   display: flex;
+  position: absolute;
+  bottom: 0%;
   padding: 64px;
 }
 
@@ -151,6 +198,15 @@ p.text-large {
   100% {
     opacity: 0;
     transform: translateY(20px);
+  }
+}
+
+@media (min-width: 1920px) {
+  h1 {
+    max-width: 960px;
+  }
+  p.text-large {
+    max-width: 960px;
   }
 }
 </style>

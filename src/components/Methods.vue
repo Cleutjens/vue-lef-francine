@@ -111,16 +111,6 @@ p {
   padding: 130px 64px 168px 64px;
 }
 
-@media (max-width: $screen-lg-min) {
-  .bg-grey {
-    padding: 130px 32px 150px 32px;
-  }
-  .bg-white {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
 @media (max-width: 767px) {
   .method-block {
     margin-bottom: 48px;
@@ -134,6 +124,15 @@ p {
   }
   .bg-white {
     padding-top: 0;
+  }
+}
+
+@media (max-width: $screen-lg-min) {
+  .bg-grey {
+    padding: 60px 32px 60px 32px;
+  }
+  .bg-white {
+    padding: 60px 32px 0 32px;
   }
 }
 

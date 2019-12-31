@@ -11,16 +11,19 @@
               <img src="../assets/handshake-icon.svg" alt />
               <p class="number number-first">1</p>
               <p class="subtitle">Persoonlijk intake gesprek</p>
+              <hr />
             </li>
             <li class="brief">
               <img src="../assets/brief-icon.svg" alt />
               <p class="number">2</p>
               <p class="subtitle">Debrief opdracht en offerte</p>
+              <hr />
             </li>
             <li class="unlock">
               <img src="../assets/unlock-icon.svg" alt />
               <p class="number">3</p>
               <p class="subtitle">Ontwerp maatwerk programma</p>
+              <hr />
             </li>
             <li class="rocket">
               <img src="../assets/rocket-icon.svg" alt />
@@ -91,6 +94,7 @@ li {
 
 p.number {
   display: block;
+  position: relative;
   font-weight: 900;
   text-align: center;
   font-size: 12px;
@@ -100,6 +104,7 @@ p.number {
   color: $white;
   width: 24px;
   height: 24px;
+  z-index: 100;
 }
 
 p.subtitle {
@@ -123,13 +128,51 @@ p.subtitle {
   }
 }
 
-// hr {
-//   margin-left: auto;
-//   margin-top: -122px;
-//   border: 0;
-//   border-bottom: 1px dashed #fff;
-//   background: #b4b4b4;
-//   max-width: calc(100% - 10vw);
-// }
+hr {
+  display: block;
+  margin-left: auto;
+  margin-top: -84px;
+  border: 0;
+  border-bottom: 1px dashed #fff;
+  background: #b4b4b4;
+  z-index: -1;
+}
+
+li.brief {
+  hr {
+    margin-top: -106px;
+  }
+}
+
+li.unlock {
+  hr {
+    margin-top: -106px;
+  }
+}
+
+@media (max-width: 720px) {
+  hr {
+    margin-top: -84px;
+  }
+  li.unlock {
+    hr {
+      margin-top: -84px;
+    }
+  }
+  li.brief {
+    hr {
+      margin-top: -84px;
+    }
+  }
+  p.subtitle {
+    font-size: 10px;
+  }
+  ul.timeline-ul {
+    img {
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
 </style>
 

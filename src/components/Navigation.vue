@@ -5,13 +5,13 @@
         <img class="logo" src="../assets/lef-logo.svg" />
       </div>
       <div class="middle">
-        <a href="#diensten" class="item">Diensten</a>
-        <a href="#ervaringen" class="item">Klantervaringen</a>
-        <a href="#overlef" class="item">Over LEF</a>
+        <a href="#diensten" class="item scroll">Diensten</a>
+        <a href="#ervaringen" class="item scroll">Klantervaringen</a>
+        <a href="#overlef" class="item scroll">Over LEF</a>
       </div>
       <div class="right">
         <a class="item" href="#">NL</a>
-        <a href="#contact" class="button-contact">contact</a>
+        <a href="#contact" class="button-contact scroll">contact</a>
       </div>
     </div>
     <div class="middle-mobile">
@@ -22,13 +22,12 @@
   </header>
 </template>
 
-
-
 <script>
 export default {
   name: "Navigation"
 };
 </script>
+
 
 <style lang="scss" scoped>
 @import "@/global-styles/colors.scss";
@@ -37,6 +36,7 @@ export default {
 header {
   position: absolute;
   width: 100%;
+  z-index: 1000;
 }
 
 .nav {
