@@ -20,7 +20,7 @@
   </Vue100vh>-->
   <div class="hero">
     <div class="hero-video-container">
-      <video id="video" loop autobuffer autoplay muted>
+      <video id="video" loop muted autobuffer autoplay playsinline>
         <source src="../assets/lef-bg-video2.mp4" type="video/mp4" />
       </video>
     </div>
@@ -119,7 +119,7 @@ video {
 
 @media (max-width: $screen-md-min) {
   .hero-content {
-    margin-bottom: 180px;
+    margin-bottom: 92px;
   }
 }
 
