@@ -76,8 +76,26 @@
 
 <script>
 export default {
-  name: "Testimonials"
+  name: "Testimonials",
+
+  data() {
+    return {
+      swiperOption: {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      }
+    };
+  }
 };
+
+// export default {
+//   components: {
+//     swiper,
+//     swiperSlide
+//   }
+// };
 </script>
 
 <style lang="scss" scoped>
@@ -180,5 +198,15 @@ h3 {
 
 .no-padding {
   padding: 0;
+}
+
+.swiper-slide {
+  width: 60%;
+}
+.swiper-slide:nth-child(2n) {
+  width: 40%;
+}
+.swiper-slide:nth-child(3n) {
+  width: 20%;
 }
 </style>
