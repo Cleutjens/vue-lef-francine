@@ -32,7 +32,7 @@
         >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
       </div>
     </div>
-    <a href="#diensten">
+    <a href="#" v-scroll-to="{ el: '#diensten', offset: -100 }">
       <div class="hero-arrow">
         <div class="mouse">
           <div class="scroll"></div>

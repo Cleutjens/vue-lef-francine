@@ -6,19 +6,16 @@ import vuescrollto from "vue-scrollto";
 import VueAwesomeSwiper from 'vue-awesome-swiper';
 import store from "./store";
 
-Vue.use(VueAwesomeSwiper);
-
 Vue.config.productionTip = false;
 
 var VueScrollTo = require("vue-scrollto");
 
-Vue.use(VueScrollTo);
+Vue.use(VueScrollTo, VueAwesomeSwiper);
 
-// You can also pass in the default options
 Vue.use(VueScrollTo, {
   container: "body",
   duration: 300,
-  easing: "ease-in-out",
+  easing: "linear",
   offset: 0,
   force: false,
   cancelable: true,
@@ -34,5 +31,6 @@ new Vue({
   store,
   vuediv100vh,
   vuescrollto,
+  VueAwesomeSwiper,
   render: h => h(App)
 }).$mount("#app");

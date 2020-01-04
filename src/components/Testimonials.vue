@@ -1,86 +1,96 @@
 <template>
-  <div class="testimonials" id="ervaringen">
-    <!-- <div class="container">
-      <div class="col-xs">
-        <div class="testimonial-controls">
-          <div
-            class="arrow-button drag-slider-prev reversed disabled swiper-button-disabled"
-            tabindex="0"
-            role="button"
-            aria-label="Previous slide"
-            aria-disabled="true"
-          >
-            <svg width="16" height="11" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M0 5h13.8571L8.92857.6875 9.71429 0 16 5.5 9.71429 11l-.78572-.6875L13.8571 6H0V5z"
-                fill="#000"
-              />
-            </svg>
-          </div>
-          <div
-            class="arrow-button drag-slider-next"
-            tabindex="0"
-            role="button"
-            aria-label="Next slide"
-            aria-disabled="false"
-          >
-            <svg width="16" height="11" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M0 5h13.8571L8.92857.6875 9.71429 0 16 5.5 9.71429 11l-.78572-.6875L13.8571 6H0V5z"
-                fill="#000"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container no-padding">
-      <div class="col-xs">
-        <div
-          class="draggable-slider-container swiper-container-initialized swiper-container-horizontal swiper-container-free-mode"
-          style="cursor: grab;"
-        >
-          <div
-            class="draggable-slider-wrapper"
-            style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"
-          >
-            <div class="draggable-slide-wrapper col-xs-4 swiper-slide-active">
-              <div class="draggable-slide testimonial-card rabobank">
-                <img src="../assets/rabobank-logo.svg" alt />
-                <p>“Als directievoorzitter heb ik Francine meerdere malen gevraagd als begeleider op te treden binnen het management/directieteam van de bank, omdat ze ons steeds echt verder bracht. Zij treedt doortastend op, draait niet om relevante gevoelige onderwerpen heen en speelt goed in op onderstromen. Zij heeft het lef om nog niet gebaande wegen te bewandelen en weet snel resultaat te bereiken. Het was altijd plezierig om met Francine te werken.</p>
-                <h3 class="allcaps">P. Konijnenburg</h3>
-                <p>Voormalig directievoorzitter Rabobank De Langstraat</p>
-              </div>
-            </div>
-            <div class="draggable-slide-wrapper col-xs-4 swiper-slide-next">
-              <div class="draggable-slide testimonial-card tupperware">
-                <img src="../assets/tupperware-logo.svg" alt />
-                <p>“Onze organisatie staat voor een aantal impactvolle veranderingen. We zijn als managementteam in 2 dagen intensief én met veel humor begeleid om daar beter sturing aan te kunnen geven. De interventies waren eenvoudig, inzicht gevend, direct toepasbaar en erg leuk om te doen!”</p>
-                <h3 class="allcaps">Manager</h3>
-                <p>Tupperware</p>
-              </div>
-            </div>
-            <div class="draggable-slide-wrapper col-xs-4 swiper-slide-next">
-              <div class="draggable-slide testimonial-card tupperware-img"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
-  </div>
+  <swiper :options="swiperOptions">
+    <swiper-slide>
+      <TestimonialCard
+        image="http://res.cloudinary.com/og-tech/image/upload/s--4NgMf3RF--/v1521804358/avengers.jpg"
+      />
+    </swiper-slide>
+    <swiper-slide>
+      <TestimonialCard
+        image="http://res.cloudinary.com/og-tech/image/upload/s--BmgguRnX--/v1521804402/thor.jpg"
+      />
+    </swiper-slide>
+    <swiper-slide>
+      <TestimonialCard
+        image="http://res.cloudinary.com/og-tech/image/upload/s--qXaW5V3E--/v1521804426/wakanda.jpg"
+        title="Black Panther"
+        description="Wakanda Forever"
+        duration="2hrs15mins"
+      />
+    </swiper-slide>
+    <swiper-slide>
+      <TestimonialCard
+        image="http://res.cloudinary.com/og-tech/image/upload/s--4NgMf3RF--/v1521804358/avengers.jpg "
+        title="Avengers : Infinity War"
+        description="Thanos is around"
+        duration="2hrs"
+      />
+    </swiper-slide>
+    <swiper-slide>
+      <TestimonialCard
+        image="http://res.cloudinary.com/og-tech/image/upload/s--BmgguRnX--/v1521804402/thor.jpg"
+        title="Thor : Ragnarok"
+        description="Thor lost his hair"
+        duration="2hrs30mins"
+      />
+    </swiper-slide>
+    <swiper-slide>
+      <TestimonialCard
+        image="http://res.cloudinary.com/og-tech/image/upload/s--qXaW5V3E--/v1521804426/wakanda.jpg"
+        title="Black Panther"
+        description="Wakanda Forever"
+        duration="2hrs15mins"
+      />
+    </swiper-slide>
+    <swiper-slide>
+      <TestimonialCard
+        image="http://res.cloudinary.com/og-tech/image/upload/s--4NgMf3RF--/v1521804358/avengers.jpg "
+        title="Avengers : Infinity War"
+        description="Thanos is around"
+        duration="2hrs"
+      />
+    </swiper-slide>
+    <swiper-slide>
+      <TestimonialCard
+        image="http://res.cloudinary.com/og-tech/image/upload/s--BmgguRnX--/v1521804402/thor.jpg"
+        title="Thor : Ragnarok"
+        description="Thor lost his hair"
+        duration="2hrs30mins"
+      />
+    </swiper-slide>
+    <swiper-slide>
+      <TestimonialCard
+        image="http://res.cloudinary.com/og-tech/image/upload/s--qXaW5V3E--/v1521804426/wakanda.jpg"
+        title="Black Panther"
+        description="Wakanda Forever"
+        duration="2hrs15mins"
+      />
+    </swiper-slide>
+    <div class="swiper-pagination" slot="pagination"></div>
+    <div class="swiper-button-prev" slot="button-prev"></div>
+    <div class="swiper-button-next" slot="button-next"></div>
+  </swiper>
 </template>
 
 <script>
+import TestimonialCard from "./TestimonialCard";
+import "swiper/dist/css/swiper.css";
+import { swiper, swiperSlide } from "vue-awesome-swiper";
+
 export default {
   name: "Testimonials",
-
+  components: {
+    TestimonialCard,
+    swiper,
+    swiperSlide
+  },
   data() {
     return {
-      swiperOption: {
+      swiperOptions: {
+        slidesPerView: 3,
+        spaceBetween: 0,
+        freeMode: true,
+        loop: true,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev"
@@ -89,16 +99,19 @@ export default {
     };
   }
 };
-
-// export default {
-//   components: {
-//     swiper,
-//     swiperSlide
-//   }
-// };
 </script>
 
 <style lang="scss" scoped>
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.swiper-container {
+  height: 450px;
+  width: 100%;
+}
+
 .container {
   padding: 0px 64px;
   margin-top: 130px;
@@ -198,15 +211,5 @@ h3 {
 
 .no-padding {
   padding: 0;
-}
-
-.swiper-slide {
-  width: 60%;
-}
-.swiper-slide:nth-child(2n) {
-  width: 40%;
-}
-.swiper-slide:nth-child(3n) {
-  width: 20%;
 }
 </style>
