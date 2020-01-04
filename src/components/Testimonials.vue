@@ -1,5 +1,12 @@
 <template>
-  <swiper :options="swiperOptions">
+  <div class="test">
+    <swiper>
+      <swiper-slide>
+        <TestimonialCard />
+      </swiper-slide>
+    </swiper>
+  </div>
+  <!-- <swiper :options="swiperOptions">
     <swiper-slide>
       <TestimonialCard
         image="http://res.cloudinary.com/og-tech/image/upload/s--4NgMf3RF--/v1521804358/avengers.jpg"
@@ -69,7 +76,7 @@
     <div class="swiper-pagination" slot="pagination"></div>
     <div class="swiper-button-prev" slot="button-prev"></div>
     <div class="swiper-button-next" slot="button-next"></div>
-  </swiper>
+  </swiper>-->
 </template>
 
 <script>
