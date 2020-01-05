@@ -225,6 +225,14 @@ h4 {
   }
 }
 
+@media (max-width: 1332px) {
+  .bg-grey {
+    .box {
+      padding: 64px;
+    }
+  }
+}
+
 @media (min-width: 1800px) {
   .container-text {
     flex: 1 1 auto;

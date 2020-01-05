@@ -77,6 +77,7 @@ h2 {
 }
 
 h3 {
+  font-style: 16px;
   margin-bottom: 16px;
 }
 
