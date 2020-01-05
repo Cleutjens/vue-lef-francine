@@ -53,9 +53,9 @@
               <img src="../assets/rabobank-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >"Als directievoorzitter heb ik Francine meerdere malen gevraagd als begeleider op te treden binnen het management/directieteam van de bank, omdat ze ons steeds echt verder bracht. Zij treedt doortastend op, draait niet om relevante gevoelige onderwerpen heen en speelt goed in op onderstromen. Zij heeft het lef om nog niet gebaande wegen te bewandelen en weet snel resultaat te bereiken. Het was altijd plezierig om met Francine te werken."</p>
+              >"Als directievoorzitter heb ik Francine meerdere malen gevraagd als begeleider op te treden binnen het management/directieteam van de bank, omdat ze ons steeds echt verder bracht. Zij treedt doortastend op, draait niet om relevante gevoelige onderwerpen heen en speelt goed in op onderstromen.</p>
               <p class="name">P. Konijnenburg</p>
-              <p class="title">Voormalig directievoorzitter Rabobank De Langstraat</p>
+              <p class="title">Voormalig directievoorzitter Rabobank</p>
             </div>
           </div>
         </swiper-slide>
@@ -159,8 +159,8 @@ export default {
 .TestimonialCard {
   position: relative;
   overflow: hidden;
-  min-height: 420px;
-  padding: 80px;
+  min-height: 380px;
+  padding: 80px 80px 40px 80px;
 
   img {
     height: 24px;

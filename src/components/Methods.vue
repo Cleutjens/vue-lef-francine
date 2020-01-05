@@ -103,7 +103,7 @@ p {
 
 .bg-grey {
   background: #f7f7f7;
-  padding: 130px 80px 168px 80px;
+  padding: 130px 80px 104px 80px;
 }
 
 .bg-white {

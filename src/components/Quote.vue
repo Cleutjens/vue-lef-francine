@@ -52,7 +52,7 @@ p.text-xl {
   font-size: 80px;
   font-weight: 900;
   color: #000000;
-  line-height: 45px;
+  line-height: 62px;
 }
 
 .wrapper-ticker {
@@ -62,14 +62,14 @@ p.text-xl {
 .ticker-wrap {
   width: 100%;
   overflow: hidden;
-  height: 16rem;
+  height: 20rem;
   padding-left: 100%;
   box-sizing: content-box;
 
   .ticker {
     display: inline-block;
-    height: 18rem;
-    line-height: 18rem;
+    height: 22rem;
+    line-height: 22rem;
     white-space: nowrap;
     padding-right: 100%;
     box-sizing: content-box;

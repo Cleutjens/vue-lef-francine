@@ -2,7 +2,7 @@
   <div class="footer" id="contact">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-8 col-xs-12 bg-grey">
+        <div class="col-lg-8 col-xs-12 bg-grey">
           <div class="box">
             <div class="row">
               <div class="col-md-12 no-padding">
@@ -26,7 +26,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-xs-12 bg-white">
+        <div class="col-lg-4 col-xs-12 bg-white">
           <div class="row center-xs middle-xs">
             <img src="../assets/lef-logo-big.svg" alt />
           </div>

@@ -123,7 +123,7 @@ export default {
   }
   img {
     display: inline;
-    width: 64px;
+    width: 56px;
   }
   p {
     font-size: 16px;
@@ -136,11 +136,11 @@ export default {
   background: #f7f7f7;
 
   .box {
-    padding: 64px;
+    padding: 80px;
   }
 
   h4 {
-    max-width: 390px;
+    max-width: 320px;
   }
 }
 
@@ -263,7 +263,7 @@ h4 {
 .box {
   p {
     font-size: 16px;
-    max-width: 390px;
+    max-width: 320px;
   }
 }
 
