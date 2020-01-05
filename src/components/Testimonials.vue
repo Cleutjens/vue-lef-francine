@@ -2,41 +2,45 @@
   <div class="testimonials" id="ervaringen">
     <div class="container-fluid">
       <div class="col-xs no-padding">
-        <h2>Enkele klantervaringen</h2>
         <div class="testimonial-controls">
-          <div
-            class="arrow-button drag-slider-prev reversed disabled previous"
-            tabindex="0"
-            role="button"
-            slot="button-prev"
-            aria-label="Previous slide"
-            aria-disabled="true"
-          >
-            <svg width="16" height="11" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M0 5h13.8571L8.92857.6875 9.71429 0 16 5.5 9.71429 11l-.78572-.6875L13.8571 6H0V5z"
-                fill="#000"
-              />
-            </svg>
-          </div>
-          <div
-            class="arrow-button drag-slider-next next"
-            tabindex="0"
-            role="button"
-            slot="button-next"
-            aria-label="Next slide"
-            aria-disabled="false"
-          >
-            <svg width="16" height="11" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M0 5h13.8571L8.92857.6875 9.71429 0 16 5.5 9.71429 11l-.78572-.6875L13.8571 6H0V5z"
-                fill="#000"
-              />
-            </svg>
+          <h2>Enkele klantervaringen</h2>
+          <div class="button-wrap">
+            <div class="buttons">
+              <div
+                class="arrow-button drag-slider-prev reversed disabled previous"
+                tabindex="0"
+                role="button"
+                slot="button-prev"
+                aria-label="Previous slide"
+                aria-disabled="true"
+              >
+                <svg width="16" height="11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 5h13.8571L8.92857.6875 9.71429 0 16 5.5 9.71429 11l-.78572-.6875L13.8571 6H0V5z"
+                    fill="#000"
+                  />
+                </svg>
+              </div>
+              <div
+                class="arrow-button drag-slider-next next"
+                tabindex="0"
+                role="button"
+                slot="button-next"
+                aria-label="Next slide"
+                aria-disabled="false"
+              >
+                <svg width="16" height="11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 5h13.8571L8.92857.6875 9.71429 0 16 5.5 9.71429 11l-.78572-.6875L13.8571 6H0V5z"
+                    fill="#000"
+                  />
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -221,11 +225,6 @@ h3 {
   position: relative;
   margin-top: 32px;
 
-  // .arrow-button.disabled {
-  //   opacity: 0.5;
-  //   pointer-events: none;
-  // }
-
   .reversed {
     transform: rotate(180deg);
     &:hover {
@@ -234,7 +233,35 @@ h3 {
   }
 }
 
+.buttons {
+  display: flex;
+  margin-left: 64px;
+}
+
+@media (max-width: $screen-lg-min) {
+  .buttons {
+    margin-left: 32px;
+  }
+}
+
 .no-padding {
   padding: 0;
+}
+
+@media (max-width: $screen-xs-min) {
+  .swiper-container {
+    margin-top: 0px !important;
+  }
+}
+
+@media (max-width: $screen-md-min) {
+  .testimonial-controls {
+    display: block;
+    margin-top: 60px;
+  }
+  .buttons {
+    margin-left: 0;
+    margin-top: 32px;
+  }
 }
 </style>

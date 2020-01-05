@@ -5,21 +5,13 @@
         <img class="logo" src="../assets/lef-logo.svg" />
       </div>
       <div class="middle">
-        <a href="#" v-scroll-to="{ el: '#diensten', offset: -100 }" class="item scroll">Diensten</a>
-        <a
-          href="#"
-          v-scroll-to="{ el: '#ervaringen', offset: 0 }"
-          class="item scroll"
-        >Klantervaringen</a>
-        <a href="#" v-scroll-to="{ el: '#overlef', offset: 0 }" class="item scroll">Over LEF</a>
+        <a href v-scroll-to="{ el: '#diensten', offset: -100 }" class="item scroll">Diensten</a>
+        <a href v-scroll-to="{ el: '#ervaringen', offset: 0 }" class="item scroll">Klantervaringen</a>
+        <a href v-scroll-to="{ el: '#overlef', offset: 0 }" class="item scroll">Over LEF</a>
       </div>
       <div class="right">
         <a class="item" href="#">NL</a>
-        <a
-          href="#"
-          v-scroll-to="{ el: '#contact', offset: 0 }"
-          class="button-contact scroll"
-        >contact</a>
+        <a href v-scroll-to="{ el: '#contact', offset: 0 }" class="button-contact scroll">contact</a>
       </div>
     </div>
     <div class="middle-mobile">
