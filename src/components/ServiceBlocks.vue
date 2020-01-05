@@ -124,7 +124,7 @@ export default {
   color: $white;
 }
 
-@media (max-width: $screen-md-min) {
+@media (max-width: $screen-lg-min) {
   .block-1 {
     background: $white;
     color: $black;
@@ -143,24 +143,32 @@ export default {
   }
 }
 
-// @media (max-width: $screen-xs-min) {
-//   .block-1 {
-//     background: $blue;
-//     color: $white;
-//   }
-//   .block-2 {
-//     background: $white;
-//     color: $black;
-//   }
-//   .block-5 {
-//     background: $red;
-//     color: $white;
-//   }
-//   .block-6 {
-//     background: $white;
-//     color: $black;
-//   }
-// }
+@media (max-width: 480px) {
+  .block-1 {
+    background: $blue;
+    color: $white;
+  }
+  .block-2 {
+    background: $white;
+    color: $black;
+  }
+  .block-5 {
+    background: $red;
+    color: white;
+  }
+  .block-6 {
+    background: $white;
+    color: $black;
+  }
+  .block-7 {
+    background: $black;
+    color: $white;
+  }
+  .block-8 {
+    background: $white;
+    color: $black;
+  }
+}
 
 .block {
   padding: 64px;
@@ -176,6 +184,18 @@ export default {
   }
 }
 
+@media (max-width: $screen-lg-min) {
+  .block-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .block {
+    min-height: 400px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: $screen-md-min) {
   .block-container {
     display: grid;
@@ -186,10 +206,22 @@ export default {
   }
 }
 
-@media (max-width: $screen-xs-min) {
+@media (max-width: 720px) {
+  .block {
+    min-height: 320px;
+  }
+}
+
+@media (max-width: 480px) {
   .block-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .block {
+    min-height: 420px;
+  }
+  p {
+    font-size: 18px;
   }
 }
 
@@ -204,17 +236,41 @@ h3 {
   }
 }
 
-@media (min-width: 1600px) {
-  p {
-    font-size: 18px;
-  }
-}
-
 p.text-large {
   margin-top: 8px;
 }
 
 svg {
   margin-bottom: 20px;
+}
+
+@media (min-width: 961px) {
+  p {
+    font-size: 14px;
+  }
+  .block {
+    min-height: 280px;
+  }
+}
+
+@media (min-width: $screen-xl-min) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1600px) {
+  p {
+    font-size: 18px;
+  }
+  .block {
+    min-height: 400px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .block {
+    min-height: 500px;
+  }
 }
 </style>
