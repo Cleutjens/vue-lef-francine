@@ -5,23 +5,8 @@ import vuediv100vh from "vue-div-100vh";
 import vuescrollto from "vue-scrollto";
 import VueAwesomeSwiper from 'vue-awesome-swiper';
 import store from "./store";
-import i18n from "./i18n'";
 
 Vue.config.productionTip = false;
-
-// use beforeEach route guard to set the language
-router.beforeEach((to, from, next) => {
-
-  // use the language from the routing param or default language
-  let language = to.params.lang;
-  if (!language) {
-    language = 'en'
-  }
-
-  // set the current language for i18n.
-  i18n.locale = language
-  next()
-})
 
 var VueScrollTo = require("vue-scrollto");
 
@@ -47,6 +32,5 @@ new Vue({
   vuediv100vh,
   vuescrollto,
   VueAwesomeSwiper,
-  i18n,
   render: h => h(App)
 }).$mount("#app");
