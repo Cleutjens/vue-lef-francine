@@ -1,106 +1,102 @@
 <template>
-  <div class="test">
-    <swiper>
-      <swiper-slide>
-        <TestimonialCard />
-      </swiper-slide>
-    </swiper>
+  <div class="testimonials" id="ervaringen">
+    <div class="container-fluid">
+      <div class="col-xs no-padding">
+        <h2>Enkele klantervaringen</h2>
+        <div class="testimonial-controls">
+          <div
+            class="arrow-button drag-slider-prev reversed disabled previous"
+            tabindex="0"
+            role="button"
+            slot="button-prev"
+            aria-label="Previous slide"
+            aria-disabled="true"
+          >
+            <svg width="16" height="11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 5h13.8571L8.92857.6875 9.71429 0 16 5.5 9.71429 11l-.78572-.6875L13.8571 6H0V5z"
+                fill="#000"
+              />
+            </svg>
+          </div>
+          <div
+            class="arrow-button drag-slider-next next"
+            tabindex="0"
+            role="button"
+            slot="button-next"
+            aria-label="Next slide"
+            aria-disabled="false"
+          >
+            <svg width="16" height="11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 5h13.8571L8.92857.6875 9.71429 0 16 5.5 9.71429 11l-.78572-.6875L13.8571 6H0V5z"
+                fill="#000"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-container">
+      <swiper :options="swiperOptions">
+        <swiper-slide>
+          <div class="TestimonialCard rabobank">
+            <div class="TestimonialContent">
+              <img src="../assets/rabobank-logo.svg" alt />
+              <p
+                class="testimonial-text"
+              >"Als directievoorzitter heb ik Francine meerdere malen gevraagd als begeleider op te treden binnen het management/directieteam van de bank, omdat ze ons steeds echt verder bracht. Zij treedt doortastend op, draait niet om relevante gevoelige onderwerpen heen en speelt goed in op onderstromen. Zij heeft het lef om nog niet gebaande wegen te bewandelen en weet snel resultaat te bereiken. Het was altijd plezierig om met Francine te werken."</p>
+              <p class="name">P. Konijnenburg</p>
+              <p class="title">Voormalig directievoorzitter Rabobank De Langstraat</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="TestimonialCard tupperware">
+            <div class="TestimonialContent">
+              <img src="../assets/tupperware-logo.svg" alt />
+              <p
+                class="testimonial-text"
+              >“Onze organisatie staat voor een aantal impactvolle veranderingen. We zijn als managementteam in 2 dagen intensief én met veel humor begeleid om daar beter sturing aan te kunnen geven. De interventies waren eenvoudig, inzicht gevend, direct toepasbaar en erg leuk om te doen!”</p>
+              <p class="name">Manager</p>
+              <p class="title">Tupperware</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="TestimonialCard tupperware-img">
+            <div class="TestimonialContent"></div>
+          </div>
+        </swiper-slide>
+
+        <div class="swiper-pagination" slot="pagination"></div>
+      </swiper>
+    </div>
   </div>
-  <!-- <swiper :options="swiperOptions">
-    <swiper-slide>
-      <TestimonialCard
-        image="http://res.cloudinary.com/og-tech/image/upload/s--4NgMf3RF--/v1521804358/avengers.jpg"
-      />
-    </swiper-slide>
-    <swiper-slide>
-      <TestimonialCard
-        image="http://res.cloudinary.com/og-tech/image/upload/s--BmgguRnX--/v1521804402/thor.jpg"
-      />
-    </swiper-slide>
-    <swiper-slide>
-      <TestimonialCard
-        image="http://res.cloudinary.com/og-tech/image/upload/s--qXaW5V3E--/v1521804426/wakanda.jpg"
-        title="Black Panther"
-        description="Wakanda Forever"
-        duration="2hrs15mins"
-      />
-    </swiper-slide>
-    <swiper-slide>
-      <TestimonialCard
-        image="http://res.cloudinary.com/og-tech/image/upload/s--4NgMf3RF--/v1521804358/avengers.jpg "
-        title="Avengers : Infinity War"
-        description="Thanos is around"
-        duration="2hrs"
-      />
-    </swiper-slide>
-    <swiper-slide>
-      <TestimonialCard
-        image="http://res.cloudinary.com/og-tech/image/upload/s--BmgguRnX--/v1521804402/thor.jpg"
-        title="Thor : Ragnarok"
-        description="Thor lost his hair"
-        duration="2hrs30mins"
-      />
-    </swiper-slide>
-    <swiper-slide>
-      <TestimonialCard
-        image="http://res.cloudinary.com/og-tech/image/upload/s--qXaW5V3E--/v1521804426/wakanda.jpg"
-        title="Black Panther"
-        description="Wakanda Forever"
-        duration="2hrs15mins"
-      />
-    </swiper-slide>
-    <swiper-slide>
-      <TestimonialCard
-        image="http://res.cloudinary.com/og-tech/image/upload/s--4NgMf3RF--/v1521804358/avengers.jpg "
-        title="Avengers : Infinity War"
-        description="Thanos is around"
-        duration="2hrs"
-      />
-    </swiper-slide>
-    <swiper-slide>
-      <TestimonialCard
-        image="http://res.cloudinary.com/og-tech/image/upload/s--BmgguRnX--/v1521804402/thor.jpg"
-        title="Thor : Ragnarok"
-        description="Thor lost his hair"
-        duration="2hrs30mins"
-      />
-    </swiper-slide>
-    <swiper-slide>
-      <TestimonialCard
-        image="http://res.cloudinary.com/og-tech/image/upload/s--qXaW5V3E--/v1521804426/wakanda.jpg"
-        title="Black Panther"
-        description="Wakanda Forever"
-        duration="2hrs15mins"
-      />
-    </swiper-slide>
-    <div class="swiper-pagination" slot="pagination"></div>
-    <div class="swiper-button-prev" slot="button-prev"></div>
-    <div class="swiper-button-next" slot="button-next"></div>
-  </swiper>-->
 </template>
 
 <script>
-import TestimonialCard from "./TestimonialCard";
 import "swiper/dist/css/swiper.css";
 import { swiper, swiperSlide } from "vue-awesome-swiper";
 
 export default {
   name: "Testimonials",
   components: {
-    TestimonialCard,
     swiper,
     swiperSlide
   },
   data() {
     return {
       swiperOptions: {
-        slidesPerView: 3,
+        slidesPerView: "auto",
         spaceBetween: 0,
-        freeMode: true,
-        loop: true,
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
+          nextEl: ".next",
+          prevEl: ".previous"
         }
       }
     };
@@ -109,44 +105,38 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.swiper-slide {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+@import "@/global-styles/colors.scss";
+@import "@/global-styles/breakpoints.scss";
+@import "@/global-styles/flexgrid.scss";
+
+.testimonials {
+  padding: 130px 0 40px 0;
 }
+
+.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+
 .swiper-container {
-  height: 450px;
-  width: 100%;
+  // min-height: 550px;
+  // width: 100%;
+  margin-top: 40px;
 }
 
-.container {
-  padding: 0px 64px;
-  margin-top: 130px;
-  margin-bottom: 65px;
+.container-fluid {
+  padding: 0 64px;
 }
 
-.draggable-slider-wrapper {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-start;
-  margin-top: 56px;
-  touch-action: pan-y;
+.swiper-slide {
+  height: 570px;
+  width: 550px;
 }
 
-.draggable-slide {
-  display: block;
-  &:first-child {
-    margin-left: 0px;
-  }
-  &:last-child {
-    margin-right: 0px;
-  }
-  img {
-    margin-bottom: 54px;
-    height: 24px;
-  }
+.card-content {
+  padding: 64px;
+  height: 100%;
 }
 
 .rabobank {
@@ -163,17 +153,41 @@ export default {
   background-position: center left 40%;
 }
 
-.testimonial-card {
+.TestimonialCard {
   position: relative;
   overflow: hidden;
-  max-width: 560px;
-  min-width: 560px;
   min-height: 550px;
-  padding: 64px;
+  padding: 72px 64px;
+
+  img {
+    height: 24px;
+  }
+}
+
+.testimonial-text {
+  padding: 64px 0 32px 0;
+}
+
+@media (max-width: $screen-lg-min) {
+  .container-fluid {
+    padding: 0 32px;
+  }
+  .TestimonialCard {
+    padding: 40px 32px;
+    min-height: 420px;
+  }
+  .TestimonialContent {
+    max-width: 420px;
+  }
 }
 
 p {
   font-size: 16px;
+}
+
+p.name {
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 h3 {
@@ -205,14 +219,19 @@ h3 {
 
 .testimonial-controls {
   display: flex;
+  position: relative;
+  margin-top: 32px;
 
-  .arrow-button.disabled {
-    opacity: 0.5;
-    pointer-events: none;
-  }
+  // .arrow-button.disabled {
+  //   opacity: 0.5;
+  //   pointer-events: none;
+  // }
 
   .reversed {
     transform: rotate(180deg);
+    &:hover {
+      box-shadow: 0 -20px 20px 0 rgba(0, 0, 0, 0.09);
+    }
   }
 }
 
