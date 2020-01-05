@@ -130,8 +130,7 @@ export default {
 }
 
 .swiper-slide {
-  height: 570px;
-  width: 550px;
+  max-width: 550px;
 }
 
 .card-content {
@@ -156,7 +155,7 @@ export default {
 .TestimonialCard {
   position: relative;
   overflow: hidden;
-  min-height: 550px;
+  min-height: 480px;
   padding: 72px 64px;
 
   img {
@@ -177,7 +176,7 @@ export default {
     min-height: 420px;
   }
   .TestimonialContent {
-    max-width: 420px;
+    max-width: 100vw;
   }
 }
 
