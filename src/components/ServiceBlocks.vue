@@ -81,7 +81,7 @@ export default {
 }
 
 .container {
-  padding: 0px 64px 0 64px;
+  padding: 0px 80px 0 80px;
   margin-bottom: 65px;
   margin-top: 120px;
 }
@@ -171,7 +171,7 @@ export default {
 }
 
 .block {
-  padding: 64px;
+  padding: 80px;
   min-height: 360px;
   max-height: 360px;
 }

@@ -90,7 +90,7 @@ h4 {
 p {
   font-size: 16px;
   padding-right: 40px;
-  max-width: 600px;
+  max-width: 480px;
 }
 
 .no-padding {
@@ -103,12 +103,12 @@ p {
 
 .bg-grey {
   background: #f7f7f7;
-  padding: 130px 64px 168px 64px;
+  padding: 130px 80px 168px 80px;
 }
 
 .bg-white {
   background: #fff;
-  padding: 130px 64px 168px 64px;
+  padding: 130px 80px 168px 80px;
 }
 
 @media (max-width: 767px) {

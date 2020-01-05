@@ -99,7 +99,7 @@ video {
   display: flex;
   position: absolute;
   bottom: 0%;
-  padding: 64px;
+  padding: 80px;
 }
 
 @media (max-width: $screen-lg-min) {

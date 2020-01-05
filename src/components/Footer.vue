@@ -92,12 +92,12 @@ a {
 
 .bg-grey {
   background: #f7f7f7;
-  padding: 130px 64px 168px 64px;
+  padding: 130px 80px 168px 80px;
 }
 
 @media (max-width: $screen-lg-min) {
   .bg-grey {
-    padding: 95px 32px 120px 32px;
+    padding: 95px 48px 120px 48px;
   }
 }
 
@@ -124,7 +124,7 @@ a {
 
 .bg-white {
   background: #fff;
-  padding: 188px 64px 138px 64px;
+  padding: 188px 80px 138px 80px;
 }
 
 @media (max-width: $screen-xl-min) {

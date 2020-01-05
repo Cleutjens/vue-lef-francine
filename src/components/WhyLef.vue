@@ -117,7 +117,7 @@ export default {
 
 .bg-blue {
   background: $blue;
-  padding: 130px 64px 70px 64px;
+  padding: 130px 80px 70px 80px;
   h2 {
     color: white;
   }
@@ -128,6 +128,7 @@ export default {
   p {
     font-size: 16px;
     color: white;
+    max-width: 360px;
   }
 }
 
@@ -139,7 +140,7 @@ export default {
   }
 
   h4 {
-    max-width: 480px;
+    max-width: 390px;
   }
 }
 
@@ -262,7 +263,7 @@ h4 {
 .box {
   p {
     font-size: 16px;
-    max-width: 600px;
+    max-width: 390px;
   }
 }
 

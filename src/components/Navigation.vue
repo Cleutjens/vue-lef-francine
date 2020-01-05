@@ -43,8 +43,8 @@ header {
   display: flex;
   min-height: 64px;
   align-items: center;
-  margin-top: 16px;
-  padding: 0 64px 0 64px;
+  margin-top: 32px;
+  padding: 0 80px 0 80px;
 }
 
 @media (max-width: $screen-lg-min) {

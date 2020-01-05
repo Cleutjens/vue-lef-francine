@@ -48,13 +48,13 @@ export default {
 @import "@/global-styles/breakpoints.scss";
 
 .container {
-  padding: 0px 64px;
+  padding: 0px 80px;
   margin-top: 130px;
   margin-bottom: 65px;
 }
 
 .timeline {
-  padding: 0px 64px;
+  padding: 0px 80px;
   margin-bottom: 140px;
 }
 

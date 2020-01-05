@@ -1,7 +1,7 @@
 <template>
   <div class="testimonials" id="ervaringen">
     <div class="container-fluid">
-      <div class="col-xs no-padding">
+      <div class="col-xs">
         <div class="testimonial-controls">
           <h2>Enkele klantervaringen</h2>
           <div class="button-wrap">
@@ -159,8 +159,8 @@ export default {
 .TestimonialCard {
   position: relative;
   overflow: hidden;
-  min-height: 480px;
-  padding: 72px 64px;
+  min-height: 420px;
+  padding: 80px;
 
   img {
     height: 24px;
@@ -177,7 +177,7 @@ export default {
   }
   .TestimonialCard {
     padding: 40px 32px;
-    min-height: 420px;
+    min-height: 380px;
   }
   .TestimonialContent {
     max-width: 100vw;
