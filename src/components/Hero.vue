@@ -73,24 +73,24 @@ video {
   overflow: hidden;
 }
 
-@media (max-width: $screen-lg-min) {
-  video {
-    position: absolute;
-    left: 50%; /* % of surrounding element */
-    top: 50%;
-    transform: translate(-50%, -50%); /* % of current element */
-    overflow-y: hidden;
-    overflow-x: hidden;
-  }
-  .hero-video-container {
-    overflow-y: hidden;
-    overflow-x: hidden;
-  }
-  .hero {
-    overflow-y: hidden;
-    overflow-x: hidden;
-  }
-}
+// @media (max-width: $screen-lg-min) {
+//   video {
+//     position: absolute;
+//     left: 50%; /* % of surrounding element */
+//     top: 50%;
+//     transform: translate(-50%, -50%); /* % of current element */
+//     overflow-y: hidden;
+//     overflow-x: hidden;
+//   }
+//   .hero-video-container {
+//     overflow-y: hidden;
+//     overflow-x: hidden;
+//   }
+//   .hero {
+//     overflow-y: hidden;
+//     overflow-x: hidden;
+//   }
+// }
 
 // .hero {
 //   // width: 100%;
