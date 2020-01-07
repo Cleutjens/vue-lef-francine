@@ -91,7 +91,7 @@ a {
 }
 
 .bg-grey {
-  background: #f7f7f7;
+  background: #eee;
   padding: 130px 80px 168px 80px;
 }
 

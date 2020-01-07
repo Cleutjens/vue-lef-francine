@@ -76,8 +76,55 @@
             <div class="TestimonialContent"></div>
           </div>
         </swiper-slide>
-
-        <div class="swiper-pagination" slot="pagination"></div>
+        <swiper-slide>
+          <div class="TestimonialCard campina">
+            <div class="TestimonialContent">
+              <img src="../assets/Campina-logo.svg" alt />
+              <p
+                class="testimonial-text"
+              >“Francine heeft mij zelf laten (her)ontdekken wat voor mij belangrijk is en hoe ik op mijn eigen wijze impact kan hebben. Ik heb weer plezier in wat ik doe en voel me krachtig. Het coaching traject was het begin van een nieuwe fase in mijn leven. Ik weet hoe ik wil dat mijn leven er over vijf jaar uit ziet. En het blijft niet bij dromen en plannen maken, het wordt al werkelijkheid!”</p>
+              <p class="name">Petra Schildmeijer</p>
+              <p class="title">Projectmanager FC</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="TestimonialCard overheid">
+            <div class="TestimonialContent">
+              <img src="../assets/overheid-logo.svg" alt />
+              <p
+                class="testimonial-text"
+              >“Francine brengt de veiligheid om op tafel te krijgen wat nodig en waardevol is. Met humor, scherpte en een goed gevoel voor timing. Aan de hand van de dagelijkse praktijk en onze belangrijke thema’s zijn de kwaliteiten én het groeipotentieel van het team in onze organisatie besproken. Een frisse start, wat ik wilde!”</p>
+              <p class="name">Manager</p>
+              <p class="title">Ministerie van Sociale Zaken en Werkgelegenheid</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="TestimonialCard zijerveld">
+            <div class="TestimonialContent">
+              <img src="../assets/zijerveld-logo.png" alt />
+              <p
+                class="testimonial-text"
+              >“Na de start up maakt onze business een snelle groei door. Met de hulp van Francine en de aangedragen tools groeien wijzelf ook, zowel op individueel als teamniveau.”</p>
+              <p class="name">Francesco Gribling</p>
+              <p class="title">Manager Sales Zijerveld</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="TestimonialCard talentcare">
+            <div class="TestimonialContent">
+              <img src="../assets/talentcare-logo.svg" alt />
+              <p
+                class="testimonial-text"
+              >“Francine heeft ons geholpen ons bedrijf naar de volgende fase te brengen. Ze heeft ons als directie en management team uitgedaagd, gecoacht en enorm veel geleerd. Van marketing- en salesstrategie tot implementatie in de bedrijfsvoering en op het HR vlak.”</p>
+              <!-- Francine heb ik ervaren als pragmatisch, betrokken en authentiek. En ze is ook gewoon heel erg leuk om mee te werken. Je voelt dat er echt iemand naast je staat als ondernemer! -->
+              <p class="name">Stefan Ottenbros</p>
+              <p class="title">Oprichter en eigenaar TalentCare</p>
+            </div>
+          </div>
+        </swiper-slide>
       </swiper>
     </div>
   </div>
@@ -161,10 +208,54 @@ export default {
   overflow: hidden;
   min-height: 380px;
   padding: 80px 80px 40px 80px;
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+
+  &:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+  }
 
   img {
     height: 24px;
   }
+}
+
+.campina {
+  img {
+    height: 32px;
+  }
+  .testimonial-text {
+    padding-top: 56px;
+  }
+}
+
+.overheid {
+  background: $blue;
+  color: white;
+  img {
+    height: 48px;
+  }
+  .testimonial-text {
+    padding-top: 40px;
+  }
+}
+
+.zijerveld {
+  img {
+    height: 32px;
+  }
+  .testimonial-text {
+    padding-top: 56px;
+  }
+}
+
+.talentcare {
+  background: $black;
+  color: white;
 }
 
 .testimonial-text {

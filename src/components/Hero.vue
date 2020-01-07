@@ -24,6 +24,8 @@
         <source src="../assets/lef-bg-video2.mp4" type="video/mp4" />
       </video>
     </div>
+    <div class="video-filter-top"></div>
+    <div class="video-filter-bottom"></div>
     <div class="hero-content">
       <div class="hero-content-text">
         <h1>LEF opent deuren naar groots&shy;heid</h1>
@@ -70,6 +72,15 @@ video {
   min-height: 56.25vw;
 }
 
+@media (max-width: $screen-lg-min) {
+  video {
+    position: absolute;
+    left: 50%; /* % of surrounding element */
+    top: 50%;
+    transform: translate(-50%, -50%); /* % of current element */
+  }
+}
+
 // .hero {
 //   // width: 100%;
 //   // height: 100vh;
@@ -100,6 +111,31 @@ video {
   position: absolute;
   bottom: 0%;
   padding: 80px;
+}
+
+.video-filter-bottom {
+  position: absolute;
+  background: linear-gradient(
+    0deg,
+    rgba(10, 10, 10, 1) 0%,
+    rgba(9, 10, 10, 1) 0%,
+    rgba(8, 9, 9, 0) 100%
+  );
+  height: 600px;
+  width: 100%;
+  bottom: 0%;
+}
+
+.video-filter-top {
+  position: absolute;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.37) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  height: 300px;
+  width: 100%;
+  top: 0%;
 }
 
 @media (max-width: $screen-lg-min) {
@@ -139,6 +175,12 @@ h1 {
 @media (max-width: $screen-lg-min) {
   h1 {
     max-width: 600px;
+  }
+}
+
+@media (max-width: $screen-xs-min) {
+  h1 {
+    font-size: 32px;
   }
 }
 
