@@ -4,7 +4,7 @@
       <div class="row row-bg">
         <div class="col-lg-8 bg-grey">
           <div class="row">
-            <div class="col-sm-12 no-padding">
+            <div class="col-sm-12">
               <h2>Een selectie uit de methodes</h2>
             </div>
           </div>

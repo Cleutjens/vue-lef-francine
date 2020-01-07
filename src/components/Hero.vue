@@ -70,6 +70,7 @@ video {
   width: 177.77777778vh;
   min-width: 100%;
   min-height: 56.25vw;
+  overflow: hidden;
 }
 
 @media (max-width: $screen-lg-min) {
@@ -78,6 +79,16 @@ video {
     left: 50%; /* % of surrounding element */
     top: 50%;
     transform: translate(-50%, -50%); /* % of current element */
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .hero-video-container {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .hero {
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
 }
 

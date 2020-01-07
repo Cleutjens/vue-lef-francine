@@ -83,7 +83,7 @@ export default {
 .container {
   padding: 0px 80px 0 80px;
   margin-bottom: 65px;
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 @media (max-width: $screen-lg-min) {
@@ -180,7 +180,7 @@ export default {
   .block {
     padding: 32px;
     min-height: 280px;
-    max-height: 280px;
+    // max-height: 280px;
   }
 }
 
@@ -190,9 +190,10 @@ export default {
   }
   .block {
     min-height: 400px;
+    padding-top: 40px;
   }
   p {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
