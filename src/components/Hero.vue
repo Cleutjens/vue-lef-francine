@@ -71,51 +71,8 @@ video {
   min-width: 100%;
   min-height: 56.25vw;
   overflow: hidden;
+  object-fit: cover;
 }
-
-// @media (max-width: $screen-lg-min) {
-//   video {
-//     position: absolute;
-//     left: 50%; /* % of surrounding element */
-//     top: 50%;
-//     transform: translate(-50%, -50%); /* % of current element */
-//     overflow-y: hidden;
-//     overflow-x: hidden;
-//   }
-//   .hero-video-container {
-//     overflow-y: hidden;
-//     overflow-x: hidden;
-//   }
-//   .hero {
-//     overflow-y: hidden;
-//     overflow-x: hidden;
-//   }
-// }
-
-// .hero {
-//   // width: 100%;
-//   // height: 100vh;
-//   // height: calc(var(--vh, 1vh) * 100);
-//   // display: flex;
-
-//   // background-image: url(../assets/lef-hero-bg-2.jpg),
-//   //   linear-gradient(
-//   //     8deg,
-//   //     rgba(0, 0, 0, 0.5) 0%,
-//   //     rgba(0, 0, 0, 0.4) 40%,
-//   //     rgba(0, 0, 0, 0) 100%
-//   //   );
-//   // background-size: cover;
-//   // background-position: center left;
-//   // background-repeat: no-repeat;
-//   // background-attachment: fixed;
-// }
-
-// @media only screen and (max-width: 768px) {
-//   .hero {
-//     background-attachment: scroll;
-//   }
-// }
 
 .hero-content {
   display: flex;

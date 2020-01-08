@@ -1,15 +1,15 @@
 <template>
   <div class="about" id="overlef">
     <div class="container-fluid">
-      <div class="row middle-xs" style="background-color: black;">
-        <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-black no-padding"> -->
-        <!-- <div class="row middle-xs"> -->
-        <div class="col-lg-8 col-xs-12">
-          <!-- <img src="../assets/francine-2.png" alt /> -->
+      <div class="row middle-xs image-container" style="background-color: black;">
+        <div class="image-wrapper"></div>
+        <div class="col-lg-8 col-md-12">
           <div class="features">
             <ul>
               <li>
-                <h3>Onconventionele aanpak</h3>
+                <h3>
+                  <span>Onconventionele aanpak</span>
+                </h3>
               </li>
               <li>
                 <svg
@@ -60,6 +60,9 @@
           <p>Ik weet hoe het is om aan het roer te staan van de verandering. De druk, de verantwoordelijkheid, het ploeteren. En het kan zoveel soepeler. Ik heb gezien en ervaren wat er gebeurt als mensen in hun kracht gaan staan en hun potentieel vol inzetten. Grenzen verleggen. Grootse dingen bereiken. Voor klanten en met elkaar. Dat is de kern van LEF: Leadership Empowerment Facilitation.</p>
           <p>Verwacht het onverwachte. Met positieve én confronterende interventies. Ik ben dol op grootse dromen, de dynamiek van teams in verandering en de energie explosies die daarbij vrij komen. Met humor, liefde en lef. Omdat ik niet anders wil. Omdat het werkt.</p>
         </div>
+        <div class="col-md-12 center-xs img-mobile">
+          <img src="../assets/francine-2.png" alt />
+        </div>
         <!-- </div> -->
         <!-- </div> -->
       </div>
@@ -80,7 +83,18 @@ export default {
 @import "@/global-styles/flexgrid.scss";
 
 .features {
-  padding-left: 64px;
+  padding-left: 80px;
+}
+
+.image-container {
+  position: relative;
+  min-height: 100%;
+}
+
+img {
+  // position: absolute;
+  display: inline-block;
+  bottom: 0;
 }
 
 h4 {
@@ -101,10 +115,12 @@ p {
   color: white;
   margin-top: 40px;
   font-size: 16px;
-  max-width: 320px;
+  max-width: 420px;
 }
 
 ul {
+  position: relative;
+  display: inline-block;
   padding: 0;
 }
 
@@ -121,21 +137,77 @@ li {
   background: black;
 }
 
-// img {
-//   position: absolute;
-//   display: inline;
-//   left: 0;
-//   top: -100%;
-//   object-fit: cover;
-// }
-
-.middle-xs {
+.image-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 12%;
   background-image: url(../assets/francine-2.png);
+  background-position: cover;
   background-repeat: no-repeat;
-  background-position: bottom left 30%;
+  height: 800px;
+  width: 900px;
+}
+
+@media (min-width: $screen-xl-min) {
+  .image-wrapper {
+    height: 700px;
+  }
 }
 
 .about-text {
-  padding: 165px 64px;
+  padding: 180px 80px;
 }
+
+.img-mobile {
+  text-align: center;
+}
+
+img {
+  display: block;
+  height: 600px;
+  margin: auto;
+}
+
+@media (max-width: $screen-sm-min) {
+  img {
+    height: 400px;
+  }
+}
+
+@media (min-width: $screen-xl-min) {
+  .img-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .img-mobile {
+    color: pink;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: $screen-xl-min) {
+  .features {
+    display: none;
+  }
+  .image-wrapper {
+    display: none;
+  }
+  .about-text {
+    padding: 80px 80px 16px 80px;
+  }
+}
+
+@media (max-width: $screen-lg-min) {
+  .about-text {
+    padding: 80px 32px;
+  }
+}
+
+// .middle-xs {
+//   background-image: url(../assets/francine-2.png);
+//   background-repeat: no-repeat;
+//   background-position: bottom left 30%;
+// }
 </style>

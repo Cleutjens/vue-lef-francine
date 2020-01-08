@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper" id="diensten">
-    <div class="container">
+    <!-- <div class="container">
       <h2>Diensten</h2>
       <p class="text-large">Elke klantvraag is uniek. Het antwoord dus ook.</p>
     </div>
@@ -61,7 +61,7 @@
         <h3 class="allcaps">Team Coaching</h3>
         <p>“Mijn management&shy;team bestaat uit toppers. Maar het vliegt niet. De rem moet eraf!”</p>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 

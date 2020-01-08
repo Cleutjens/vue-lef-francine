@@ -55,9 +55,10 @@ p.text-large {
 }
 
 h1 {
-  font-size: calc(80px + (26 - 14) * (100vw - 300px) / (1600 - 300));
+  font-size: calc(64px + (1200vw - 3600px)/1300);
   font-weight: 900;
   line-height: 102%;
+  // max-width: 50px;
 }
 
 @media (max-width: $screen-md-min) {
