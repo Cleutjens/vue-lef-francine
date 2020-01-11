@@ -18,30 +18,32 @@
       </div>
     </div>
   </Vue100vh>-->
-  <div class="hero">
-    <div class="hero-video-container">
-      <video id="video" loop muted autobuffer autoplay playsinline>
-        <source src="../assets/lef-bg-video2.mp4" type="video/mp4" />
-      </video>
-    </div>
-    <div class="video-filter-top"></div>
-    <div class="video-filter-bottom"></div>
-    <div class="hero-content">
-      <div class="hero-content-text">
-        <h1>LEF opent deuren naar groots&shy;heid</h1>
-        <p
-          class="text-large color-white"
-        >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
+  <Vue100vh>
+    <div class="hero">
+      <div class="hero-video-container">
+        <video id="video" loop muted autobuffer autoplay playsinline>
+          <source src="../assets/lef-bg-video2.mp4" type="video/mp4" />
+        </video>
       </div>
-    </div>
-    <a href="#" v-scroll-to="{ el: '#diensten', offset: -100 }">
-      <div class="hero-arrow">
-        <div class="mouse">
-          <div class="scroll"></div>
+      <div class="video-filter-top"></div>
+      <div class="video-filter-bottom"></div>
+      <div class="hero-content">
+        <div class="hero-content-text">
+          <h1>LEF opent deuren naar groots&shy;heid</h1>
+          <p
+            class="text-large color-white"
+          >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
         </div>
       </div>
-    </a>
-  </div>
+      <a href="#" v-scroll-to="{ el: '#diensten', offset: -100 }">
+        <div class="hero-arrow">
+          <div class="mouse">
+            <div class="scroll"></div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </Vue100vh>
 </template>
 
 <script>
@@ -106,6 +108,13 @@ video {
   top: 0%;
 }
 
+@media (max-width: $screen-md-min) {
+  .video-filter-bottom {
+    bottom: -20%;
+    height: 400px;
+  }
+}
+
 @media (max-width: $screen-lg-min) {
   .hero-content {
     padding: 32px;
@@ -135,6 +144,7 @@ video {
 h1 {
   color: white;
   max-width: 840px;
+  font-size: calc(72px + (1200vw - 3605px) / 1000);
   bottom: 0;
   padding-bottom: 24px;
   margin-bottom: auto;
@@ -142,23 +152,56 @@ h1 {
 
 @media (max-width: $screen-lg-min) {
   h1 {
-    max-width: 600px;
+    max-width: 800px;
+    font-size: calc(68px + (1200vw - 3605px) / 1000);
   }
 }
 
-@media (max-width: $screen-xs-min) {
+@media (max-width: $screen-md-min) {
   h1 {
-    font-size: 32px;
+    font-size: calc(54px + (1200vw - 3605px) / 1000);
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  h1 {
+    font-size: calc(48px + (1200vw - 3605px) / 1000);
   }
 }
 
 p.text-large {
-  max-width: 820px;
+  max-width: 840px;
+  font-size: 24px;
+}
+
+@media (max-width: $screen-xl-min) {
+  p.text-large {
+    max-width: 760px;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1920px) {
+  h1 {
+    max-width: 960px;
+  }
+  p.text-large {
+    max-width: 880px;
+  }
 }
 
 @media (max-width: $screen-lg-min) {
   p.text-large {
-    max-width: 600px;
+    max-width: 660px;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: $screen-md-min) {
+  p.text-large {
+    font-size: 16px;
+    max-width: 550px;
   }
 }
 
@@ -208,15 +251,6 @@ p.text-large {
   100% {
     opacity: 0;
     transform: translateY(20px);
-  }
-}
-
-@media (min-width: 1920px) {
-  h1 {
-    max-width: 960px;
-  }
-  p.text-large {
-    max-width: 960px;
   }
 }
 </style>

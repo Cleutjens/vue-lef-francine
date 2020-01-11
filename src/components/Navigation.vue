@@ -121,7 +121,7 @@ header {
 
 a.item {
   color: white;
-  font-size: 13px;
+  font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 800;
@@ -137,7 +137,7 @@ a.button-contact {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 800;
   border: solid 2px #fec600;
   transition: 0.3s;
