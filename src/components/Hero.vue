@@ -18,32 +18,30 @@
       </div>
     </div>
   </Vue100vh>-->
-  <Vue100vh>
-    <div class="hero">
-      <div class="hero-video-container">
-        <video id="video" loop muted autobuffer autoplay playsinline>
-          <source src="../assets/lef-bg-video2.mp4" type="video/mp4" />
-        </video>
-      </div>
-      <div class="video-filter-top"></div>
-      <div class="video-filter-bottom"></div>
-      <div class="hero-content">
-        <div class="hero-content-text">
-          <h1>LEF opent deuren naar groots&shy;heid</h1>
-          <p
-            class="text-large color-white"
-          >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
-        </div>
-      </div>
-      <a href="#" v-scroll-to="{ el: '#diensten', offset: -100 }">
-        <div class="hero-arrow">
-          <div class="mouse">
-            <div class="scroll"></div>
-          </div>
-        </div>
-      </a>
+  <div class="hero">
+    <div class="hero-video-container">
+      <video id="video" loop muted autobuffer autoplay playsinline>
+        <source src="../assets/lef-bg-video2.mp4" type="video/mp4" />
+      </video>
     </div>
-  </Vue100vh>
+    <div class="video-filter-top"></div>
+    <div class="video-filter-bottom"></div>
+    <div class="hero-content">
+      <div class="hero-content-text">
+        <h1>LEF opent deuren naar groots&shy;heid</h1>
+        <p
+          class="text-large color-white"
+        >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
+      </div>
+    </div>
+    <a href="#" v-scroll-to="{ el: '#diensten', offset: -100 }">
+      <div class="hero-arrow">
+        <div class="mouse">
+          <div class="scroll"></div>
+        </div>
+      </div>
+    </a>
+  </div>
 </template>
 
 <script>
