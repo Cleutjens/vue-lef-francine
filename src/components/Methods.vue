@@ -17,7 +17,7 @@
               class="col-sm-6 method-block"
               data-aos="fade-up"
               data-aos-duration="1200"
-              data-aos-offset="200"
+              data-aos-delay="400"
             >
               <h3 class="allcaps">Theory U</h3>
               <p>Naar de kern van complexe vraagstukken, voorbij bestaande aannames, (voor)oordelen en blokkades. Met als resultaat: vernieuwende inzichten, mogelijkheden en concrete acties.</p>
@@ -32,7 +32,7 @@
               class="col-sm-6 method-block"
               data-aos="fade-up"
               data-aos-duration="1200"
-              data-aos-offset="200"
+              data-aos-delay="400"
             >
               <h3 class="allcaps">Appreciative Inquiry</h3>
               <p>Van problemen oplossen naar waarde creëren voor klanten, medewerkers en andere stakeholders. Uitgaan van sterke punten en wat wél werkt… vind het verborgen goud in de organisatie.</p>
@@ -47,7 +47,7 @@
               class="col-sm-6 method-block"
               data-aos="fade-up"
               data-aos-duration="1200"
-              data-aos-offset="200"
+              data-aos-delay="400"
             >
               <h3 class="allcaps">Spiral Dynamics</h3>
               <p>Cultuur meetbaar, vanuit het perspectief van waarden en drijfveren. Beken kleur. In één oogopslag helder waar de schoen wringt en de sleutel tot betere samenwerking en aansluiting met de context.</p>

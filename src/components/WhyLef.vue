@@ -24,7 +24,7 @@
               class="col-lg-6 col-md-4 col-sm-6"
               data-aos="fade-up"
               data-aos-duration="800"
-              data-aos-offset="300"
+              data-aos-delay="800"
             >
               <div class="content-container no-padding">
                 <div class="container-image">
@@ -51,7 +51,7 @@
               class="col-lg-6 col-md-4 col-sm-6"
               data-aos="fade-up"
               data-aos-duration="800"
-              data-aos-offset="300"
+              data-aos-delay="800"
             >
               <div class="content-container no-padding">
                 <div class="container-image">
@@ -78,7 +78,7 @@
               class="col-lg-6 col-md-4 col-sm-6"
               data-aos="fade-up"
               data-aos-duration="800"
-              data-aos-offset="300"
+              data-aos-delay="800"
             >
               <div class="content-container no-padding">
                 <div class="container-image">
