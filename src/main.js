@@ -4,6 +4,8 @@ import router from "./router";
 import vuediv100vh from "vue-div-100vh";
 import vuescrollto from "vue-scrollto";
 import VueAwesomeSwiper from 'vue-awesome-swiper';
+import AOS from "aos";
+import "aos/dist/aos.css"
 import store from "./store";
 
 Vue.config.productionTip = false;
@@ -32,5 +34,8 @@ new Vue({
   vuediv100vh,
   vuescrollto,
   VueAwesomeSwiper,
+  created() {
+    AOS.init();
+  },
   render: h => h(App)
 }).$mount("#app");

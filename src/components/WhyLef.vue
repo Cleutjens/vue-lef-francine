@@ -5,11 +5,11 @@
         <div class="col-lg-8 col-md-12 bg-blue">
           <div class="row">
             <div class="col-sm-12">
-              <h2>Waarom LEF?</h2>
+              <h2 data-aos="fade-up" data-aos-duration="1200">Waarom LEF?</h2>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 col-md-4 col-sm-6">
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
               <div class="content-container">
                 <div class="container-image">
                   <img src="../assets/bulb-icon.svg" alt />
@@ -20,7 +20,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-sm-6">
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
               <div class="content-container no-padding">
                 <div class="container-image">
                   <img src="../assets/collab-icon.svg" alt />
@@ -31,7 +31,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-sm-6">
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
               <div class="content-container">
                 <div class="container-image">
                   <img src="../assets/lead-icon.svg" alt />
@@ -42,7 +42,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-sm-6">
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
               <div class="content-container no-padding">
                 <div class="container-image">
                   <img src="../assets/leap-icon.svg" alt />
@@ -53,7 +53,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-sm-6">
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
               <div class="content-container">
                 <div class="container-image">
                   <img src="../assets/experience-icon.svg" alt />
@@ -64,7 +64,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-sm-6">
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
               <div class="content-container no-padding">
                 <div class="container-image">
                   <img src="../assets/network-icon.svg" alt />
@@ -154,7 +154,6 @@ export default {
 
   img {
     // max-width: 480px;
-    min-width: 80%;
     margin: 0 auto;
   }
 }
@@ -294,6 +293,14 @@ h4 {
   .bg-white {
     .box {
       padding: 64px 32px 120px 32px;
+    }
+  }
+}
+
+@media (min-width: $screen-xl-min) {
+  .bg-black {
+    img {
+      max-width: 280px;
     }
   }
 }

@@ -35,9 +35,11 @@
     <div class="video-filter-top"></div>
     <div class="hero-content">
       <div class="hero-content-text">
-        <h1>LEF opent deuren naar groots&shy;heid</h1>
+        <h1 data-aos="fade-up" data-aos-duration="1200">LEF opent deuren naar groots&shy;heid</h1>
         <p
           class="text-large color-white"
+          data-aos="fade-up"
+          data-aos-duration="1200"
         >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
       </div>
     </div>

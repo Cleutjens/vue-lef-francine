@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="nav">
+    <div class="nav" data-aos="fade-down" data-aos-duration="800">
       <div class="left">
         <img class="logo" src="../assets/lef-logo.svg" />
       </div>

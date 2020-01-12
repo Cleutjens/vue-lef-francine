@@ -148,7 +148,7 @@ export default {
 
 .swipe-wrapper {
   padding: 0 80px;
-  margin-bottom: 167px;
+  margin-bottom: 127px;
 }
 
 @media (max-width: $screen-lg-min) {
