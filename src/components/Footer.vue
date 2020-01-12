@@ -19,8 +19,8 @@
               </div>
               <div class="col-lg-6 col-md-6 policy-info">
                 <h3 class="company-info">Bedrijfsinformatie</h3>
-                <a href="#">Algemene voorwaarden</a>
-                <a href="#">Privacy verklaring</a>
+                <a href="<%= BASE_URL %>Algemene-voorwaarden-LEF!.pdf">Algemene voorwaarden</a>
+                <a href="../../public/Algemene-voorwaarden-LEF!.pdf">Privacy verklaring</a>
                 <p>KvK 67864481, gevestigd te Zeist</p>
               </div>
             </div>

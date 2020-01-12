@@ -20,12 +20,19 @@
   </Vue100vh>-->
   <div class="hero">
     <div class="hero-video-container">
-      <video id="video" loop muted autobuffer autoplay playsinline>
+      <video
+        id="video"
+        loop
+        muted
+        autobuffer
+        autoplay
+        playsinline
+        poster="../assets/lef-hero-bg-2.jpg"
+      >
         <source src="../assets/lef-bg-video2.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="video-filter-top"></div>
-    <div class="video-filter-bottom"></div>
     <div class="hero-content">
       <div class="hero-content-text">
         <h1>LEF opent deuren naar groots&shy;heid</h1>
@@ -85,19 +92,19 @@ video {
   overflow: hidden;
 }
 
-.video-filter-bottom {
-  position: absolute;
-  overflow: hidden;
-  background: linear-gradient(
-    0deg,
-    rgba(10, 10, 10, 1) 0%,
-    rgba(9, 10, 10, 1) 0%,
-    rgba(8, 9, 9, 0) 100%
-  );
-  height: 600px;
-  width: 100%;
-  bottom: 0%;
-}
+// .video-filter-bottom {
+//   position: absolute;
+//   overflow: hidden;
+//   background: linear-gradient(
+//     0deg,
+//     rgba(10, 10, 10, 1) 0%,
+//     rgba(9, 10, 10, 1) 0%,
+//     rgba(8, 9, 9, 0) 100%
+//   );
+//   height: 600px;
+//   width: 100%;
+//   bottom: 0%;
+// }
 
 .video-filter-top {
   position: absolute;
