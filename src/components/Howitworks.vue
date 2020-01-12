@@ -44,7 +44,7 @@
       </div>
     </div>
     <div class="swipe-wrapper">
-      <div class="swiper-container">
+      <div class="swiper-container2">
         <swiper :options="swiperOptions2">
           <swiper-slide>
             <div class="timeline-block timeline-step1">
@@ -111,7 +111,9 @@ export default {
         noSwipingClass: "swiper-container2",
         breakpoints: {
           720: {
-            slidesPerView: "1"
+            slidesPerView: "1",
+            noSwiping: false,
+            noSwipingClass: "swiper-container2"
           }
         }
       }
@@ -170,6 +172,12 @@ export default {
 .timeline-block {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+@media (max-width: $screen-md-min) {
+  .timeline-block {
+    padding-top: 24px;
+  }
 }
 
 .swiper-wrapper {

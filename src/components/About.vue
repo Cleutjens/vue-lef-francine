@@ -86,6 +86,12 @@ export default {
   padding-left: 80px;
 }
 
+@media (max-width: $screen-lg-min) {
+  .features {
+    padding-left: 64px;
+  }
+}
+
 .image-container {
   position: relative;
   min-height: 100%;
@@ -141,7 +147,13 @@ li {
   position: absolute;
   bottom: 0;
   left: 12%;
-  background-image: url(../assets/francine-2.png);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../assets/francine-2.png);
   background-position: cover;
   background-repeat: no-repeat;
   height: 800px;
@@ -155,7 +167,7 @@ li {
 }
 
 .about-text {
-  padding: 180px 80px;
+  padding: 130px 80px;
 }
 
 .img-mobile {
@@ -168,12 +180,6 @@ img {
   margin: auto;
 }
 
-@media (max-width: $screen-sm-min) {
-  img {
-    height: 400px;
-  }
-}
-
 @media (min-width: $screen-xl-min) {
   .img-mobile {
     display: none;
@@ -182,7 +188,6 @@ img {
 
 @media (max-width: $screen-sm-min) {
   .img-mobile {
-    color: pink;
     margin-top: 0px;
   }
 }
@@ -197,17 +202,51 @@ img {
   .about-text {
     padding: 80px 80px 16px 80px;
   }
+  .img-mobile {
+    margin-top: -400px;
+    img {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .img-mobile {
+    width: 100%;
+    margin-right: 0;
+    margin-top: -300px;
+    transform: scale(0.8);
+    text-align: right;
+  }
+}
+
+@media (max-width: $screen-lg-min) {
+  .img-mobile {
+    transform: scale(0.7);
+    margin-top: -160px;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .img-mobile {
+    margin-top: -20px;
+    transform: scale(1);
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
 
 @media (max-width: $screen-lg-min) {
   .about-text {
-    padding: 80px 32px;
+    padding: 80px 64px;
   }
 }
 
-// .middle-xs {
-//   background-image: url(../assets/francine-2.png);
-//   background-repeat: no-repeat;
-//   background-position: bottom left 30%;
-// }
+@media (max-width: $screen-sm-min) {
+  .about-text {
+    padding: 80px 32px;
+  }
+}
 </style>

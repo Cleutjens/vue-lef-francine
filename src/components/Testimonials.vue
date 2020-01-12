@@ -145,11 +145,7 @@ export default {
       swiperOptions: {
         slidesPerView: "auto",
         spaceBetween: 0,
-        // breakpoints: {
-        //   575: {
-        //     swiperSlide.removeSlide(1);
-        //   },
-        // },
+        grabCursor: true,
         navigation: {
           nextEl: ".next",
           prevEl: ".previous"
