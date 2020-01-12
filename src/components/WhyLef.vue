@@ -9,7 +9,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="800">
               <div class="content-container">
                 <div class="container-image">
                   <img src="../assets/bulb-icon.svg" alt />
@@ -23,8 +23,8 @@
             <div
               class="col-lg-6 col-md-4 col-sm-6"
               data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-offset="200"
+              data-aos-duration="800"
+              data-aos-offset="300"
             >
               <div class="content-container no-padding">
                 <div class="container-image">
@@ -36,7 +36,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="800">
               <div class="content-container">
                 <div class="container-image">
                   <img src="../assets/lead-icon.svg" alt />
@@ -50,8 +50,8 @@
             <div
               class="col-lg-6 col-md-4 col-sm-6"
               data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-offset="200"
+              data-aos-duration="800"
+              data-aos-offset="300"
             >
               <div class="content-container no-padding">
                 <div class="container-image">
@@ -63,7 +63,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="800">
               <div class="content-container">
                 <div class="container-image">
                   <img src="../assets/experience-icon.svg" alt />
@@ -77,8 +77,8 @@
             <div
               class="col-lg-6 col-md-4 col-sm-6"
               data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-offset="200"
+              data-aos-duration="800"
+              data-aos-offset="300"
             >
               <div class="content-container no-padding">
                 <div class="container-image">
