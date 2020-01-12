@@ -2,31 +2,27 @@
   <div class="footer" id="contact">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-8 col-xs-12 bg-grey">
-          <div class="box">
-            <div class="row">
-              <div class="col-md-12 no-padding">
-                <h2>Contact</h2>
-              </div>
+        <div class="col-lg-8 col-md-12 col-xs-12 bg-grey">
+          <div class="row">
+            <div class="col-md-12 no-padding">
+              <h2>Contact</h2>
             </div>
           </div>
-          <div class="box">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 contact-info">
-                <h3>Francine de Bruyckere – Geerts</h3>
-                <a href="tel:+31622472046">06 2247 2046</a>
-                <a href="mailto:francine@lefincompany.nl">francine@lefincompany.nl</a>
-              </div>
-              <div class="col-lg-6 col-md-6 policy-info">
-                <h3 class="company-info">Bedrijfsinformatie</h3>
-                <a href="<%= BASE_URL %>Algemene-voorwaarden-LEF!.pdf">Algemene voorwaarden</a>
-                <a href="../../public/Algemene-voorwaarden-LEF!.pdf">Privacy verklaring</a>
-                <p>KvK 67864481, gevestigd te Zeist</p>
-              </div>
+          <div class="row">
+            <div class="col-lg contact-info">
+              <h3>Francine de Bruyckere – Geerts</h3>
+              <a href="tel:+31622472046">06 2247 2046</a>
+              <a href="mailto:francine@lefincompany.nl">francine@lefincompany.nl</a>
+            </div>
+            <div class="col-lg policy-info">
+              <h3 class="company-info">Bedrijfsinformatie</h3>
+              <a href="<%= BASE_URL %>Algemene-voorwaarden-LEF!.pdf">Algemene voorwaarden</a>
+              <a href="../../public/Algemene-voorwaarden-LEF!.pdf">Privacy verklaring</a>
+              <p>KvK 67864481, gevestigd te Zeist</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-xs-12 bg-white">
+        <div class="col-lg-4 col-md-12 col-xs-12 bg-white">
           <div class="row center-xs middle-xs">
             <img src="../assets/lef-logo-big.svg" alt />
           </div>
@@ -48,7 +44,7 @@ export default {
 @import "@/global-styles/flexgrid.scss";
 
 h2 {
-  margin-bottom: 85px;
+  margin-bottom: 40px;
 }
 
 h3 {
@@ -86,10 +82,6 @@ a {
   padding: 0;
 }
 
-.policy-info {
-  padding-left: 64px;
-}
-
 .method-block {
   margin-bottom: 86px;
 }
@@ -108,15 +100,6 @@ a {
 @media (max-width: $screen-sm-min) {
   .bg-grey {
     padding: 95px 32px 120px 32px;
-  }
-}
-
-@media (max-width: 1023px) {
-  h3.company-info {
-    padding-top: 0;
-  }
-  .contact-info {
-    padding-right: 64px;
   }
 }
 
@@ -143,27 +126,24 @@ a {
   }
 }
 
-@media (max-width: 809px) {
-  .policy-info {
-    padding-left: 0;
-  }
+.contact-info {
+  padding-top: 42px;
+  padding-right: 42px;
 }
 
-@media (max-width: 741px) {
-  .policy-info {
-    padding-top: 42px;
-  }
+.policy-info {
+  padding-top: 42px;
 }
 
-@media (max-width: $screen-md-min) {
-  .policy-info {
-    padding-top: 0;
-  }
-}
+// @media (max-width: $screen-md-min) {
+//   .policy-info {
+//     padding-top: 0;
+//   }
+// }
 
-@media (max-width: 673px) {
-  .policy-info {
-    padding-top: 42px;
-  }
-}
+// @media (max-width: 673px) {
+//   .policy-info {
+//     padding-top: 42px;
+//   }
+// }
 </style>
