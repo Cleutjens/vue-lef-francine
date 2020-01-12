@@ -51,7 +51,7 @@
                 </svg>
               </li>
               <li>
-                <h3 data-aos="fade-left" data-aos-duration="800" data-aos-offset="400">
+                <h3 data-aos="fade-left" data-aos-duration="800" data-aos-offset="100">
                   Wel humor,
                   <br />geen flauwekul
                 </h3>
