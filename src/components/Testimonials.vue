@@ -59,7 +59,7 @@
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide>
+        <swiper-slide class="tupperware-slide">
           <div class="TestimonialCard tupperware">
             <div class="TestimonialContent">
               <img src="../assets/tupperware-logo.svg" alt />
@@ -145,6 +145,11 @@ export default {
       swiperOptions: {
         slidesPerView: "auto",
         spaceBetween: 0,
+        // breakpoints: {
+        //   575: {
+        //     swiperSlide.removeSlide(1);
+        //   },
+        // },
         navigation: {
           nextEl: ".next",
           prevEl: ".previous"
@@ -346,12 +351,6 @@ h3 {
   padding: 0;
 }
 
-@media (max-width: $screen-xs-min) {
-  .swiper-container {
-    margin-top: 0px !important;
-  }
-}
-
 @media (max-width: $screen-md-min) {
   .testimonial-controls {
     display: block;
@@ -360,6 +359,12 @@ h3 {
   .buttons {
     margin-left: 0;
     margin-top: 32px;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .tupperware-slide {
+    display: none;
   }
 }
 </style>

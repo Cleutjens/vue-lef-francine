@@ -78,11 +78,16 @@ video {
   display: flex;
   position: absolute;
   bottom: 0%;
-  padding: 80px;
+  padding: 120px 80px;
+}
+
+.hero {
+  overflow: hidden;
 }
 
 .video-filter-bottom {
   position: absolute;
+  overflow: hidden;
   background: linear-gradient(
     0deg,
     rgba(10, 10, 10, 1) 0%,
@@ -108,29 +113,23 @@ video {
 
 @media (max-width: $screen-md-min) {
   .video-filter-bottom {
-    bottom: -20%;
+    bottom: 0%;
     height: 400px;
   }
 }
 
 @media (max-width: $screen-lg-min) {
   .hero-content {
-    padding: 32px;
+    padding: 100px 64px;
   }
   .hero {
     background-position: center left 30%;
   }
 }
 
-@media (min-width: $screen-md-min) {
+@media (max-width: $screen-sm-min) {
   .hero-content {
-    margin-bottom: 60px;
-  }
-}
-
-@media (max-width: $screen-md-min) {
-  .hero-content {
-    margin-bottom: 92px;
+    padding: 92px 32px;
   }
 }
 

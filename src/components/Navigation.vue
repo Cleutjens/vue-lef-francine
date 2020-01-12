@@ -49,11 +49,17 @@ header {
 
 @media (max-width: $screen-lg-min) {
   .nav {
-    padding: 0 32px 0 32px;
+    padding: 0 64px 0 64px;
     display: flex;
   }
   .middle {
     display: none;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .nav {
+    padding: 0 32px 0 32px;
   }
 }
 

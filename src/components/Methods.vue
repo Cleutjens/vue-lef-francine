@@ -109,7 +109,7 @@ p {
 
 .bg-white {
   background: #fff;
-  padding: 130px 80px 168px 80px;
+  padding: 130px 80px 0px 80px;
 }
 
 @media (max-width: 767px) {
@@ -130,7 +130,16 @@ p {
 
 @media (max-width: $screen-lg-min) {
   .bg-grey {
-    padding: 60px 32px 60px 32px;
+    padding: 120px 64px 60px 64px;
+  }
+  .bg-white {
+    padding: 60px 64px 0 64px;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .bg-grey {
+    padding: 100px 32px 60px 32px;
   }
   .bg-white {
     padding: 60px 32px 0 32px;

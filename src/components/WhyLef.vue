@@ -79,10 +79,10 @@
         </div>
         <div class="col-lg-4 col-md-12 bg-grey no-padding">
           <div class="row">
-            <div class="col-lg-12 col-md-4 col-sm-6 col-xs-12 bg-black no-padding">
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 bg-black no-padding">
               <img class="bottom" src="../assets/francine-1.jpg" alt />
             </div>
-            <div class="col-lg-12 col-md-8 col-sm-6 col-xs-12 bg-white no-padding">
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 bg-white">
               <div class="box">
                 <h4>Aanpak: ik maak me zo snel mogelijk weer misbaar</h4>
                 <p>Samen met de opdrachtgever kijk ik wat de werkelijke vraag achter de vraag is. In de analyse integreer ik de bovenstroom -de strategie, klantprocessen, rollen, IT, kortom de aspecten van de bedrijfsvoering- met de onderstroom: mindset, feitelijk gedrag en het leiderschap. Verenigen van het zichtbare met het onzichtbare. Zo kom ik snel tot de essentie van het probleem, voorbij de symptomen. Dan is het vaak verrassend eenvoudig, komt los wat vast zit en gaat het weer stromen. Dat proces doorlopen we samen, op basis van de kennis en de kwaliteiten in de organisatie. En ja, daar hoort zelfreflectie en uit de comfortzone komen bij. De opdrachtgever houdt altijd de regie en creëert het eigen succes. Dat is de kern van mijn aanpak: de opdrachtgever sterker maken.</p>
@@ -153,7 +153,8 @@ export default {
   );
 
   img {
-    max-width: 360px;
+    // max-width: 480px;
+    min-width: 80%;
     margin: 0 auto;
   }
 }
@@ -221,15 +222,13 @@ h4 {
 
 @media (max-width: $screen-lg-min) {
   .bg-blue {
-    padding: 120px 32px 60px 32px;
+    padding: 120px 64px 60px 64px;
   }
 }
 
-@media (max-width: 1332px) {
-  .bg-grey {
-    .box {
-      padding: 64px;
-    }
+@media (max-width: $screen-sm-min) {
+  .bg-blue {
+    padding: 120px 32px 60px 32px;
   }
 }
 
@@ -252,11 +251,6 @@ h4 {
       text-align: center;
     }
   }
-  .bg-white {
-    .box {
-      padding: 32px 32px 64px 32px;
-    }
-  }
 }
 
 @media (max-width: 1023px) {
@@ -275,6 +269,14 @@ h4 {
   }
 }
 
+@media (max-width: 767px) {
+  .box {
+    p {
+      max-width: 440px;
+    }
+  }
+}
+
 @media (max-width: 631px) {
   .content-container {
     display: flex;
@@ -285,6 +287,14 @@ h4 {
     padding-right: 32px;
     object-fit: contain;
     align-self: flex-start;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .bg-white {
+    .box {
+      padding: 64px 32px 120px 32px;
+    }
   }
 }
 </style>
