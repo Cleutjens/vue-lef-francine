@@ -272,14 +272,24 @@ export default {
 
 @media (max-width: $screen-lg-min) {
   .container-fluid {
+    padding: 0 64px;
+  }
+  .TestimonialCard {
+    padding: 40px 64px;
+    min-height: 380px;
+  }
+  .TestimonialContent {
+    max-width: 100vw;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .container-fluid {
     padding: 0 32px;
   }
   .TestimonialCard {
     padding: 40px 32px;
     min-height: 380px;
-  }
-  .TestimonialContent {
-    max-width: 100vw;
   }
 }
 
