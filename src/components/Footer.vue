@@ -4,17 +4,32 @@
       <div class="row">
         <div class="col-lg-8 col-md-12 col-xs-12 bg-grey">
           <div class="row">
-            <div class="col-md-12 no-padding">
+            <div
+              class="col-md-12 no-padding"
+              data-aos="fade-down"
+              data-aos-duration="800"
+              data-aos-offset="100"
+            >
               <h2>Contact</h2>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg contact-info">
+            <div
+              class="col-lg contact-info"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-offset="100"
+            >
               <h3>Francine de Bruyckere – Geerts</h3>
               <a href="tel:+31622472046">06 2247 2046</a>
               <a href="mailto:francine@lefincompany.nl">francine@lefincompany.nl</a>
             </div>
-            <div class="col-lg policy-info">
+            <div
+              class="col-lg policy-info"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-offset="300"
+            >
               <h3 class="company-info">Bedrijfsinformatie</h3>
               <a href="<%= BASE_URL %>Algemene-voorwaarden-LEF!.pdf">Algemene voorwaarden</a>
               <a href="../../public/Algemene-voorwaarden-LEF!.pdf">Privacy verklaring</a>
@@ -23,7 +38,12 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-xs-12 bg-white">
-          <div class="row center-xs middle-xs">
+          <div
+            class="row center-xs middle-xs"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-offset="100"
+          >
             <img src="../assets/lef-logo-big.svg" alt />
           </div>
         </div>

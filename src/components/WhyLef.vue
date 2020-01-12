@@ -20,7 +20,12 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
+            <div
+              class="col-lg-6 col-md-4 col-sm-6"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-offset="200"
+            >
               <div class="content-container no-padding">
                 <div class="container-image">
                   <img src="../assets/collab-icon.svg" alt />
@@ -42,7 +47,12 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
+            <div
+              class="col-lg-6 col-md-4 col-sm-6"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-offset="200"
+            >
               <div class="content-container no-padding">
                 <div class="container-image">
                   <img src="../assets/leap-icon.svg" alt />
@@ -64,7 +74,12 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
+            <div
+              class="col-lg-6 col-md-4 col-sm-6"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-offset="200"
+            >
               <div class="content-container no-padding">
                 <div class="container-image">
                   <img src="../assets/network-icon.svg" alt />
@@ -84,8 +99,14 @@
             </div>
             <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 bg-white">
               <div class="box">
-                <h4>Aanpak: ik maak me zo snel mogelijk weer misbaar</h4>
-                <p>Samen met de opdrachtgever kijk ik wat de werkelijke vraag achter de vraag is. In de analyse integreer ik de bovenstroom -de strategie, klantprocessen, rollen, IT, kortom de aspecten van de bedrijfsvoering- met de onderstroom: mindset, feitelijk gedrag en het leiderschap. Verenigen van het zichtbare met het onzichtbare. Zo kom ik snel tot de essentie van het probleem, voorbij de symptomen. Dan is het vaak verrassend eenvoudig, komt los wat vast zit en gaat het weer stromen. Dat proces doorlopen we samen, op basis van de kennis en de kwaliteiten in de organisatie. En ja, daar hoort zelfreflectie en uit de comfortzone komen bij. De opdrachtgever houdt altijd de regie en creëert het eigen succes. Dat is de kern van mijn aanpak: de opdrachtgever sterker maken.</p>
+                <h4
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >Aanpak: ik maak me zo snel mogelijk weer misbaar</h4>
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >Samen met de opdrachtgever kijk ik wat de werkelijke vraag achter de vraag is. In de analyse integreer ik de bovenstroom -de strategie, klantprocessen, rollen, IT, kortom de aspecten van de bedrijfsvoering- met de onderstroom: mindset, feitelijk gedrag en het leiderschap. Verenigen van het zichtbare met het onzichtbare. Zo kom ik snel tot de essentie van het probleem, voorbij de symptomen. Dan is het vaak verrassend eenvoudig, komt los wat vast zit en gaat het weer stromen. Dat proces doorlopen we samen, op basis van de kennis en de kwaliteiten in de organisatie. En ja, daar hoort zelfreflectie en uit de comfortzone komen bij. De opdrachtgever houdt altijd de regie en creëert het eigen succes. Dat is de kern van mijn aanpak: de opdrachtgever sterker maken.</p>
               </div>
             </div>
           </div>
@@ -300,7 +321,7 @@ h4 {
 @media (min-width: $screen-xl-min) {
   .bg-black {
     img {
-      max-width: 280px;
+      max-width: 340px;
     }
   }
 }

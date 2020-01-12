@@ -1,7 +1,7 @@
 <template>
   <div class="testimonials" id="ervaringen">
     <div class="container-fluid">
-      <div class="col-xs">
+      <div class="col-xs" data-aos="fade-down" data-aos-duration="800">
         <div class="testimonial-controls">
           <h2>Enkele klantervaringen</h2>
           <div class="button-wrap">
@@ -48,7 +48,7 @@
     <div class="swiper-container">
       <swiper :options="swiperOptions">
         <swiper-slide>
-          <div class="TestimonialCard rabobank">
+          <div class="TestimonialCard rabobank" data-aos="fade-up" data-aos-duration="1000">
             <div class="TestimonialContent">
               <img src="../assets/rabobank-logo.svg" alt />
               <p
@@ -60,7 +60,12 @@
           </div>
         </swiper-slide>
         <swiper-slide class="tupperware-slide">
-          <div class="TestimonialCard tupperware">
+          <div
+            class="TestimonialCard tupperware"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+          >
             <div class="TestimonialContent">
               <img src="../assets/tupperware-logo.svg" alt />
               <p
@@ -72,12 +77,22 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="TestimonialCard tupperware-img">
+          <div
+            class="TestimonialCard tupperware-img"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+          >
             <div class="TestimonialContent"></div>
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="TestimonialCard campina">
+          <div
+            class="TestimonialCard campina"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="500"
+          >
             <div class="TestimonialContent">
               <img src="../assets/Campina-logo.svg" alt />
               <p
