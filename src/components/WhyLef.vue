@@ -20,12 +20,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-lg-6 col-md-4 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="800"
-            >
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
               <div class="content-container no-padding">
                 <div class="container-image">
                   <img src="../assets/collab-icon.svg" alt />
@@ -47,12 +42,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-lg-6 col-md-4 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="800"
-            >
+            <div class="col-lg-6 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
               <div class="content-container no-padding">
                 <div class="container-image">
                   <img src="../assets/leap-icon.svg" alt />
@@ -77,8 +67,7 @@
             <div
               class="col-lg-6 col-md-4 col-sm-6"
               data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="800"
+              data-aos-duration="1200"
             >
               <div class="content-container no-padding">
                 <div class="container-image">
