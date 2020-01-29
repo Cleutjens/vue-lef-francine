@@ -38,12 +38,12 @@
   <div class="howitworks">
     <div class="container-fluid">
       <div class="container">
-        <div class="col-xs" data-aos="fade-down" data-aos-duration="800">
+        <div class="col-xs">
           <h2>Hoe het werkt</h2>
         </div>
       </div>
     </div>
-    <div class="swipe-wrapper" data-aos="fade-up" data-aos-duration="800">
+    <div class="swipe-wrapper">
       <div class="swiper-container2">
         <swiper :options="swiperOptions2">
           <swiper-slide>

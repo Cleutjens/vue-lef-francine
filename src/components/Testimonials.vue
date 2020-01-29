@@ -1,7 +1,7 @@
 <template>
   <div class="testimonials" id="ervaringen">
     <div class="container-fluid">
-      <div class="col-xs" data-aos="fade-down" data-aos-duration="800">
+      <div class="col-xs">
         <div class="testimonial-controls">
           <h2>Enkele klantervaringen</h2>
           <div class="button-wrap">
@@ -48,7 +48,7 @@
     <div class="swiper-container">
       <swiper :options="swiperOptions">
         <swiper-slide>
-          <div class="TestimonialCard rabobank" data-aos="fade-up" data-aos-duration="1000">
+          <div class="TestimonialCard rabobank">
             <div class="TestimonialContent">
               <img src="../assets/rabobank-logo.svg" alt />
               <p
@@ -60,12 +60,7 @@
           </div>
         </swiper-slide>
         <swiper-slide class="tupperware-slide">
-          <div
-            class="TestimonialCard tupperware"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-offset="300"
-          >
+          <div class="TestimonialCard tupperware">
             <div class="TestimonialContent">
               <img src="../assets/tupperware-logo.svg" alt />
               <p
@@ -76,23 +71,13 @@
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide>
-          <div
-            class="TestimonialCard tupperware-img"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-offset="300"
-          >
+        <!-- <swiper-slide>
+          <div class="TestimonialCard tupperware-img">
             <div class="TestimonialContent"></div>
           </div>
-        </swiper-slide>
+        </swiper-slide>-->
         <swiper-slide>
-          <div
-            class="TestimonialCard campina"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-offset="500"
-          >
+          <div class="TestimonialCard campina">
             <div class="TestimonialContent">
               <img src="../assets/Campina-logo.svg" alt />
               <p
@@ -140,6 +125,7 @@
             </div>
           </div>
         </swiper-slide>
+        <div class="swiper-pagination"></div>
       </swiper>
     </div>
   </div>
@@ -306,6 +292,9 @@ export default {
     padding: 40px 32px;
     min-height: 380px;
   }
+  .testimonials {
+    padding: 60px 0 40px 0;
+  }
 }
 
 p {
@@ -383,9 +372,9 @@ h3 {
   }
 }
 
-@media (max-width: $screen-sm-min) {
-  .tupperware-slide {
-    display: none;
-  }
-}
+// @media (max-width: $screen-sm-min) {
+//   .tupperware-slide {
+//     display: none;
+//   }
+// }
 </style>

@@ -7,7 +7,7 @@
           <div class="features">
             <ul>
               <li>
-                <h3 data-aos="fade-left" data-aos-duration="800">
+                <h3>
                   <span>Onconventionele aanpak</span>
                 </h3>
               </li>
@@ -28,11 +28,7 @@
                 </svg>
               </li>
               <li>
-                <h3
-                  data-aos="fade-left"
-                  data-aos-duration="800"
-                  data-aos-offset="200"
-                >Creëert impact met liefde en lef</h3>
+                <h3>Creëert impact met liefde en lef</h3>
               </li>
               <li>
                 <svg
@@ -51,7 +47,7 @@
                 </svg>
               </li>
               <li>
-                <h3 data-aos="fade-left" data-aos-duration="800" data-aos-offset="100">
+                <h3>
                   Wel humor,
                   <br />geen flauwekul
                 </h3>
@@ -59,17 +55,12 @@
             </ul>
           </div>
         </div>
-        <div
-          class="col-lg-4 col-xs-12 no-padding about-text"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-offset="300"
-        >
+        <div class="col-lg-4 col-xs-12 no-padding about-text">
           <h4>Over Francine</h4>
           <p>Ik weet hoe het is om aan het roer te staan van de verandering. De druk, de verantwoordelijkheid, het ploeteren. En het kan zoveel soepeler. Ik heb gezien en ervaren wat er gebeurt als mensen in hun kracht gaan staan en hun potentieel vol inzetten. Grenzen verleggen. Grootse dingen bereiken. Voor klanten en met elkaar. Dat is de kern van LEF: Leadership Empowerment Facilitation.</p>
           <p>Verwacht het onverwachte. Met positieve én confronterende interventies. Ik ben dol op grootse dromen, de dynamiek van teams in verandering en de energie explosies die daarbij vrij komen. Met humor, liefde en lef. Omdat ik niet anders wil. Omdat het werkt.</p>
         </div>
-        <div class="col-md-12 center-xs img-mobile" data-aos="fade-left" data-aos-duration="1000">
+        <div class="col-md-12 center-xs img-mobile">
           <img src="../assets/francine-2.png" alt />
         </div>
         <!-- </div> -->
