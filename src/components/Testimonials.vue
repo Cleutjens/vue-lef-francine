@@ -1,7 +1,7 @@
 <template>
   <div class="testimonials" id="ervaringen">
     <div class="container-fluid">
-      <div class="col-xs">
+      <div class="col-xs no-padding">
         <div class="testimonial-controls">
           <h2>Enkele klantervaringen</h2>
           <div class="button-wrap">
@@ -177,6 +177,12 @@ export default {
         keyboard: {
           enabled: true,
           onlyInViewport: true
+        },
+        480: {
+          autoplay: {
+            delay: 6000,
+            disableOnInteraction: true
+          }
         },
         runCallbacksOnInit: true,
         onInit: function(sw) {
