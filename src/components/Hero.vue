@@ -224,11 +224,11 @@ p.text-large {
 .box {
   position: absolute;
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   bottom: 40px;
   left: 50%;
-  margin-left: -20px;
+  margin-left: -18px;
   border: 2px solid #ffc100;
   animation: intro 1s;
   transition: 1s;
@@ -238,7 +238,6 @@ p.text-large {
     cursor: pointer;
   }
 }
-
 .arrow {
   img {
     padding: 8px;
