@@ -57,12 +57,6 @@ header {
   }
 }
 
-@media (max-width: $screen-sm-min) {
-  .nav {
-    padding: 0 32px 0 32px;
-  }
-}
-
 @media (min-width: $screen-lg-min) {
   .middle-mobile {
     display: none;
@@ -150,6 +144,13 @@ a.button-contact {
   &:hover {
     background: #fec600;
     color: $black;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .nav {
+    padding: 0 32px;
+    margin-top: 24px;
   }
 }
 </style>

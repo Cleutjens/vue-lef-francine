@@ -126,7 +126,7 @@ video {
 
 @media (max-width: $screen-sm-min) {
   .hero-content {
-    padding: 64px 32px;
+    padding: 64px 32px 40px 32px;
   }
 }
 
