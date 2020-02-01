@@ -1,0 +1,22 @@
+.swiper-pagination-bullet {
+    width: 16px !important;
+    height: 16px !important;
+    margin-right: 8px;
+    background: rgba(0,0,0,0) !important;
+    border: 1px solid #868686 !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fec600 !important;
+    border: 1px solid #fec600 !important;
+
+}
+
+.swiper-pagination {
+    margin: 24px 0;
+}
+
+.mobile-controls {
+    margin-bottom: 48px;
+}

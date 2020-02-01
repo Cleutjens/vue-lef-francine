@@ -27,7 +27,7 @@
                 </div>
                 <div class="container-text">
                   <h3>Co-creatie</h3>
-                  <p>In company betekent: de context en de management agenda bepaalt het doel, ik ontwerp de aanpak. De weg ernaartoe creëren we samen. Als opdrachtgever zelf de regie én het succes in handen.</p>
+                  <p>LEF! werkt in-company: de context en de management agenda bepalen het doel, ik ontwerp de aanpak. De weg ernaartoe creëren we samen. Als opdrachtgever zelf de regie én het succes in handen.</p>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@
             <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 bg-white">
               <div class="box">
                 <h4>Aanpak: ik maak me zo snel mogelijk weer misbaar</h4>
-                <p>Samen met de opdrachtgever kijk ik wat de werkelijke vraag achter de vraag is. In de analyse integreer ik de bovenstroom -de strategie, klantprocessen, rollen, IT, kortom de aspecten van de bedrijfsvoering- met de onderstroom: mindset, feitelijk gedrag en het leiderschap. Verenigen van het zichtbare met het onzichtbare. Zo kom ik snel tot de essentie van het probleem, voorbij de symptomen. Dan is het vaak verrassend eenvoudig, komt los wat vast zit en gaat het weer stromen. Dat proces doorlopen we samen, op basis van de kennis en de kwaliteiten in de organisatie. En ja, daar hoort zelfreflectie en uit de comfortzone komen bij. De opdrachtgever houdt altijd de regie en creëert het eigen succes. Dat is de kern van mijn aanpak: de opdrachtgever sterker maken.</p>
+                <p>Samen met de opdrachtgever kijk ik wat de werkelijke vraag achter de vraag is: het herdefiniëren van het probleem. In de analyse integreer ik de bovenstroom -de strategie, klantprocessen, rollen, IT, kortom de aspecten van de bedrijfsvoering- met de onderstroom: houding, feitelijk gedrag en het leiderschap. Verenigen van het zichtbare met het onzichtbare. Zo kom ik snel tot de essentie van het probleem, voorbij de symptomen. Dan is het vaak verrassend eenvoudig, komt los wat vast zit en gaat het weer stromen. Dat proces doorlopen we samen, op basis van de kennis en de kwaliteiten in de organisatie. En ja, daar hoort zelfreflectie en uit de comfortzone komen bij. De opdrachtgever houdt altijd de regie en creëert het eigen succes. Dat is de kern van mijn aanpak: de opdrachtgever sterker maken.</p>
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default {
 
 .bg-blue {
   background: $blue;
-  padding: 130px 80px 70px 80px;
+  padding: 130px 80px 30px 80px;
   h2 {
     color: white;
   }
@@ -159,7 +159,7 @@ export default {
 }
 
 h2 {
-  margin-bottom: 85px;
+  margin-bottom: 64px;
 }
 
 h3 {
@@ -179,7 +179,7 @@ h4 {
 
 .content-container {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 .container-image {
   padding-right: 24px;
@@ -228,7 +228,7 @@ h4 {
 
 @media (max-width: $screen-sm-min) {
   .bg-blue {
-    padding: 120px 32px 60px 32px;
+    padding: 64px 32px 0px 32px;
   }
 }
 
@@ -280,7 +280,7 @@ h4 {
 @media (max-width: 631px) {
   .content-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 64px;
     padding: 0 !important;
   }
   .container-image {
@@ -293,7 +293,7 @@ h4 {
 @media (max-width: $screen-sm-min) {
   .bg-white {
     .box {
-      padding: 64px 32px 120px 32px;
+      padding: 64px 32px;
     }
   }
 }

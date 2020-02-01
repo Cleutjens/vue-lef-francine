@@ -45,8 +45,10 @@
     </div>
     <a href="#" v-scroll-to="{ el: '#diensten', offset: -100 }">
       <div class="hero-arrow">
-        <div class="mouse">
-          <div class="scroll"></div>
+        <div class="box pulse">
+          <div class="arrow">
+            <img src="../assets/arrow-hero.svg" alt="arrow-down" />
+          </div>
         </div>
       </div>
     </a>
@@ -94,20 +96,6 @@ video {
   overflow: hidden;
 }
 
-// .video-filter-bottom {
-//   position: absolute;
-//   overflow: hidden;
-//   background: linear-gradient(
-//     0deg,
-//     rgba(10, 10, 10, 1) 0%,
-//     rgba(9, 10, 10, 1) 0%,
-//     rgba(8, 9, 9, 0) 100%
-//   );
-//   height: 600px;
-//   width: 100%;
-//   bottom: 0%;
-// }
-
 .video-filter-top {
   position: absolute;
   background-image: linear-gradient(
@@ -138,7 +126,18 @@ video {
 
 @media (max-width: $screen-sm-min) {
   .hero-content {
-    padding: 92px 32px;
+    padding: 64px 32px;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  video {
+    display: none;
+  }
+  .hero-video-container {
+    background-image: url(../assets/lef-hero-bg-2.jpg);
+    background-position: 18% center;
+    background-size: cover;
   }
 }
 
@@ -171,7 +170,7 @@ h1 {
 
 @media (max-width: $screen-sm-min) {
   h1 {
-    font-size: calc(48px + (1200vw - 3605px) / 1000);
+    font-size: calc(42px + (1200vw - 3605px) / 1000);
   }
 }
 
@@ -216,47 +215,77 @@ p.text-large {
   padding-top: 80px;
 }
 
-.mouse {
+@media (max-width: $screen-sm-min) {
+  .hero-arrow {
+    display: none;
+  }
+}
+
+.box {
   position: absolute;
   display: block;
-  width: 22px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
   bottom: 40px;
   left: 50%;
-  margin-left: -12px;
-  border-radius: 15px;
+  margin-left: -20px;
   border: 2px solid #ffc100;
   animation: intro 1s;
+  transition: 1s;
+
+  &:hover {
+    background: rgba(255, 193, 0, 0.35);
+    cursor: pointer;
+  }
 }
 
-.scroll {
-  display: block;
-  width: 4px;
-  height: 4px;
-  margin: 7px auto;
-  border-radius: 4px;
-  background: #eee;
-  animation: finger 2s infinite;
+.arrow {
+  img {
+    padding: 6px;
+  }
 }
 
-@keyframes intro {
-  0% {
-    opacity: 0;
-    transform: translateY(40px);
+.pulse {
+  animation: pulse 1.2s ease-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    box-shadow: 0 0 0 0.3em rgba(255, 193, 0, 0.35);
   }
   100% {
-    opacity: 1;
-    transform: translateY(0);
+    box-shadow: 0 0 0 0.6em rgba(255, 193, 0, 0);
   }
 }
 
-@keyframes finger {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-}
+// .scroll {
+//   display: block;
+//   width: 4px;
+//   height: 4px;
+//   margin: 7px auto;
+//   border-radius: 4px;
+//   background: #eee;
+//   animation: finger 2s infinite;
+// }
+
+// @keyframes intro {
+//   0% {
+//     opacity: 0;
+//     transform: translateY(40px);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
+
+// @keyframes finger {
+//   0% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 0;
+//     transform: translateY(20px);
+//   }
+// }
 </style>

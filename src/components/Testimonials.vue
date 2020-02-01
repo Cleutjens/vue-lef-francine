@@ -42,6 +42,9 @@
               </div>
             </div>
           </div>
+          <div class="mobile-controls">
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -59,6 +62,19 @@
             </div>
           </div>
         </swiper-slide>
+        <swiper-slide>
+          <div class="TestimonialCard talentcare">
+            <div class="TestimonialContent">
+              <img src="../assets/talentcare-logo.svg" alt />
+              <p
+                class="testimonial-text"
+              >“Francine heeft ons geholpen ons bedrijf naar de volgende fase te brengen. Ze heeft ons als directie en management team uitgedaagd, gecoacht en enorm veel geleerd. Van marketing- en salesstrategie tot implementatie in de bedrijfsvoering en op het HR vlak.”</p>
+              <!-- Francine heb ik ervaren als pragmatisch, betrokken en authentiek. En ze is ook gewoon heel erg leuk om mee te werken. Je voelt dat er echt iemand naast je staat als ondernemer! -->
+              <p class="name">Stefan Ottenbros</p>
+              <p class="title">Oprichter en eigenaar TalentCare</p>
+            </div>
+          </div>
+        </swiper-slide>
         <swiper-slide class="tupperware-slide">
           <div class="TestimonialCard tupperware">
             <div class="TestimonialContent">
@@ -68,23 +84,6 @@
               >“Onze organisatie staat voor een aantal impactvolle veranderingen. We zijn als managementteam in 2 dagen intensief én met veel humor begeleid om daar beter sturing aan te kunnen geven. De interventies waren eenvoudig, inzicht gevend, direct toepasbaar en erg leuk om te doen!”</p>
               <p class="name">Manager</p>
               <p class="title">Tupperware</p>
-            </div>
-          </div>
-        </swiper-slide>
-        <!-- <swiper-slide>
-          <div class="TestimonialCard tupperware-img">
-            <div class="TestimonialContent"></div>
-          </div>
-        </swiper-slide>-->
-        <swiper-slide>
-          <div class="TestimonialCard campina">
-            <div class="TestimonialContent">
-              <img src="../assets/Campina-logo.svg" alt />
-              <p
-                class="testimonial-text"
-              >“Francine heeft mij zelf laten (her)ontdekken wat voor mij belangrijk is en hoe ik op mijn eigen wijze impact kan hebben. Ik heb weer plezier in wat ik doe en voel me krachtig. Het coaching traject was het begin van een nieuwe fase in mijn leven. Ik weet hoe ik wil dat mijn leven er over vijf jaar uit ziet. En het blijft niet bij dromen en plannen maken, het wordt al werkelijkheid!”</p>
-              <p class="name">Petra Schildmeijer</p>
-              <p class="title">Projectmanager FC</p>
             </div>
           </div>
         </swiper-slide>
@@ -100,6 +99,11 @@
             </div>
           </div>
         </swiper-slide>
+        <!-- <swiper-slide>
+          <div class="TestimonialCard tupperware-img">
+            <div class="TestimonialContent"></div>
+          </div>
+        </swiper-slide>-->
         <swiper-slide>
           <div class="TestimonialCard zijerveld">
             <div class="TestimonialContent">
@@ -113,21 +117,22 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="TestimonialCard talentcare">
+          <div class="TestimonialCard campina">
             <div class="TestimonialContent">
-              <img src="../assets/talentcare-logo.svg" alt />
+              <img src="../assets/Campina-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >“Francine heeft ons geholpen ons bedrijf naar de volgende fase te brengen. Ze heeft ons als directie en management team uitgedaagd, gecoacht en enorm veel geleerd. Van marketing- en salesstrategie tot implementatie in de bedrijfsvoering en op het HR vlak.”</p>
-              <!-- Francine heb ik ervaren als pragmatisch, betrokken en authentiek. En ze is ook gewoon heel erg leuk om mee te werken. Je voelt dat er echt iemand naast je staat als ondernemer! -->
-              <p class="name">Stefan Ottenbros</p>
-              <p class="title">Oprichter en eigenaar TalentCare</p>
+              >“Francine heeft mij zelf laten (her)ontdekken wat voor mij belangrijk is en hoe ik op mijn eigen wijze impact kan hebben. Ik heb weer plezier in wat ik doe en voel me krachtig. Het coaching traject was het begin van een nieuwe fase in mijn leven. Ik weet hoe ik wil dat mijn leven er over vijf jaar uit ziet. En het blijft niet bij dromen en plannen maken, het wordt al werkelijkheid!”</p>
+              <p class="name">Petra Schildmeijer</p>
+              <p class="title">Projectmanager FC</p>
             </div>
           </div>
         </swiper-slide>
-        <div class="swiper-pagination"></div>
       </swiper>
     </div>
+    <!-- <div class="swiper-testimonial-controls">
+      <div class="swiper-pagination"></div>
+    </div>-->
   </div>
 </template>
 
@@ -150,6 +155,11 @@ export default {
         navigation: {
           nextEl: ".next",
           prevEl: ".previous"
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+          clickable: true
         }
       }
     };
@@ -192,12 +202,13 @@ export default {
 }
 
 .rabobank {
-  background: white;
+  background: $blue;
+  color: white;
 }
 
 .tupperware {
-  background: #a21c19;
-  color: white;
+  background: #eee;
+  color: $black;
 }
 
 .tupperware-img {
@@ -234,6 +245,8 @@ export default {
 }
 
 .campina {
+  background: $blue;
+  color: white;
   img {
     height: 32px;
   }
@@ -243,7 +256,7 @@ export default {
 }
 
 .overheid {
-  background: $blue;
+  background: $red;
   color: white;
   img {
     height: 48px;
@@ -254,6 +267,7 @@ export default {
 }
 
 .zijerveld {
+  background: #eee;
   img {
     height: 32px;
   }
@@ -263,12 +277,12 @@ export default {
 }
 
 .talentcare {
-  background: $black;
+  background: $red;
   color: white;
 }
 
 .testimonial-text {
-  padding: 64px 0 32px 0;
+  padding: 40px 0 32px 0;
 }
 
 @media (max-width: $screen-lg-min) {
@@ -276,7 +290,7 @@ export default {
     padding: 0 64px;
   }
   .TestimonialCard {
-    padding: 40px 64px;
+    padding: 64px 64px;
     min-height: 380px;
   }
   .TestimonialContent {
@@ -293,7 +307,10 @@ export default {
     min-height: 380px;
   }
   .testimonials {
-    padding: 60px 0 40px 0;
+    padding: 0;
+  }
+  h2 {
+    font-size: calc(32px + (1200vw - 3600px) / 1300);
   }
 }
 
@@ -371,6 +388,23 @@ h3 {
     margin-top: 32px;
   }
 }
+
+@media (max-width: $screen-sm-min) {
+  .button-wrap {
+    display: none;
+  }
+}
+
+.swiper-pagination-bullet .swiper-pagination-bullet-active {
+  background: pink !important;
+}
+
+// .swiper-pagination {
+//   // display: block;
+//   // position: absolute;
+//   background: pink;
+//   z-index: 9999;
+// }
 
 // @media (max-width: $screen-sm-min) {
 //   .tupperware-slide {

@@ -9,6 +9,7 @@
 @import "@/global-styles/typography.scss";
 @import "@/global-styles/reset.scss";
 @import "@/global-styles/breakpoints.scss";
+@import "@/global-styles/swiper.scss";
 
 body,
 html {

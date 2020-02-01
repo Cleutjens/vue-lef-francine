@@ -21,7 +21,7 @@
           <div class="row">
             <div class="col-sm-6 method-block">
               <h3 class="allcaps">Reinventing Ourselves & Organizations</h3>
-              <p>Transformatie van mensen = transformatie van organisaties. Vanuit bewustwording, betekenis & verbinding met de veranderende context van de organisatie. Pionieren voor leiders.</p>
+              <p>Transformatie van organisaties = transformatie van mensen. Vanuit bewustwording, betekenis & verbinding. Intern en extern: de veranderende context van de organisatie. Pionieren nieuwe stijl.</p>
             </div>
             <div class="col-sm-6 method-block">
               <h3 class="allcaps">Appreciative Inquiry</h3>
@@ -73,7 +73,7 @@ export default {
 @import "@/global-styles/flexgrid.scss";
 
 h2 {
-  margin-bottom: 85px;
+  margin-bottom: 64px;
 }
 
 h3 {
@@ -94,12 +94,16 @@ p {
   max-width: 480px;
 }
 
+img {
+  padding-bottom: 130px;
+}
+
 .no-padding {
   padding: 0;
 }
 
 .method-block {
-  margin-bottom: 86px;
+  margin-bottom: 130px;
 }
 
 .bg-grey {
@@ -114,7 +118,7 @@ p {
 
 @media (max-width: 767px) {
   .method-block {
-    margin-bottom: 48px;
+    margin-bottom: 64px;
   }
 }
 
@@ -139,14 +143,16 @@ p {
 
 @media (max-width: $screen-sm-min) {
   .bg-grey {
-    padding: 100px 32px 60px 32px;
+    padding: 64px 32px 0 32px;
   }
   .bg-white {
-    padding: 60px 32px 0 32px;
+    padding: 64px 32px 0 32px;
   }
-}
-
-img {
-  padding-bottom: 85px;
+  img {
+    padding-bottom: 64px;
+  }
+  h4 {
+    margin-bottom: 64px;
+  }
 }
 </style>

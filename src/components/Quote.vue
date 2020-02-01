@@ -3,7 +3,94 @@
     <div class="ticker-wrap">
       <div class="ticker">
         <div class="ticker__item">
-          <p class="text-xl">“Out of the comfort zone is where the magic happens”</p>
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
+        </div>
+        <div class="ticker__item">
+          <p class="text-xl">Out of the comfort zone is where the magic happens...</p>
         </div>
       </div>
     </div>
@@ -20,7 +107,7 @@ export default {
 * {
   box-sizing: border-box;
 }
-$duration: 30s;
+$duration: 400s;
 
 @-webkit-keyframes ticker {
   0% {
