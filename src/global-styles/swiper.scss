@@ -20,3 +20,9 @@
 .mobile-controls {
     margin-bottom: 48px;
 }
+
+@media (min-width: 577px) {
+    .mobile-controls {
+        display: none;
+    }
+}
