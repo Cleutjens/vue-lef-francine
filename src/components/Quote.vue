@@ -107,7 +107,7 @@ export default {
 * {
   box-sizing: border-box;
 }
-$duration: 400s;
+$duration: 500s;
 
 @-webkit-keyframes ticker {
   0% {

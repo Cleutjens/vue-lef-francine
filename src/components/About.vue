@@ -1,6 +1,6 @@
 <template>
   <div class="about" id="overlef">
-    <div class="container-fluid">
+    <div class="container-fluid about-desktop">
       <div class="row middle-xs image-container" style="background-color: black;">
         <div class="image-wrapper"></div>
         <div class="col-lg-8 col-md-12">
@@ -63,8 +63,17 @@
         <div class="col-md-12 center-xs img-mobile">
           <img src="../assets/francine-2.png" alt />
         </div>
-        <!-- </div> -->
-        <!-- </div> -->
+      </div>
+    </div>
+
+    <div class="container-fluid about-mobile">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12 francine-about-text">
+          <h4>Over Francine</h4>
+          <p>Ik weet hoe het is om aan het roer te staan van de verandering. De druk, de verantwoordelijkheid, het ploeteren. En het kan zoveel soepeler. Ik heb gezien en ervaren wat er gebeurt als mensen in hun kracht gaan staan en hun potentieel vol inzetten. Grenzen verleggen. Grootse dingen bereiken. Voor klanten en met elkaar. Dat is de kern van LEF: Leadership Empowerment Facilitation.</p>
+          <p>Verwacht het onverwachte. Met positieve én confronterende interventies. Ik ben dol op grootse dromen, de dynamiek van teams in verandering en de energie explosies die daarbij vrij komen. Met humor, liefde en lef. Omdat ik niet anders wil. Omdat het werkt.</p>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 francine-about-image"></div>
       </div>
     </div>
   </div>
@@ -82,6 +91,74 @@ export default {
 @import "@/global-styles/breakpoints.scss";
 @import "@/global-styles/flexgrid.scss";
 
+.about-mobile {
+  background: black;
+}
+
+.francine-about-image {
+  min-height: 400px;
+  background: url(../assets/francine-2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center bottom;
+}
+
+.francine-about-text {
+  padding: 80px;
+}
+
+@media (max-width: $screen-lg-min) {
+  .francine-about-text {
+    padding: 64px;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .francine-about-text {
+    padding: 64px 32px;
+  }
+  .francine-about-image {
+    height: 280px;
+    background-size: cover;
+    background-position: center bottom;
+    background-size: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .francine-about-image {
+    height: 500px;
+    background-size: cover;
+    background-position: center bottom;
+    background-size: 67%;
+  }
+}
+
+@media (max-width: 600px) {
+  .francine-about-image {
+    height: 400px;
+    background-size: cover;
+    background-position: center bottom;
+    background-size: 67%;
+  }
+}
+
+@media (max-width: 500px) {
+  .francine-about-image {
+    height: 400px;
+    background-size: cover;
+    background-position: center bottom;
+    background-size: 80%;
+  }
+}
+
+@media (max-width: $screen-xs-min) {
+  .francine-about-image {
+    height: 180px;
+    background-size: 96%;
+  }
+}
+
 .features {
   padding-left: 80px;
 }
@@ -89,6 +166,12 @@ export default {
 @media (max-width: $screen-lg-min) {
   .features {
     padding-left: 64px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-mobile {
+    display: none;
   }
 }
 
@@ -193,6 +276,9 @@ img {
 }
 
 @media (max-width: $screen-xl-min) {
+  .about-desktop {
+    display: none;
+  }
   .features {
     display: none;
   }

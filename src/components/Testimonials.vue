@@ -241,8 +241,8 @@ export default {
 }
 
 .tupperware {
-  background: #eee;
-  color: $black;
+  background: $red;
+  color: white;
 }
 
 .tupperware-img {
@@ -279,7 +279,7 @@ export default {
 }
 
 .campina {
-  background: $blue;
+  background: $red;
   color: white;
   img {
     height: 32px;
@@ -290,7 +290,7 @@ export default {
 }
 
 .overheid {
-  background: $red;
+  background: $blue;
   color: white;
   img {
     height: 48px;
@@ -301,7 +301,7 @@ export default {
 }
 
 .zijerveld {
-  background: #eee;
+  background: white;
   img {
     height: 32px;
   }
@@ -311,8 +311,8 @@ export default {
 }
 
 .talentcare {
-  background: $red;
-  color: white;
+  background: white;
+  color: $black;
 }
 
 .testimonial-text {
