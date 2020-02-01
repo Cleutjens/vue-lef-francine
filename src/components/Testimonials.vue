@@ -76,19 +76,18 @@
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide>
+        <!-- <swiper-slide>
           <div class="TestimonialCard dll">
             <div class="TestimonialContent">
               <img src="../assets/dll-logo.svg" alt />
               <p
                 class="testimonial-text"
               >"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus esse illum dignissimos officia porro hic ipsa ab assumenda magnam, maiores ipsam repellat aspernatur quasi, quis corporis ipsum reiciendis voluptates eius ullam, commodi inventore ut. Aliquam et nesciunt officia nisi debitis!"</p>
-              <!-- Francine heb ik ervaren als pragmatisch, betrokken en authentiek. En ze is ook gewoon heel erg leuk om mee te werken. Je voelt dat er echt iemand naast je staat als ondernemer! -->
               <p class="name">Manager</p>
               <p class="title">Operations DLL</p>
             </div>
           </div>
-        </swiper-slide>
+        </swiper-slide>-->
         <swiper-slide class="tupperware-slide">
           <div class="TestimonialCard tupperware">
             <div class="TestimonialContent">
@@ -98,18 +97,6 @@
               >“Onze organisatie staat voor een aantal impactvolle veranderingen. We zijn als managementteam in 2 dagen intensief én met veel humor begeleid om daar beter sturing aan te kunnen geven. De interventies waren eenvoudig, inzicht gevend, direct toepasbaar en erg leuk om te doen!”</p>
               <p class="name">Manager</p>
               <p class="title">Tupperware</p>
-            </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="TestimonialCard overheid">
-            <div class="TestimonialContent">
-              <img src="../assets/overheid-logo.svg" alt />
-              <p
-                class="testimonial-text"
-              >“Francine brengt de veiligheid om op tafel te krijgen wat nodig en waardevol is. Met humor, scherpte en een goed gevoel voor timing. Aan de hand van de dagelijkse praktijk en onze belangrijke thema’s zijn de kwaliteiten én het groeipotentieel van het team in onze organisatie besproken. Een frisse start, wat ik wilde!”</p>
-              <p class="name">Manager</p>
-              <p class="title">Ministerie van Sociale Zaken en Werkgelegenheid</p>
             </div>
           </div>
         </swiper-slide>
@@ -127,6 +114,18 @@
               >“Na de start up maakt onze business een snelle groei door. Met de hulp van Francine en de aangedragen tools groeien wijzelf ook, zowel op individueel als teamniveau.”</p>
               <p class="name">Francesco Gribling</p>
               <p class="title">Manager Sales Zijerveld</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="TestimonialCard overheid">
+            <div class="TestimonialContent">
+              <img src="../assets/overheid-logo.svg" alt />
+              <p
+                class="testimonial-text"
+              >“Francine brengt de veiligheid om op tafel te krijgen wat nodig en waardevol is. Met humor, scherpte en een goed gevoel voor timing. Aan de hand van de dagelijkse praktijk en onze belangrijke thema’s zijn de kwaliteiten én het groeipotentieel van het team in onze organisatie besproken. Een frisse start, wat ik wilde!”</p>
+              <p class="name">Manager</p>
+              <p class="title">Ministerie van Sociale Zaken en Werkgelegenheid</p>
             </div>
           </div>
         </swiper-slide>
@@ -279,8 +278,8 @@ export default {
 }
 
 .campina {
-  background: $red;
-  color: white;
+  background: white;
+  color: $black;
   img {
     height: 32px;
   }

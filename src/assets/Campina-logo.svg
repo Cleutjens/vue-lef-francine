@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 200 33" style="enable-background:new 0 0 200 33;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#fff;}
+	<!-- .st0{fill:#fff;}
 	.st1{fill:none;}
 	.st2{fill:#fff;}
 	.st3{fill:#fff;}
@@ -15,8 +15,8 @@
 	.st9{fill:#fff;}
 	.st10{fill:#fff;}
 	.st11{fill:#fff;}
-	.st12{fill:#fff;}
-	<!-- .st0{fill:#0094D9;}
+	.st12{fill:#fff;} -->
+	.st0{fill:#0094D9;}
 	.st1{fill:#FFFFFF;}
 	.st2{fill:#A2D39B;}
 	.st3{fill:#39B54A;}
@@ -28,7 +28,7 @@
 	.st9{fill:#FDC689;}
 	.st10{fill:#F7931E;}
 	.st11{fill:#F69679;}
-	.st12{fill:#ED1C24;} -->
+	.st12{fill:#ED1C24;}
 </style>
 <title>Asset 1</title>
 <path class="st0" d="M158.2,18.7c0.7,0.2,1.5-0.3,1.7-1s-0.3-1.5-1-1.7s-1.5,0.3-1.7,1c0,0.2,0,0.4,0,0.6
