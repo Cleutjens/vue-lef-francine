@@ -44,6 +44,7 @@
           </div>
           <div class="mobile-controls">
             <div class="swiper-pagination"></div>
+            <div id="numberSlides" class="numberSlides"></div>
           </div>
         </div>
       </div>
@@ -72,6 +73,19 @@
               <!-- Francine heb ik ervaren als pragmatisch, betrokken en authentiek. En ze is ook gewoon heel erg leuk om mee te werken. Je voelt dat er echt iemand naast je staat als ondernemer! -->
               <p class="name">Stefan Ottenbros</p>
               <p class="title">Oprichter en eigenaar TalentCare</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="TestimonialCard dll">
+            <div class="TestimonialContent">
+              <img src="../assets/dll-logo.svg" alt />
+              <p
+                class="testimonial-text"
+              >"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus esse illum dignissimos officia porro hic ipsa ab assumenda magnam, maiores ipsam repellat aspernatur quasi, quis corporis ipsum reiciendis voluptates eius ullam, commodi inventore ut. Aliquam et nesciunt officia nisi debitis!"</p>
+              <!-- Francine heb ik ervaren als pragmatisch, betrokken en authentiek. En ze is ook gewoon heel erg leuk om mee te werken. Je voelt dat er echt iemand naast je staat als ondernemer! -->
+              <p class="name">Manager</p>
+              <p class="title">Operations DLL</p>
             </div>
           </div>
         </swiper-slide>
@@ -160,6 +174,21 @@ export default {
           el: ".swiper-pagination",
           type: "bullets",
           clickable: true
+        },
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true
+        },
+        runCallbacksOnInit: true,
+        onInit: function(sw) {
+          var offer = document.querySelector("#numberSlides");
+          offer.innerHTML =
+            sw.activeIndex + 1 + "/" + sw.slides.length + "Offers";
+        },
+        onSlideChangeEnd: function(sw) {
+          var offer = document.querySelector("#numberSlides");
+          offer.innerHTML =
+            sw.activeIndex + 1 + "/" + sw.slides.length + "Offers";
         }
       }
     };
@@ -173,7 +202,7 @@ export default {
 @import "@/global-styles/flexgrid.scss";
 
 .testimonials {
-  padding: 130px 0 40px 0;
+  padding: 98px 0 0px 0;
 }
 
 .swiper-button-disabled {
@@ -202,6 +231,11 @@ export default {
 }
 
 .rabobank {
+  background: $blue;
+  color: white;
+}
+
+.dll {
   background: $blue;
   color: white;
 }

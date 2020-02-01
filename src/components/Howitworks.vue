@@ -89,6 +89,34 @@
         </swiper>
       </div>
     </div>
+    <div class="mobile-swipe-wrapper">
+      <div class="container timeline-container">
+        <div class="row mobile-flex">
+          <ul class="timeline-ul">
+            <li class="handshake-mobile">
+              <img src="../assets/handshake-icon.svg" alt class="img-mobile" />
+              <p class="numbers">1</p>
+              <p class="subtitle">Persoonlijk intake gesprek</p>
+            </li>
+            <li class="handshake-mobile">
+              <img src="../assets/brief-icon.svg" alt class="img-mobile" />
+              <p class="numbers">2</p>
+              <p class="subtitle">Debrief opdracht en offerte</p>
+            </li>
+            <li class="handshake-mobile">
+              <img src="../assets/unlock-icon.svg" alt class="img-mobile" />
+              <p class="numbers">3</p>
+              <p class="subtitle">Ontwerp maatwerk programma</p>
+            </li>
+            <li class="handshake-mobile">
+              <img src="../assets/rocket-icon.svg" alt class="img-mobile" />
+              <p class="numbers">4</p>
+              <p class="subtitle last-text">Start versnelling</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -129,7 +157,6 @@ export default {
 .container {
   padding: 0px 80px;
   margin-top: 130px;
-  margin-bottom: 65px;
   text-align: center;
 }
 
@@ -137,18 +164,20 @@ export default {
   .container {
     padding: 0px 64px;
     text-align: left;
+    margin-top: 64px;
   }
 }
 
 @media (max-width: $screen-sm-min) {
   .container {
     padding: 0px 32px;
+    margin-top: 64px;
   }
 }
 
 .swipe-wrapper {
   padding: 0 80px;
-  margin-bottom: 127px;
+  margin-bottom: 80px;
 }
 
 @media (max-width: $screen-lg-min) {
@@ -170,7 +199,7 @@ export default {
 }
 
 .timeline-block {
-  padding-top: 80px;
+  padding-top: 85px;
   padding-bottom: 80px;
 }
 
@@ -197,6 +226,20 @@ p.number {
   color: $white;
   width: 24px;
   height: 20px;
+  z-index: 100;
+}
+
+p.numbers {
+  display: inline-block;
+  position: relative;
+  font-weight: 900;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 4px;
+  background: #bf0000;
+  color: $white;
+  width: 24px;
+  height: 24px;
   z-index: 100;
 }
 
@@ -383,6 +426,80 @@ p.subtitle {
 @media (max-width: $screen-sm-min) {
   .timeline-step4 {
     margin-left: 32px;
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .mobile-swipe-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: $screen-md-min) {
+  .swipe-wrapper {
+    display: none;
+  }
+}
+
+.img-mobile {
+  display: inline-block;
+  width: 64px;
+  object-fit: contain;
+  align-self: flex-start;
+  margin-right: 24px;
+}
+
+.handshake-mobile {
+  max-width: 100%;
+  display: flex;
+}
+
+.mobile-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  li {
+    margin-bottom: 48px;
+  }
+
+  .timeline-ul {
+    margin-bottom: 50px;
+  }
+
+  p.subtitle {
+    max-width: 240px;
+  }
+}
+
+.timeline-container {
+  margin-top: 40px;
+}
+
+p.subtitle {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 24px;
+  max-width: 180px;
+}
+
+p.last-text {
+  margin-top: 20px;
+}
+
+p.numbers {
+  margin-top: 20px;
+}
+
+.mt-64 {
+  margin-top: 64px;
+}
+
+@media (max-width: 400px) {
+  .mobile-flex {
+    img {
+      display: none;
+    }
   }
 }
 

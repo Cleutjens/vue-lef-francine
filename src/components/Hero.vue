@@ -241,7 +241,7 @@ p.text-large {
 
 .arrow {
   img {
-    padding: 6px;
+    padding: 8px;
   }
 }
 
