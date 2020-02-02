@@ -495,7 +495,14 @@ p.numbers {
   margin-top: 64px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
+  .img-mobile {
+    width: 48px;
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 374px) {
   .mobile-flex {
     img {
       display: none;
