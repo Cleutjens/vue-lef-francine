@@ -73,7 +73,7 @@ export default {
 @import "@/global-styles/flexgrid.scss";
 
 h2 {
-  margin-bottom: 64px;
+  margin-bottom: 85px;
 }
 
 h3 {

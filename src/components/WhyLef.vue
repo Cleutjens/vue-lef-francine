@@ -159,7 +159,7 @@ export default {
 }
 
 h2 {
-  margin-bottom: 64px;
+  margin-bottom: 85px;
 }
 
 h3 {
