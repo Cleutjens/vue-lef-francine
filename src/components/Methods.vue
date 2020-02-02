@@ -125,16 +125,28 @@ img {
 @media (max-width: 1199px) {
   .bg-grey {
     background-color: white;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
   }
   .bg-white {
     padding-top: 0;
+  }
+  img {
+    padding-bottom: 40px;
   }
 }
 
 @media (max-width: $screen-lg-min) {
   .bg-grey {
-    padding: 120px 64px 60px 64px;
+    padding: 0 64px;
+  }
+  .bg-white {
+    padding: 60px 64px 0 64px;
+  }
+}
+
+@media (max-width: $screen-md-min) {
+  .bg-grey {
+    padding: 120px 64px 0px 64px;
   }
   .bg-white {
     padding: 60px 64px 0 64px;
