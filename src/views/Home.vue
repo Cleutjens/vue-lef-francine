@@ -2,7 +2,7 @@
   <div class="home">
     <Navigation />
     <Hero />
-    <ServiceBlocks />
+    <Services />
     <Quote />
     <WhyLef />
     <Methods />
@@ -17,7 +17,7 @@
 // @ is an alias to /src
 import Navigation from "@/components/Navigation.vue";
 import Hero from "@/components/Hero.vue";
-import ServiceBlocks from "@/components/ServiceBlocks.vue";
+import Services from "@/components/Services.vue";
 import Quote from "@/components/Quote.vue";
 import WhyLef from "@/components/WhyLef.vue";
 import Methods from "@/components/Methods.vue";
@@ -31,7 +31,7 @@ export default {
   components: {
     Navigation,
     Hero,
-    ServiceBlocks,
+    Services,
     Quote,
     WhyLef,
     Methods,

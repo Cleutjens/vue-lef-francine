@@ -212,7 +212,6 @@ p.text-large {
 
 .hero-arrow {
   display: block;
-  padding-top: 80px;
 }
 
 @media (max-width: $screen-sm-min) {
