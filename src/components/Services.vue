@@ -252,7 +252,7 @@ export default {
 $padding-global: 120px;
 
 .sticky-container {
-  padding: 64px;
+  padding: 80px;
   padding-top: $padding-global;
   padding-bottom: 200px;
   h2 {

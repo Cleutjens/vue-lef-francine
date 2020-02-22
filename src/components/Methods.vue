@@ -137,7 +137,7 @@ img {
 
 @media (max-width: $screen-lg-min) {
   .bg-grey {
-    padding: 0 64px;
+    padding: 120px 64px;
   }
   .bg-white {
     padding: 60px 64px 0 64px;
