@@ -133,7 +133,7 @@ export default {
 }
 
 .bg-grey {
-  background: #eeeeee;
+  background: $grey;
 
   .box {
     padding: 80px;

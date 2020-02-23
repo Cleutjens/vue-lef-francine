@@ -107,7 +107,7 @@ img {
 }
 
 .bg-grey {
-  background: #eee;
+  background: $grey;
   padding: 130px 80px 30px 80px;
 }
 

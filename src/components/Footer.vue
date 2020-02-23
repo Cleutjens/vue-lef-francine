@@ -87,7 +87,7 @@ a {
 }
 
 .bg-grey {
-  background: #eee;
+  background: $grey;
   padding: 130px 80px 168px 80px;
 }
 

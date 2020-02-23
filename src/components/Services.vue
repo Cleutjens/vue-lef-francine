@@ -304,7 +304,7 @@ $padding-global-2: 80px;
 }
 
 .grey {
-  background: #111;
+  background: #010b1a;
 }
 
 .red {
