@@ -57,7 +57,7 @@
               <img src="../assets/dll-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus esse illum dignissimos officia porro hic ipsa ab assumenda magnam, maiores ipsam repellat aspernatur quasi, quis corporis ipsum reiciendis voluptates eius ullam, commodi inventore ut. Aliquam et nesciunt officia nisi debitis!"</p>
+              >"Door de scherpte op te zoeken en door te vragen, heeft Francine snel inzicht in de complexiteit van de materie en van de organisatie. Zij duidt de patronen, zowel formeel als informeel. De positief kritische blik van buiten, gecombineerd met ieders kwaliteiten in ons eigen team, geeft versnelling. Wat dit oplevert? Al binnen enkele weken zijn de eerste tekenen van verandering van mindset zichtbaar. Ik ben zeer tevreden met dit resultaat"</p>
               <p class="name">Manager</p>
               <p class="title">Operations DLL</p>
             </div>
@@ -236,7 +236,7 @@ export default {
 }
 
 .rabobank {
-  background: $blue;
+  background: #222;
   color: white;
 }
 
