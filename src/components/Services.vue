@@ -61,7 +61,7 @@
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 92 141"
-                  fill="#fec600"
+                  fill="#fff"
                 >
                   <defs>
                     <path
@@ -96,7 +96,7 @@
               </div>
             </div>
           </div>
-          <div class="service-card red">
+          <div class="service-card blue">
             <div class="quote">
               <h2
                 class="c-white"
@@ -141,7 +141,7 @@
             </div>
           </div>
 
-          <div class="service-card blue">
+          <div class="service-card grey">
             <div class="quote">
               <h2
                 class="c-white"
@@ -186,17 +186,17 @@
             </div>
           </div>
 
-          <div class="service-card grey">
+          <div class="service-card blue">
             <div class="quote">
               <h2
-                class
+                class="c-white"
               >“We hebben tijdelijke een senior manager nodig op een keerpunt voor de organisatie. Zeker geen ja-knikker en tegelijk is draagvlak cruciaal.”</h2>
               <div class="arrow">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 92 141"
-                  fill="#fec600"
+                  fill="#fff"
                 >
                   <defs>
                     <path
@@ -221,11 +221,11 @@
               </div>
             </div>
             <div class="service transparant">
-              <p class="title">Dienst:</p>
+              <p class="title c-yellow">Dienst:</p>
               <div class="description">
-                <h3 class>Interim Management</h3>
+                <h3 class="c-white">Interim Management</h3>
                 <p
-                  class
+                  class="c-white"
                 >Paradoxen managen: de pijnpunten aanpakken én de mensen meekrijgen. Geen advies, maar het verschil maken in de praktijk.</p>
               </div>
             </div>
@@ -261,7 +261,7 @@ $padding-global-2: 80px;
   padding-top: $padding-global;
   padding-bottom: 200px;
   h2.sticky-title {
-    max-width: 400px;
+    max-width: 480px;
     font-weight: 900;
     line-height: 120%;
     position: sticky;
