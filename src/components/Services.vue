@@ -2,10 +2,10 @@
   <div id="diensten">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 col-lg-4 col-xs-12 sticky-container">
-          <h2>Elke klant&shy;vraag is uniek. Het antwoord dus ook.</h2>
+        <div class="col-md-5 col-lg-5 col-xs-12 sticky-container">
+          <h2 class="sticky-title">Elke klant&shy;vraag is uniek. Het antwoord dus ook.</h2>
         </div>
-        <div class="col-md-7 col-lg-8 col-xs-12 cards-container p-0">
+        <div class="col-md-7 col-lg-7 col-xs-12 cards-container p-0">
           <div class="service-card blue">
             <div class="quote">
               <h2
@@ -54,7 +54,7 @@
           <div class="service-card grey">
             <div class="quote">
               <h2
-                class
+                class="c-white"
               >"Mijn managementteam bestaat uit toppers. Maar het vliegt niet. De rem moet eraf."</h2>
               <div class="arrow">
                 <svg
@@ -87,11 +87,11 @@
             </div>
 
             <div class="service transparant">
-              <p class="title">Dienst:</p>
+              <p class="title c-yellow">Dienst:</p>
               <div class="description">
-                <h3 class>Leiderschap &amp; Samenwerking</h3>
+                <h3 class="c-white">Leiderschap &amp; Samenwerking</h3>
                 <p
-                  class
+                  class="c-white"
                 >High Performance Teams creëren. Intensief en uitdagend programma, waarbij teamleden concrete handvatten krijgen om optimaal bij te dragen aan de organisatiedoelstellingen.</p>
               </div>
             </div>
@@ -237,6 +237,12 @@
 </template>
 
 <script>
+import stickybits from "stickybits";
+
+stickybits("sticky-title", {
+  useStickyClasses: true
+});
+
 export default {
   name: "Services"
 };
@@ -254,18 +260,19 @@ $padding-global-2: 80px;
   padding: 80px;
   padding-top: $padding-global;
   padding-bottom: 200px;
-  h2 {
+  h2.sticky-title {
     max-width: 400px;
     font-weight: 900;
     line-height: 120%;
     position: sticky;
-    top: 40%;
+    position: -webkit-sticky;
+    top: 24%;
     font-size: calc(30px + (26 - 14) * (100vw - 300px) / (1600 - 300));
   }
 }
 
 .service-card {
-  margin-bottom: 80px;
+  margin-bottom: 0;
   h2 {
     font-size: 35px;
     line-height: 130%;
@@ -276,9 +283,9 @@ $padding-global-2: 80px;
 .service {
   display: flex;
   align-items: top;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0);
   padding: $padding-global $padding-global-2 $padding-global $padding-global;
-  margin-top: -120px;
+  margin-top: -160px;
   p {
     display: inline-block;
   }
@@ -288,7 +295,7 @@ $padding-global-2: 80px;
 }
 
 .arrow {
-  padding-top: 24px;
+  padding-top: 48px;
   width: 84px;
 }
 
@@ -297,7 +304,7 @@ $padding-global-2: 80px;
 }
 
 .grey {
-  background: #eee;
+  background: #111;
 }
 
 .red {
@@ -397,7 +404,7 @@ $padding-global-2: 80px;
   }
 
   .service-card {
-    margin-bottom: 40px;
+    margin-bottom: 0;
   }
 
   .quote {
