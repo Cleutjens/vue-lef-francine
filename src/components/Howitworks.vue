@@ -36,10 +36,10 @@
     </div>
   </div>-->
   <div class="howitworks">
-    <div class="container-fluid">
+    <div class="container-fluid noselect">
       <div class="container">
         <div class="col-xs">
-          <h2>Hoe het werkt</h2>
+          <h2 class="noselect">Hoe het werkt</h2>
         </div>
       </div>
     </div>
@@ -49,7 +49,7 @@
           <swiper-slide>
             <div class="timeline-block timeline-step1">
               <div class="handshake">
-                <img src="../assets/handshake-icon.svg" alt />
+                <img src="../assets/handshake-icon.svg" alt="handshake" class="noselect" />
                 <p class="number number-first">1</p>
                 <hr />
                 <p class="subtitle">Persoonlijk intake gesprek</p>
@@ -241,6 +241,16 @@ p.numbers {
   width: 24px;
   height: 24px;
   z-index: 100;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 }
 
 hr {
