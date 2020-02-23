@@ -10,7 +10,7 @@
           </div>
           <div class="row">
             <div class="col-sm-6 method-block">
-              <h3 class="allcaps">Systemisch</h3>
+              <h3 class="allcaps">Systemisch Perspectief</h3>
               <p>De organisatie als systeem met eigen patronen en dynamieken. Weerstand is te voorspellen en dus te managen. Anders dan verwacht, maar met minder inspanning en sneller resultaat.</p>
             </div>
             <div class="col-sm-6 method-block">

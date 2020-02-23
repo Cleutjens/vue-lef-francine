@@ -52,14 +52,14 @@
     <div class="swiper-container">
       <swiper :options="swiperOptions">
         <swiper-slide>
-          <div class="TestimonialCard rabobank">
+          <div class="TestimonialCard dll">
             <div class="TestimonialContent">
-              <img src="../assets/rabobank-logo.svg" alt />
+              <img src="../assets/dll-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >"Als directievoorzitter heb ik Francine meerdere malen gevraagd als begeleider op te treden binnen het management/directieteam van de bank, omdat ze ons steeds echt verder bracht. Zij treedt doortastend op, draait niet om relevante gevoelige onderwerpen heen en speelt goed in op onderstromen.</p>
-              <p class="name">P. Konijnenburg</p>
-              <p class="title">Voormalig directievoorzitter Rabobank</p>
+              >"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus esse illum dignissimos officia porro hic ipsa ab assumenda magnam, maiores ipsam repellat aspernatur quasi, quis corporis ipsum reiciendis voluptates eius ullam, commodi inventore ut. Aliquam et nesciunt officia nisi debitis!"</p>
+              <p class="name">Manager</p>
+              <p class="title">Operations DLL</p>
             </div>
           </div>
         </swiper-slide>
@@ -76,18 +76,18 @@
             </div>
           </div>
         </swiper-slide>
-        <!-- <swiper-slide>
-          <div class="TestimonialCard dll">
+        <swiper-slide>
+          <div class="TestimonialCard rabobank">
             <div class="TestimonialContent">
-              <img src="../assets/dll-logo.svg" alt />
+              <img src="../assets/rabobank-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus esse illum dignissimos officia porro hic ipsa ab assumenda magnam, maiores ipsam repellat aspernatur quasi, quis corporis ipsum reiciendis voluptates eius ullam, commodi inventore ut. Aliquam et nesciunt officia nisi debitis!"</p>
-              <p class="name">Manager</p>
-              <p class="title">Operations DLL</p>
+              >"Als directievoorzitter heb ik Francine meerdere malen gevraagd als begeleider op te treden binnen het management/directieteam van de bank, omdat ze ons steeds echt verder bracht. Zij treedt doortastend op, draait niet om relevante gevoelige onderwerpen heen en speelt goed in op onderstromen.</p>
+              <p class="name">P. Konijnenburg</p>
+              <p class="title">Voormalig directievoorzitter Rabobank</p>
             </div>
           </div>
-        </swiper-slide>-->
+        </swiper-slide>
         <swiper-slide class="tupperware-slide">
           <div class="TestimonialCard tupperware">
             <div class="TestimonialContent">
