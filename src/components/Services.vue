@@ -54,14 +54,14 @@
           <div class="service-card grey">
             <div class="quote">
               <h2
-                class="c-white"
+                class
               >"Mijn managementteam bestaat uit toppers. Maar het vliegt niet. De rem moet eraf."</h2>
               <div class="arrow">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 92 141"
-                  fill="#fff"
+                  fill="#fec600"
                 >
                   <defs>
                     <path
@@ -87,11 +87,11 @@
             </div>
 
             <div class="service transparant">
-              <p class="title c-yellow">Dienst:</p>
+              <p class="title">Dienst:</p>
               <div class="description">
-                <h3 class="c-white">Leiderschap &amp; Samenwerking</h3>
+                <h3 class>Leiderschap &amp; Samenwerking</h3>
                 <p
-                  class="c-white"
+                  class
                 >High Performance Teams creëren. Intensief en uitdagend programma, waarbij teamleden concrete handvatten krijgen om optimaal bij te dragen aan de organisatiedoelstellingen.</p>
               </div>
             </div>
@@ -144,14 +144,14 @@
           <div class="service-card grey">
             <div class="quote">
               <h2
-                class="c-white"
+                class
               >“Ik werk steeds harder en harder. Hoe doorbreek ik dit én blijf ik succesvol?”</h2>
               <div class="arrow">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 92 141"
-                  fill="#fff"
+                  fill="#fec600"
                 >
                   <defs>
                     <path
@@ -176,11 +176,11 @@
               </div>
             </div>
             <div class="service">
-              <p class="title c-yellow">Dienst:</p>
-              <div class="description c-white">
+              <p class="title">Dienst:</p>
+              <div class="description">
                 <h3 class>Executive Coaching</h3>
                 <p
-                  class="c-white"
+                  class
                 >Zet de automatische piloot uit met 1 op 1 coaching. Biedt nieuw perspectief op de context en de eigen rol. Helpt patronen en blokkades doorbreken. Jezelf opnieuw uitvinden.</p>
               </div>
             </div>
@@ -304,7 +304,7 @@ $padding-global-2: 80px;
 }
 
 .grey {
-  background: #010b1a;
+  background: $grey;
 }
 
 .red {
@@ -313,6 +313,10 @@ $padding-global-2: 80px;
 
 .c-yellow {
   color: $yellow;
+}
+
+.c-black {
+  color: $black;
 }
 
 .c-white {
