@@ -2,18 +2,15 @@
   <div id="diensten">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 col-xs-12 sticky-container">
-          <h2>
-            Elke klantvraag is uniek.
-            <br />Het antwoord dus ook.
-          </h2>
+        <div class="col-md-5 col-lg-4 col-xs-12 sticky-container">
+          <h2>Elke klant&shy;vraag is uniek. Het antwoord dus ook.</h2>
         </div>
-        <div class="col-md-7 col-xs-12 cards-container p-0">
+        <div class="col-md-7 col-lg-8 col-xs-12 cards-container p-0">
           <div class="service-card blue">
             <div class="quote">
               <h2
                 class="c-white"
-              >"Digitalisering en regulering domineren onze veranderagenda. We willen snel, maar het verloopt moeizaam. Help ons.."</h2>
+              >"Digitalisering en regulering domineren onze verander&shy;agenda. We willen snel, maar het verloopt moeizaam. Help ons.."</h2>
               <div class="arrow">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -193,7 +190,7 @@
             <div class="quote">
               <h2
                 class
-              >“Ik werk steeds harder en harder. Hoe doorbreek ik dit én blijf ik succesvol?”</h2>
+              >“We hebben tijdelijke een senior manager nodig op een keerpunt voor de organisatie. Zeker geen ja-knikker en tegelijk is draagvlak cruciaal.”</h2>
               <div class="arrow">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -226,10 +223,10 @@
             <div class="service transparant">
               <p class="title">Dienst:</p>
               <div class="description">
-                <h3 class>Executive Coaching</h3>
+                <h3 class>Interim Management</h3>
                 <p
                   class
-                >Zet de automatische piloot uit met 1 op 1 coaching. Biedt nieuw perspectief op de context en de eigen rol. Helpt patronen en blokkades doorbreken. Jezelf opnieuw uitvinden.</p>
+                >Paradoxen managen: de pijnpunten aanpakken én de mensen meekrijgen. Geen advies, maar het verschil maken in de praktijk.</p>
               </div>
             </div>
           </div>
@@ -248,8 +245,10 @@ export default {
 <style lang="scss" scoped>
 @import "@/global-styles/flexgrid.scss";
 @import "@/global-styles/colors.scss";
+@import "@/global-styles/breakpoints.scss";
 
 $padding-global: 120px;
+$padding-global-2: 80px;
 
 .sticky-container {
   padding: 80px;
@@ -261,6 +260,7 @@ $padding-global: 120px;
     line-height: 120%;
     position: sticky;
     top: 40%;
+    font-size: calc(30px + (26 - 14) * (100vw - 300px) / (1600 - 300));
   }
 }
 
@@ -277,6 +277,8 @@ $padding-global: 120px;
   display: flex;
   align-items: top;
   background: rgba(0, 0, 0, 0.2);
+  padding: $padding-global $padding-global-2 $padding-global $padding-global;
+  margin-top: -120px;
   p {
     display: inline-block;
   }
@@ -285,8 +287,58 @@ $padding-global: 120px;
   }
 }
 
-.transparant {
-  background: rgba(0, 0, 0, 0);
+@media (max-width: $screen-xl-min) {
+  .service {
+    margin-top: -120px;
+  }
+
+  .sticky-container {
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .service-card {
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
+
+.quote {
+  padding: $padding-global $padding-global 80px $padding-global;
+
+  h2 {
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .sticky-container {
+    padding: 80px;
+  }
+
+  .quote {
+    padding: 80px;
+  }
+
+  .service {
+    padding: 80px;
+  }
+}
+
+@media (max-width: $screen-lg-min) {
+  .sticky-container {
+    padding: 64px;
+  }
+
+  .quote {
+    padding: 64px;
+  }
+
+  .service {
+    padding: 64px;
+  }
 }
 
 .description {
@@ -300,6 +352,49 @@ $padding-global: 120px;
   }
 }
 
+@media (max-width: $screen-sm-min) {
+  .sticky-container {
+    padding: 48px 32px;
+  }
+
+  .service-card {
+    margin-bottom: 40px;
+  }
+
+  .quote {
+    padding: 48px 32px 32px 32px;
+
+    h2 {
+      font-size: 24px;
+    }
+
+    .arrow {
+      width: 64px;
+    }
+  }
+
+  .service {
+    padding: 80px 32px;
+    margin-top: -80px;
+  }
+
+  .description {
+    h3 {
+      font-size: 24px;
+      line-height: 110%;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+.transparant {
+  background: rgba(0, 0, 0, 0);
+}
+
 p.title {
   text-transform: uppercase;
   font-weight: 800;
@@ -307,22 +402,9 @@ p.title {
   line-height: 21px;
 }
 
-.quote {
-  padding: $padding-global $padding-global 0 $padding-global;
-
-  h2 {
-    margin-left: -4px;
-  }
-}
-
 .arrow {
   padding-top: 24px;
   width: 84px;
-}
-
-.service {
-  padding: 80px 0 $padding-global $padding-global;
-  margin-top: -48px;
 }
 
 .blue {
