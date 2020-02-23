@@ -3,7 +3,10 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-5 col-lg-5 col-xs-12 sticky-container">
-          <h2 class="sticky-title">Elke klant&shy;vraag is uniek. Het antwoord dus ook.</h2>
+          <h2 class="sticky-title">
+            Elke klant&shy;vraag is uniek.
+            <br />Het antwoord dus ook.
+          </h2>
         </div>
         <div class="col-md-7 col-lg-7 col-xs-12 cards-container p-0">
           <div class="service-card blue">
@@ -287,6 +290,7 @@ $padding-global-2: 80px;
   padding: $padding-global $padding-global-2 $padding-global $padding-global;
   margin-top: -160px;
   p {
+    font-size: 20px;
     display: inline-block;
   }
   h3 {
@@ -363,7 +367,7 @@ $padding-global-2: 80px;
 
   p {
     max-width: 500px;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 16px;
   }
 }
