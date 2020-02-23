@@ -222,7 +222,7 @@ p.number {
   padding-top: 4px;
   margin-top: 48px;
   margin-bottom: 48px;
-  background: #bf0000;
+  background: $red;
   color: $white;
   width: 24px;
   height: 20px;
@@ -236,7 +236,7 @@ p.numbers {
   text-align: center;
   font-size: 12px;
   padding-top: 4px;
-  background: #bf0000;
+  background: $red;
   color: $white;
   width: 24px;
   height: 24px;

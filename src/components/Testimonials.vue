@@ -58,8 +58,8 @@
               <p
                 class="testimonial-text"
               >"Door de scherpte op te zoeken en door te vragen, heeft Francine snel inzicht in de complexiteit van de materie en van de organisatie. Zij duidt de patronen, zowel formeel als informeel. De positief kritische blik van buiten, gecombineerd met ieders kwaliteiten in ons eigen team, geeft versnelling. Wat dit oplevert? Al binnen enkele weken zijn de eerste tekenen van verandering van mindset zichtbaar. Ik ben zeer tevreden met dit resultaat"</p>
-              <p class="name">Manager</p>
-              <p class="title">Operations DLL</p>
+              <p class="name">Hans van der Linden</p>
+              <p class="title">Vicepresident Finance DLL</p>
             </div>
           </div>
         </swiper-slide>
