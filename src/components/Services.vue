@@ -287,6 +287,39 @@ $padding-global-2: 80px;
   }
 }
 
+.arrow {
+  padding-top: 24px;
+  width: 84px;
+}
+
+.blue {
+  background: $blue;
+}
+
+.grey {
+  background: #eee;
+}
+
+.red {
+  background: $red;
+}
+
+.c-yellow {
+  color: $yellow;
+}
+
+.c-white {
+  color: white;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
 @media (max-width: $screen-xl-min) {
   .service {
     margin-top: -120px;
@@ -310,6 +343,17 @@ $padding-global-2: 80px;
 
   h2 {
     margin-left: -4px;
+  }
+}
+
+.description {
+  padding-left: 40px;
+  margin-top: -12px;
+
+  p {
+    max-width: 500px;
+    font-size: 22px;
+    margin-top: 16px;
   }
 }
 
@@ -339,16 +383,11 @@ $padding-global-2: 80px;
   .service {
     padding: 64px;
   }
-}
 
-.description {
-  padding-left: 40px;
-  margin-top: -12px;
-
-  p {
-    max-width: 500px;
-    font-size: 22px;
-    margin-top: 16px;
+  .description {
+    p {
+      font-size: 20px;
+    }
   }
 }
 
@@ -382,7 +421,7 @@ $padding-global-2: 80px;
     h3 {
       font-size: 24px;
       line-height: 110%;
-      margin-top: 0;
+      margin-top: 8px;
     }
 
     p {
@@ -402,36 +441,16 @@ p.title {
   line-height: 21px;
 }
 
-.arrow {
-  padding-top: 24px;
-  width: 84px;
-}
-
-.blue {
-  background: $blue;
-}
-
-.grey {
-  background: #eee;
-}
-
-.red {
-  background: $red;
-}
-
-.c-yellow {
-  color: $yellow;
-}
-
-.c-white {
-  color: white;
-}
-
-.m-0 {
-  margin: 0;
-}
-
-.p-0 {
-  padding: 0;
+@media (max-width: $screen-xs-min) {
+  .service {
+    display: block;
+    p.title {
+      display: inline;
+    }
+  }
+  .description {
+    margin-top: 16px;
+    padding-left: 0;
+  }
 }
 </style>
