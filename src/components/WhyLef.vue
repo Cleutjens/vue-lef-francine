@@ -89,7 +89,8 @@
                   Samen met u en uw team analyseer ik het werkelijke probleem achter de vraag. Voorbij de symptomen, zodat we snel tot de kern komen. In mijn aanpak integreer ik de bovenstroom (beleid, targets, context, klantprocessen en IT) met de onderstroom (cultuur, leiderschap, gedrag).
                   <br />
                   <br />Samen identificeren kansen voor nieuwe grootse mogelijkheden, op basis van de aanwezige kennis, waarden en kwaliteiten in de organisatie. Door al deze inzichten zijn de vervolgstappen vaak verrassend eenvoudig in praktijk te brengen. Met minder inspanning meer bereiken. <br><br> Elke klantvraag is uniek. Het antwoord dus ook. De combinatie van het “hard en zacht” van verandering, maakt dat het werkt. Met training en coaching bied ik desgewenst directie en management de aanvullende vaardigheden om de verandering op eigen kracht voort te zetten.
-                </p>
+                </p><br>
+                <p>Certificeringen: ACC, MBTI, Rake vragen , Valuematch, Systemisch Transitiemngt</p>
               </div>
             </div>
           </div>
