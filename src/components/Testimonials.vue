@@ -64,18 +64,6 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="TestimonialCard rabobank">
-            <div class="TestimonialContent">
-              <img src="../assets/rabobank-logo.svg" alt />
-              <p
-                class="testimonial-text"
-              >"Als directievoorzitter heb ik Francine meerdere malen gevraagd als begeleider op te treden binnen het management/directieteam van de bank, omdat ze ons steeds echt verder bracht. Zij treedt doortastend op, draait niet om relevante gevoelige onderwerpen heen en speelt goed in op onderstromen. Zij heeft het lef om nog niet gebaande wegen te bewandelen en weet snel resultaat te bereiken. Het was altijd plezierig om met Francine samen te werken"</p>
-              <p class="name">P. Konijnenburg</p>
-              <p class="title">Voormalig directievoorzitter Rabobank</p>
-            </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
           <div class="TestimonialCard talentcare">
             <div class="TestimonialContent">
               <img src="../assets/talentcare-logo.svg" alt />
@@ -84,6 +72,18 @@
               >“Francine heeft ons geholpen ons bedrijf naar de volgende fase te brengen. Ze heeft ons als directie en management team uit gedaagd, gecoacht en enorm veel geleerd. Van marketing- en salesstrategie tot implementatie in de bedrijfsvoering en op HR vlak. Francine heb ik ervaren als pragmatisch, betrokken en authentiek. Steeds onder de indruk hoeveel concrete resultaten ze oplevert voor onze organisatie. En ze is ook gewoon heel erg leuk om mee te werken. Je voelt dat er echt iemand naast je staat als ondernemer!”</p>
               <p class="name">Stefan Ottenbros</p>
               <p class="title">Oprichter en eigenaar TalentCare</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="TestimonialCard rabobank">
+            <div class="TestimonialContent">
+              <img src="../assets/rabobank-logo.svg" alt />
+              <p
+                class="testimonial-text"
+              >"Als directievoorzitter heb ik Francine meerdere malen gevraagd als begeleider op te treden binnen het management/directieteam van de bank, omdat ze ons steeds echt verder bracht. Zij treedt doortastend op, draait niet om relevante gevoelige onderwerpen heen en speelt goed in op onderstromen. Zij heeft het lef om nog niet gebaande wegen te bewandelen en weet snel resultaat te bereiken. Het was altijd plezierig om met Francine samen te werken"</p>
+              <p class="name">P. Konijnenburg</p>
+              <p class="title">Voormalig directievoorzitter Rabobank</p>
             </div>
           </div>
         </swiper-slide>
@@ -99,20 +99,15 @@
             </div>
           </div>
         </swiper-slide>
-        <!-- <swiper-slide>
-          <div class="TestimonialCard tupperware-img">
-            <div class="TestimonialContent"></div>
-          </div>
-        </swiper-slide>-->
         <swiper-slide>
-          <div class="TestimonialCard overheid">
+          <div class="TestimonialCard campina">
             <div class="TestimonialContent">
-              <img src="../assets/overheid-logo.svg" alt />
+              <img src="../assets/Campina-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >“Francine brengt de veiligheid om op tafel te krijgen wat nodig en waardevol is. Met humor, scherpte en een goed gevoel voor timing. Aan de hand van de dagelijkse praktijk en onze belangrijke thema’s zijn de kwaliteiten én het groeipotentieel van het team in onze organisatie besproken. Een frisse start, precies wat ik wilde!”</p>
-              <p class="name">Manager</p>
-              <p class="title">Ministerie van Sociale Zaken en Werkgelegenheid</p>
+              >“Francine heeft mij zelf laten (her)ontdekken wat voor mij belangrijk is en hoe ik op mijn eigen wijze impact kan hebben. Ik heb weer plezier in wat ik doe en voel me krachtig. Het coaching traject was het begin van een nieuwe fase in mijn leven. Ik weet hoe ik wil dat mijn leven er over vijf jaar uit ziet. En het blijft niet bij dromen en plannen maken, het wordt al werkelijkheid!”</p>
+              <p class="name">Petra Schildmeijer</p>
+              <p class="title">Projectmanager FC</p>
             </div>
           </div>
         </swiper-slide>
@@ -129,14 +124,14 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="TestimonialCard campina">
+          <div class="TestimonialCard overheid">
             <div class="TestimonialContent">
-              <img src="../assets/Campina-logo.svg" alt />
+              <img src="../assets/overheid-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >“Francine heeft mij zelf laten (her)ontdekken wat voor mij belangrijk is en hoe ik op mijn eigen wijze impact kan hebben. Ik heb weer plezier in wat ik doe en voel me krachtig. Het coaching traject was het begin van een nieuwe fase in mijn leven. Ik weet hoe ik wil dat mijn leven er over vijf jaar uit ziet. En het blijft niet bij dromen en plannen maken, het wordt al werkelijkheid!”</p>
-              <p class="name">Petra Schildmeijer</p>
-              <p class="title">Projectmanager FC</p>
+              >“Francine brengt de veiligheid om op tafel te krijgen wat nodig en waardevol is. Met humor, scherpte en een goed gevoel voor timing. Aan de hand van de dagelijkse praktijk en onze belangrijke thema’s zijn de kwaliteiten én het groeipotentieel van het team in onze organisatie besproken. Een frisse start, precies wat ik wilde!”</p>
+              <p class="name">Manager</p>
+              <p class="title">Ministerie van Sociale Zaken en Werkgelegenheid</p>
             </div>
           </div>
         </swiper-slide>
@@ -235,13 +230,17 @@ export default {
 }
 
 .rabobank {
-  background: white;
-  color: $black;
+  background: $red;
+  color: white;
 }
 
 .dll {
   background: $blue;
   color: white;
+}
+
+.black {
+  background: $black;
 }
 
 .tupperware {
@@ -283,7 +282,7 @@ export default {
 }
 
 .campina {
-  background: $red;
+  background: $black;
   color: white;
   img {
     height: 32px;
@@ -315,8 +314,8 @@ export default {
 }
 
 .talentcare {
-  background: $red;
-  color: white;
+  background: $white;
+  color: $black;
 }
 
 .testimonial-text {
