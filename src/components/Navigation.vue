@@ -10,7 +10,7 @@
         <a href v-scroll-to="{ el: '#overlef', offset: 0 }" class="item scroll">Over LEF</a>
       </div>
       <div class="right">
-        <a class="item" href="#">NL</a>
+        <!-- <a class="item" href="#">NL</a> -->
         <a href v-scroll-to="{ el: '#contact', offset: 0 }" class="button-contact scroll">contact</a>
       </div>
     </div>
