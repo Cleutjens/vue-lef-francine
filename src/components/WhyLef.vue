@@ -16,7 +16,7 @@
                 </div>
                 <div class="container-text">
                   <h3>Beproefde methodes</h3>
-                  <p>Een aanpak gebaseerd op wetenschappelijke modellen en theorieën. Teruggebracht naar de kern en bewezen effectief in de praktijk. Geen leergang, maar concrete resultaten.</p>
+                  <p>Praktische aanpak gebaseerd op wetenschappelijke modellen en theorieën</p>
                 </div>
               </div>
             </div>
@@ -26,8 +26,8 @@
                   <img src="../assets/collab-icon.svg" alt />
                 </div>
                 <div class="container-text">
-                  <h3>Co-creatie</h3>
-                  <p>LEF! werkt in-company: de context en de management agenda bepalen het doel, ik ontwerp de aanpak. De weg ernaartoe creëren we samen. Als opdrachtgever zelf de regie én het succes in handen.</p>
+                  <h3>Bewezen effectief</h3>
+                  <p>Diepgaand én snel merkbare effecten. Check de ervaringen van klanten</p>
                 </div>
               </div>
             </div>
@@ -37,8 +37,8 @@
                   <img src="../assets/lead-icon.svg" alt />
                 </div>
                 <div class="container-text">
-                  <h3>Leiderschap 2.0</h3>
-                  <p>Vergroten van het bewustzijn. Versterken van onderlinge verbindingen. De vaardigheden om het te doen. Waardoor er méér mogelijk wordt, wat nu nog niet zichtbaar is. Grootsheid zit in iedereen.</p>
+                  <h3>Empowering</h3>
+                  <p>Uw team ontwikkelt de leiderschapsvaardigheden om zelf de verandering te continueren</p>
                 </div>
               </div>
             </div>
@@ -48,8 +48,8 @@
                   <img src="../assets/leap-icon.svg" alt />
                 </div>
                 <div class="container-text">
-                  <h3>Verrassend</h3>
-                  <p>Elke interventie is specifiek geschikt voor het doel. Leren, ervaren, prototypen, delen, reflecteren en toepassen. Verwacht het onverwachte: pionieren is uit de comfort zone stappen.</p>
+                  <h3>Maatwerk</h3>
+                  <p>Elk traject wordt ontworpen op basis van uw doelen, business context en actuele relevantie</p>
                 </div>
               </div>
             </div>
@@ -59,8 +59,8 @@
                   <img src="../assets/experience-icon.svg" alt />
                 </div>
                 <div class="container-text">
-                  <h3>Senior ervaring</h3>
-                  <p>Ruim 20 jaar ervaring in de corporate wereld op het gebied van strategie, marketing, compliance, HR, IT en productinnovatie. Als senior manager, programmamanager, interim, facilitator en coach.</p>
+                  <h3>SR Management ervaring</h3>
+                  <p>20+ jaar ervaring in verandermanagement, strategie, marketing, compliance, HR en IT projecten</p>
                 </div>
               </div>
             </div>
@@ -70,8 +70,8 @@
                   <img src="../assets/network-icon.svg" alt />
                 </div>
                 <div class="container-text">
-                  <h3>Netwerk Partners</h3>
-                  <p>Waar nodig werk ik met co-facilitators. Het netwerk bestaat uit ervaren senior managers en door de wol geverfde veranderaars in FMCG, food & agri, zorg, IT, onderwijs en financiële sector.</p>
+                  <h3>Gedurfd</h3>
+                  <p>Instant impact met humor, creativiteit, gedegen vakkennis en een onconventionele aanpak</p>
                 </div>
               </div>
             </div>
@@ -84,8 +84,12 @@
             </div>
             <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12 bg-white">
               <div class="box">
-                <h4>Aanpak: ik maak me zo snel mogelijk weer misbaar</h4>
-                <p>Samen met de opdrachtgever kijk ik wat de werkelijke vraag achter de vraag is: het herdefiniëren van het probleem. In de analyse integreer ik de bovenstroom -de strategie, klantprocessen, rollen, IT, kortom de aspecten van de bedrijfsvoering- met de onderstroom: houding, feitelijk gedrag en het leiderschap. Verenigen van het zichtbare met het onzichtbare. Zo kom ik snel tot de essentie van het probleem, voorbij de symptomen. Dan is het vaak verrassend eenvoudig, komt los wat vast zit en gaat het weer stromen. Dat proces doorlopen we samen, op basis van de kennis en de kwaliteiten in de organisatie. En ja, daar hoort zelfreflectie en uit de comfortzone komen bij. De opdrachtgever houdt altijd de regie en creëert het eigen succes. Dat is de kern van mijn aanpak: de opdrachtgever sterker maken.</p>
+                <h4>Ik laat een sterkere organisatie achter</h4>
+                <p>
+                  Samen met u en uw team analyseer ik het werkelijke probleem achter de vraag. Voorbij de symptomen, zodat we snel tot de kern komen. In mijn aanpak integreer ik de bovenstroom (beleid, targets, context, klantprocessen en IT) met de onderstroom (cultuur, leiderschap, gedrag).
+                  <br />
+                  <br />Samen identificeren kansen voor nieuwe grootse mogelijkheden, op basis van de aanwezige kennis, waarden en kwaliteiten in de organisatie. Door al deze inzichten zijn de vervolgstappen vaak verrassend eenvoudig in praktijk te brengen. Met minder inspanning meer bereiken. <br><br> Elke klantvraag is uniek. Het antwoord dus ook. De combinatie van het “hard en zacht” van verandering, maakt dat het werkt. Met training en coaching bied ik desgewenst directie en management de aanvullende vaardigheden om de verandering op eigen kracht voort te zetten.
+                </p>
               </div>
             </div>
           </div>

@@ -52,7 +52,7 @@
                 <img src="../assets/handshake-icon.svg" alt="handshake" class="noselect" />
                 <p class="number number-first">1</p>
                 <hr />
-                <p class="subtitle">Persoonlijk intake gesprek</p>
+                <p class="subtitle">Intake gesprek</p>
               </div>
             </div>
           </swiper-slide>
@@ -62,7 +62,7 @@
                 <img src="../assets/brief-icon.svg" alt />
                 <p class="number number-first">2</p>
                 <hr />
-                <p class="subtitle">Debrief opdracht en offerte</p>
+                <p class="subtitle">Debrief en offerte</p>
               </div>
             </div>
           </swiper-slide>
@@ -72,7 +72,7 @@
                 <img src="../assets/unlock-icon.svg" alt />
                 <p class="number number-first">3</p>
                 <hr />
-                <p class="subtitle">Ontwerp maatwerk programma</p>
+                <p class="subtitle">Ontwerp aanpak</p>
               </div>
             </div>
           </swiper-slide>

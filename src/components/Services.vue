@@ -3,17 +3,16 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-5 col-lg-5 col-xs-12 sticky-container">
-          <h2 class="sticky-title">
-            Elke klant&shy;vraag is uniek.
-            <br />Het antwoord dus ook.
-          </h2>
+          <h2
+            class="sticky-title"
+          >Management- en directieteams huren LEF in voor diverse vraag&shy;stukken</h2>
         </div>
         <div class="col-md-7 col-lg-7 col-xs-12 cards-container p-0">
           <div class="service-card blue">
             <div class="quote">
               <h2
                 class="c-white"
-              >"Digitalisering en regulering domineren onze verander&shy;agenda. We willen snel, maar het verloopt moeizaam. Help ons.."</h2>
+              >"Digitalisering en regulering domineren onze verander&shy;agenda. Het moet veel sneller!"</h2>
               <div class="arrow">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +49,7 @@
                 <h3 class="c-white">Organisatie transformatie</h3>
                 <p
                   class="c-white"
-                >Van analyse en ontwerp tot implementatie. Structuur en cultuur beide aangepakt, zonder duwen en trekken. Weerstand is te voorspellen en dus te managen.</p>
+                >Van analyse & ontwerp tot implementatie. Een integrale benadering waarbij zowel bovenstroom (visie, targets, IT en processen) als onderstroom (cultuur, leiderschap en motivatie) worden aangepakt. Hard én zacht gecombineerd voor resultaten met impact.</p>
               </div>
             </div>
           </div>
@@ -58,7 +57,7 @@
             <div class="quote">
               <h2
                 class
-              >"Mijn managementteam bestaat uit toppers. Maar het vliegt niet. De rem moet eraf."</h2>
+              >"Mijn managementteam bestaat uit toppers. Maar de resultaten staan onder druk…"</h2>
               <div class="arrow">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -92,18 +91,18 @@
             <div class="service transparant">
               <p class="title">Dienst:</p>
               <div class="description">
-                <h3 class>Leiderschap &amp; Samenwerking</h3>
+                <h3 class>High Performance Teams</h3>
                 <p
                   class
-                >High Performance Teams creëren. Intensief en uitdagend programma, waarbij teamleden concrete handvatten krijgen om optimaal bij te dragen aan de organisatiedoelstellingen.</p>
+                >Intensief en uitdagend programma, waarbij teams concrete handvatten krijgen om optimaal bij te dragen aan de organisatiedoelstellingen. Nu ook in hybride vorm; online en in veilige fysieke setting. Als u niet meer kunt wachten en wilt doorpakken.</p>
               </div>
             </div>
           </div>
-          <div class="service-card blue">
+          <div class="service-card red">
             <div class="quote">
               <h2
                 class="c-white"
-              >"Onze ambitie is om marktleider te worden. Op welke manieren kunnen we onze groei versnellen?"</h2>
+              >"Mijn normale aanpak leidt nu niet tot succes. Dood paard of dood spoor?"</h2>
               <div class="arrow">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -136,19 +135,17 @@
             <div class="service">
               <p class="title c-yellow">Dienst:</p>
               <div class="description c-white">
-                <h3 class>Strategie &amp; Marketing</h3>
+                <h3 class>Executive Coaching</h3>
                 <p
                   class="c-white"
-                >Van missie, positionering en segmentering tot herontwerp van klantreizen en nieuwe klantproposities. Van tekentafel tot implementatie en (online) marktbewerkingsplan.</p>
+                >Zet de automatische piloot uit met 1 op 1 coaching. Ontdek nieuw perspectief op de context en uw eigen rol. Doorbreek patronen en blokkades. Uitnodigend, explorerend en soms confronterend. En ja, daar hoort zelfreflectie en uit de comfortzone komen bij.</p>
               </div>
             </div>
           </div>
 
           <div class="service-card grey">
             <div class="quote">
-              <h2
-                class
-              >“Ik werk steeds harder en harder. Hoe doorbreek ik dit én blijf ik succesvol?”</h2>
+              <h2 class>Onze ambitie is marktleider te worden en onze groei te versnellen!</h2>
               <div class="arrow">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -181,19 +178,19 @@
             <div class="service">
               <p class="title">Dienst:</p>
               <div class="description">
-                <h3 class>Executive Coaching</h3>
+                <h3 class>Strategy &amp; Marketing</h3>
                 <p
                   class
-                >Zet de automatische piloot uit met 1 op 1 coaching. Biedt nieuw perspectief op de context en de eigen rol. Helpt patronen en blokkades doorbreken. Jezelf opnieuw uitvinden.</p>
+                >Van missie, positionering en segmentering tot herontwerp van klantreizen en nieuwe klantproposities. Waardecreatie en digitalisering door de hele keten. Focus op organisatiesterktes en groeipotentieel in de uitvoering. Durven en doen!</p>
               </div>
             </div>
           </div>
 
-          <div class="service-card blue">
+          <div class="service-card black">
             <div class="quote">
               <h2
                 class="c-white"
-              >“We hebben tijdelijke een senior manager nodig op een keerpunt voor de organisatie. Zeker geen ja-knikker en tegelijk is draagvlak cruciaal.”</h2>
+              >We zoeken een tijdelijke (project)manager die in complexe situaties het verschil maakt.</h2>
               <div class="arrow">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -229,7 +226,7 @@
                 <h3 class="c-white">Interim Management</h3>
                 <p
                   class="c-white"
-                >Paradoxen managen: de pijnpunten aanpakken én de mensen meekrijgen. Geen advies, maar het verschil maken in de praktijk.</p>
+                >In korte tijd de pijnpunten aanpakken én de mensen meekrijgen in de gewenste richting. Ook als de belangen tegengesteld lijken en er al veel is voorgevallen. Weerstand managen en de klus klaren, zodat de organisatie sterker staat voor de volgende fase.</p>
               </div>
             </div>
           </div>
@@ -313,6 +310,10 @@ $padding-global-2: 80px;
 
 .red {
   background: $red;
+}
+
+.black {
+  background: $black;
 }
 
 .c-yellow {

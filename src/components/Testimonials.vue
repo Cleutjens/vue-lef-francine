@@ -57,7 +57,7 @@
               <img src="../assets/dll-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >"Door de scherpte op te zoeken en door te vragen, heeft Francine snel inzicht in de complexiteit van de materie en van de organisatie. Zij duidt de patronen, zowel formeel als informeel. De positief kritische blik van buiten, gecombineerd met ieders kwaliteiten in ons eigen team, geeft versnelling. Wat dit oplevert? Al binnen enkele weken zijn de eerste tekenen van verandering van mindset zichtbaar. Ik ben zeer tevreden met dit resultaat"</p>
+              >“Door de scherpte op te zoeken en door te vragen, heeft Francine snel inzicht in de complexiteit van de materie en van de organisatie. Zij duidt de patronen, zowel formeel als informeel. De positief kritische blik van buiten, gecombineerd met ieders kwaliteiten in ons eigen team, geeft versnelling. Wat dit oplevert? Een doordachte en gedragen analyse en concreet plan van aanpak. Dat voeren we weer zelf agile uit. Al binnen enkele weken zijn de eerste tekenen van verandering van mindset zichtbaar. Ik ben zeer tevreden met dit resultaat”.</p>
               <p class="name">Hans van der Linden</p>
               <p class="title">Vicepresident Finance DLL</p>
             </div>
@@ -69,7 +69,7 @@
               <img src="../assets/rabobank-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >"Als directievoorzitter heb ik Francine meerdere malen gevraagd als begeleider op te treden binnen het management/directieteam van de bank, omdat ze ons steeds echt verder bracht. Zij treedt doortastend op, draait niet om relevante gevoelige onderwerpen heen en speelt goed in op onderstromen.</p>
+              >"Als directievoorzitter heb ik Francine meerdere malen gevraagd als begeleider op te treden binnen het management/directieteam van de bank, omdat ze ons steeds echt verder bracht. Zij treedt doortastend op, draait niet om relevante gevoelige onderwerpen heen en speelt goed in op onderstromen. Zij heeft het lef om nog niet gebaande wegen te bewandelen en weet snel resultaat te bereiken. Het was altijd plezierig om met Francine samen te werken"</p>
               <p class="name">P. Konijnenburg</p>
               <p class="title">Voormalig directievoorzitter Rabobank</p>
             </div>
@@ -81,8 +81,7 @@
               <img src="../assets/talentcare-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >“Francine heeft ons geholpen ons bedrijf naar de volgende fase te brengen. Ze heeft ons als directie en management team uitgedaagd, gecoacht en enorm veel geleerd. Van marketing- en salesstrategie tot implementatie in de bedrijfsvoering en op het HR vlak.”</p>
-              <!-- Francine heb ik ervaren als pragmatisch, betrokken en authentiek. En ze is ook gewoon heel erg leuk om mee te werken. Je voelt dat er echt iemand naast je staat als ondernemer! -->
+              >“Francine heeft ons geholpen ons bedrijf naar de volgende fase te brengen. Ze heeft ons als directie en management team uit gedaagd, gecoacht en enorm veel geleerd. Van marketing- en salesstrategie tot implementatie in de bedrijfsvoering en op HR vlak. Francine heb ik ervaren als pragmatisch, betrokken en authentiek. Steeds onder de indruk hoeveel concrete resultaten ze oplevert voor onze organisatie. En ze is ook gewoon heel erg leuk om mee te werken. Je voelt dat er echt iemand naast je staat als ondernemer!”</p>
               <p class="name">Stefan Ottenbros</p>
               <p class="title">Oprichter en eigenaar TalentCare</p>
             </div>
@@ -94,9 +93,9 @@
               <img src="../assets/tupperware-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >“Onze organisatie staat voor een aantal impactvolle veranderingen. We zijn als managementteam in 2 dagen intensief én met veel humor begeleid om daar beter sturing aan te kunnen geven. De interventies waren eenvoudig, inzicht gevend, direct toepasbaar en erg leuk om te doen!”</p>
+              >“Onze organisatie staat voor een aantal impactvolle veranderingen. Het hele managementteam is in 2 dagen intensief begeleid om daar beter sturing aan te kunnen geven. De interventies waren eenvoudig, inzicht gevend en direct toepasbaar in de praktijk. Er wordt goed op onze wensen ingespeeld. Het heeft ons focus en meer cohesie in het MT gebracht. Het leiderschap programma is al twee jaar op rij een groot succes.”</p>
               <p class="name">Manager</p>
-              <p class="title">Tupperware</p>
+              <p class="title">Tupperware Duitsland</p>
             </div>
           </div>
         </swiper-slide>
@@ -111,7 +110,7 @@
               <img src="../assets/overheid-logo.svg" alt />
               <p
                 class="testimonial-text"
-              >“Francine brengt de veiligheid om op tafel te krijgen wat nodig en waardevol is. Met humor, scherpte en een goed gevoel voor timing. Aan de hand van de dagelijkse praktijk en onze belangrijke thema’s zijn de kwaliteiten én het groeipotentieel van het team in onze organisatie besproken. Een frisse start, wat ik wilde!”</p>
+              >“Francine brengt de veiligheid om op tafel te krijgen wat nodig en waardevol is. Met humor, scherpte en een goed gevoel voor timing. Aan de hand van de dagelijkse praktijk en onze belangrijke thema’s zijn de kwaliteiten én het groeipotentieel van het team in onze organisatie besproken. Een frisse start, precies wat ik wilde!”</p>
               <p class="name">Manager</p>
               <p class="title">Ministerie van Sociale Zaken en Werkgelegenheid</p>
             </div>
@@ -123,7 +122,7 @@
               <img src="../assets/zijerveld-logo.png" alt />
               <p
                 class="testimonial-text"
-              >“Na de start up maakt onze business een snelle groei door. Met de hulp van Francine en de aangedragen tools groeien wijzelf ook, zowel op individueel als teamniveau.”</p>
+              >“Na de start up maakt onze business een snelle groei door. Met de hulp van Francine en de aangedragen tools, zoals MBTI, groeien wijzelf ook, zowel op individueel als teamniveau.”</p>
               <p class="name">Francesco Gribling</p>
               <p class="title">Manager Sales Zijerveld</p>
             </div>
@@ -258,7 +257,7 @@ export default {
 .TestimonialCard {
   position: relative;
   overflow: hidden;
-  min-height: 380px;
+  min-height: 420px;
   padding: 80px 80px 40px 80px;
   cursor: move; /* fallback if grab cursor is unsupported */
   cursor: grab;

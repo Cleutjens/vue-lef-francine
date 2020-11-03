@@ -16,9 +16,10 @@
             </div>
             <div class="col-lg policy-info">
               <h3 class="company-info">Bedrijfsinformatie</h3>
+              <p class="mb">KvK 67864481, gevestigd te Zeist</p>
               <a href="<%= BASE_URL %>Algemene-voorwaarden-LEF!.pdf">Algemene voorwaarden</a>
               <a href="../../public/Algemene-voorwaarden-LEF!.pdf">Privacy verklaring</a>
-              <p>KvK 67864481, gevestigd te Zeist</p>
+              <a href="https://www.linkedin.com/in/francine-de-bruyckere-geerts-0923485/">LinkedIn</a>
             </div>
           </div>
         </div>
@@ -62,6 +63,10 @@ h4 {
 p {
   font-size: 16px;
   padding-right: 40px;
+}
+
+.mb {
+  margin-bottom: 10px
 }
 
 a {

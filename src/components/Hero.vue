@@ -40,7 +40,7 @@
           class="text-large color-white"
           data-aos="fade-up"
           data-aos-duration="1200"
-        >LEF faciliteert directie- en managementteams in organisatie transformatie. Maakt los wat vast zit en opent de deur naar ongekende mogelijkheden.</p>
+        >LEF faciliteert directie- en managementteams in organisatie transformatie.</p>
       </div>
     </div>
     <a href="#" v-scroll-to="{ el: '#diensten', offset: -100 }">

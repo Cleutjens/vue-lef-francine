@@ -57,8 +57,9 @@
         </div>
         <div class="col-lg-4 col-xs-12 no-padding about-text">
           <h4>Over Francine</h4>
-          <p>Ik weet hoe het is om aan het roer te staan van de verandering. De druk, de verantwoordelijkheid, het ploeteren. En het kan zoveel soepeler. Ik heb gezien en ervaren wat er gebeurt als mensen in hun kracht gaan staan en hun potentieel vol inzetten. Grenzen verleggen. Grootse dingen bereiken. Voor klanten en met elkaar. Dat is de kern van LEF: Leadership Empowerment Facilitation.</p>
-          <p>Verwacht het onverwachte. Met positieve én confronterende interventies. Ik ben dol op grootse dromen, de dynamiek van teams in verandering en de energie explosies die daarbij vrij komen. Met humor, liefde en lef. Omdat ik niet anders wil. Omdat het werkt.</p>
+          <p>Ik weet hoe het is om aan het roer te staan van de verandering. Of het nou gaat om digitalisering, agile of klassiek projectmanagement, nieuwe regelgeving implementeren of het verbeteren van de klantervaring. Leiderschap in deze tijd vraagt luisteren, richting geven, kaders scheppen, verbinding en voorbeeldgedrag. Doen wat er nodig is. Voorbij wat gangbaar is. Dat vraagt LEF!</p>
+          <p>Ik heb ervaren wat er mogelijk wordt als mensen hun talenten vol durven inzetten. Grenzen verleggen. Grootse dingen bereiken. Voor klanten en met elkaar. Dat is LEF: Leadership Empowerment Facilitation.</p>
+          <p>Ik ben dol op grootse dromen, de dynamiek van teams in verandering en de energie explosies die daarbij vrij komen. Met humor, liefde en lef. Omdat ik niet anders wil. Omdat het werkt.</p>
         </div>
         <div class="col-md-12 center-xs img-mobile">
           <img src="../assets/francine-2.png" alt />
@@ -70,8 +71,9 @@
       <div class="row">
         <div class="col-md-6 col-sm-6 col-xs-12 francine-about-text">
           <h4>Over Francine</h4>
-          <p>Ik weet hoe het is om aan het roer te staan van de verandering. De druk, de verantwoordelijkheid, het ploeteren. En het kan zoveel soepeler. Ik heb gezien en ervaren wat er gebeurt als mensen in hun kracht gaan staan en hun potentieel vol inzetten. Grenzen verleggen. Grootse dingen bereiken. Voor klanten en met elkaar. Dat is de kern van LEF: Leadership Empowerment Facilitation.</p>
-          <p>Verwacht het onverwachte. Met positieve én confronterende interventies. Ik ben dol op grootse dromen, de dynamiek van teams in verandering en de energie explosies die daarbij vrij komen. Met humor, liefde en lef. Omdat ik niet anders wil. Omdat het werkt.</p>
+          <p>Ik weet hoe het is om aan het roer te staan van de verandering. Of het nou gaat om digitalisering, agile of klassiek projectmanagement, nieuwe regelgeving implementeren of het verbeteren van de klantervaring. Leiderschap in deze tijd vraagt luisteren, richting geven, kaders scheppen, verbinding en voorbeeldgedrag. Doen wat er nodig is. Voorbij wat gangbaar is. Dat vraagt LEF!</p>
+          <p>Ik heb ervaren wat er mogelijk wordt als mensen hun talenten vol durven inzetten. Grenzen verleggen. Grootse dingen bereiken. Voor klanten en met elkaar. Dat is LEF: Leadership Empowerment Facilitation.</p>
+          <p>Ik ben dol op grootse dromen, de dynamiek van teams in verandering en de energie explosies die daarbij vrij komen. Met humor, liefde en lef. Omdat ik niet anders wil. Omdat het werkt.</p>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12 francine-about-image"></div>
       </div>

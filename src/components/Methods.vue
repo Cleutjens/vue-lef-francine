@@ -51,9 +51,9 @@
             <div class="col-lg-12 col-sm-3 col-xs-6">
               <img src="../assets/mbti-logo.png" alt />
             </div>
-            <div class="col-lg-12 col-sm-3 col-xs-6">
+            <!-- <div class="col-lg-12 col-sm-3 col-xs-6">
               <img src="../assets/planb-logo.png" alt />
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
