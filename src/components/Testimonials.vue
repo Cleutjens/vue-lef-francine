@@ -201,7 +201,7 @@ export default {
 @import "@/global-styles/flexgrid.scss";
 
 .testimonials {
-  padding: 98px 0 0px 0;
+  padding: 32px 0 0px 0;
 }
 
 .swiper-button-disabled {

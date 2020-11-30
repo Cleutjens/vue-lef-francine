@@ -118,7 +118,7 @@ img {
 
 .bg-white {
   background: #fff;
-  padding: 130px 80px 0px 80px;
+  padding: 180px 80px 0px 80px;
 }
 
 @media (max-width: 767px) {
