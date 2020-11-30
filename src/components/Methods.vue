@@ -2,7 +2,7 @@
   <div class="methods">
     <div class="container-fluid">
       <div class="row row-bg">
-        <div class="col-lg-8 bg-grey">
+        <!-- <div class="col-lg-8 bg-grey">
           <div class="row">
             <div class="col-sm-12">
               <h2>Een selectie uit de methodes</h2>
@@ -38,18 +38,18 @@
               <p>Cultuur meetbaar, vanuit het perspectief van waarden en drijfveren. Beken kleur. In één oogopslag helder waar de schoen wringt en de sleutel tot betere samenwerking en aansluiting met de context.</p>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-sm-12 bg-white">
-          <h4>Certificeringen</h4>
+        </div> -->
+        <div class="col-lg-12 col-sm-12 bg-white">
+          <!-- <h2>Certificeringen</h2> -->
           <div class="row">
-            <div class="col-lg-12 col-sm-3 col-xs-6">
-              <img src="../assets/acc-logo.png" alt />
+            <div class="col-lg-4 col-sm-4 col-xs-6">
+              <img class="certificate" src="../assets/acc-logo.png" alt />
             </div>
-            <div class="col-lg-12 col-sm-3 col-xs-6">
-              <img src="../assets/valuematch-logo.png" alt />
+            <div class="col-lg-4 col-sm-4 col-xs-6">
+              <img class="certificate" src="../assets/valuematch-logo.png" alt />
             </div>
-            <div class="col-lg-12 col-sm-3 col-xs-6">
-              <img src="../assets/mbti-logo.png" alt />
+            <div class="col-lg-4 col-sm-4 col-xs-6">
+              <img class="certificate" src="../assets/mbti-logo.png" alt />
             </div>
             <!-- <div class="col-lg-12 col-sm-3 col-xs-6">
               <img src="../assets/planb-logo.png" alt />
@@ -74,6 +74,7 @@ export default {
 
 h2 {
   margin-bottom: 85px;
+  text-align: center;
 }
 
 h3 {
@@ -106,6 +107,10 @@ img {
   margin-bottom: 130px;
 }
 
+.certificate {
+  margin: auto;
+}
+
 .bg-grey {
   background: $grey;
   padding: 130px 80px 30px 80px;
@@ -129,6 +134,9 @@ img {
   }
   .bg-white {
     padding-top: 0;
+  }
+  .methods {
+    margin-top: 80px;
   }
   img {
     padding-bottom: 40px;

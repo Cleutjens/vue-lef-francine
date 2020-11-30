@@ -164,7 +164,7 @@ export default {
 }
 
 h2 {
-  margin-bottom: 85px;
+  margin-bottom: 120px;
 }
 
 h3 {
@@ -184,7 +184,7 @@ h4 {
 
 .content-container {
   display: flex;
-  margin-bottom: 130px;
+  margin-bottom: 160px;
 }
 .container-image {
   padding-right: 24px;
@@ -247,6 +247,7 @@ h4 {
 @media (max-width: 767px) {
   .content-container {
     padding-right: 48px;
+    margin-bottom: 130px;
   }
   .bg-black {
     order: -1;
